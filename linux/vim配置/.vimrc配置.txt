@@ -1,0 +1,138 @@
+"允许插件  
+filetype plugin on
+" 设置行号
+set number
+" 语法高亮。自动识别代码，使用多种颜色表示
+syntax enable
+" 支持使用鼠标
+set mouse=a
+" 按下回车键后，下一行的缩进会自动跟上一行的缩进保持一致
+set autoindent
+" 按下Tab键后，vim显示的空格数
+set tabstop=4
+" normal模式下，>>增加一级缩进、<<取消一级缩进、==取消全部缩进时，每一级缩进的空格数
+set shiftwidth=4
+" 自动将Tab转为空格(防止Tab键在不同编辑器缩进不一致导致问题)
+set expandtab
+" Tab转为多少个空格
+set softtabstop=4
+
+"设置文件的代码形式 utf8
+set encoding=utf-8
+set termencoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,chinese,cp936
+
+
+
+"新建.c,.h,.cpp文件，自动插入文件头 
+autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java exec ":call SetTitle()" 
+""定义函数SetTitle，自动插入文件头 
+func SetTitle() 
+
+	if &filetype == 'cpp'
+                call setline(1,"#include<iostream>") 
+		call append(line("."), "using namespace std;")
+		call append(line(".")+1, "")
+	endif
+	if &filetype == 'c'
+		call setline(1,"#include<stdio.h>") 
+		call append(line("."), "#include<stdlib.h>;")
+		call append(line(".")+1, "")
+	endif
+	"新建文件后，自动定位到文件末尾
+	autocmd BufNewFile * normal G
+endfunc 
+
+
+"补全括号和花括号（换行四次）   
+:inoremap ( ()<ESC>i
+:inoremap ) <c-r>=ClosePair(')')<CR>
+:inoremap { {<CR>}<ESC>O
+:inoremap } <c-r>=ClosePair('}')<CR>
+:inoremap [ []<ESC>i
+:inoremap ] <c-r>=ClosePair(']')<CR>
+:inoremap " ""<ESC>i
+:inoremap ' ''<ESC>i
+
+function! ClosePair(char)
+	if getline('.')[col('.') - 1] == a:char
+		return "\<Right>"
+	else
+		return a:char
+	endif
+endfunction
+filetype plugin indent on 
+
+"使用tab自动补全的设定
+function! CleverTab()
+        if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+                return "\<Tab>"
+        else
+                return "\<C-N>"
+        endif
+endfunction
+inoremap <Tab> <C-R>=CleverTab()<CR>
+
+"C，C++ 按F5编译运行
+map <F5> :call CompileRunGcc()<CR>
+func! CompileRunGcc()
+	exec "w"
+	if &filetype == 'c'
+		exec "!g++ % -o %<"
+		exec "! %<"
+	elseif &filetype == 'cpp'
+		exec "!g++ % -o %<"
+		exec "! %<"
+	elseif &filetype == 'java' 
+		exec "!javac %" 
+		exec "!java %<"
+	elseif &filetype == 'sh'
+		:!./%
+	elseif &filetype == 'py'
+		exec "!python %"
+		exec "!python %<"
+	endif
+endfunc
+
+"C,C++的调试
+map <F8> :call Rungdb()<CR>
+func! Rungdb()
+	exec "w"
+	exec "!g++ % -g -o %<"
+	"exec "!gdb ./%<"
+endfunc
+
+
+set tags+=/home/firecar/vim简单配置/cpp_src/head            " 修改为刚开始生成索引文件的绝对路径
+
+
+" OmniCppComplete
+let OmniCpp_DisplayMode=1           "显示类成员
+let OmniCpp_NamespaceSearch = 1
+let OmniCpp_GlobalScopeSearch = 1
+let OmniCpp_ShowAccess = 1
+let OmniCpp_ShowPrototypeInAbbr = 1 " 显示函数参数列表
+let OmniCpp_MayCompleteDot = 1   " 输入 .  后自动补全
+let OmniCpp_MayCompleteArrow = 1 " 输入 -> 后自动补全
+let OmniCpp_MayCompleteScope = 1 " 输入 :: 后自动补全
+let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
+" 自动关闭补全窗口
+au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
+set completeopt=menuone,menu,longest
+
+
+
+set autowriteall
+set updatetime=500
+
+"按下F12自动更新tags
+map <F12> :call Rungdbe()<CR>
+func! Rungdbe()
+	exec "w"                
+	exec "!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q"     
+endfunc
+
+
+highlight Pmenu ctermbg=gray ctermfg=black    " 背景为灰色 ，字体为黑色
+highlight PmenuSel ctermbg=black ctermfg=yellow  " 选中的那一行背景为黑色，字体为黄色

@@ -8,6 +8,8 @@ markdown是一个程序员必备记笔记的工具，它支持windows,linux,max�
 
 ### [markdown高级技巧](高级技巧.md)
 
+### [markdown数学符号](math数学符号.md)
+
 <!--downmarkdown也是我刚上手不久的一款笔记软件-->
 
 对于markdown，是一个是个轻度排版，:smile:重度内容的软件，关于typora它也是特别简介的。

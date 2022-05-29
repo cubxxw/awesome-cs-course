@@ -1,0 +1,106 @@
+Execute (Initialize test environment):
+  Save &rtp, g:plugs, g:plug_home, g:plug_window
+  unlet! g:plugs g:plug_home g:plug_window
+
+  let g:plug_url_format = 'file:///tmp/vim-plug-test/%s'
+  let g:base_rtp        = &rtp
+  let g:first_rtp       = split(&rtp, ',')[0]
+  let g:last_rtp        = split(&rtp, ',')[-1]
+  let g:temp_plugged    = tempname()
+  if !exists('$PLUG_SRC')
+    let $PLUG_SRC = globpath(&rtp, 'autoload/plug.vim')
+  endif
+  let $PLUG_TMP = fnamemodify(tempname(), ':h').'/plug.vim'
+
+  " Temporarily patch plug.vim
+  call system('cp "$PLUG_SRC" "$PLUG_TMP"')
+  let patch =
+  \ ['function! ResetPlug()', 'let s:loaded = {}', 'endfunction',
+  \  'function! CompareURI(a, b)', 'return s:compare_git_uri(a:a, a:b)', 'endfunction']
+
+  call writefile(extend(readfile($PLUG_TMP), patch), $PLUG_TMP)
+
+  set t_Co=256
+  colo default
+  pclose
+
+  function! PlugStatusSorted()
+    PlugStatus
+    %y
+    q
+    normal! P
+    %sort
+    g/^$/d
+  endfunction
+
+  function! AssertExpect(bang, pat, cnt, ...)
+    let op = a:bang ? '==#' : '=~#'
+    let args = [a:cnt, len(filter(getline(1, '$'), "v:val ".op." '".a:pat."'"))] + a:000
+    call call('vader#assert#equal', args)
+  endfunction
+  command! -nargs=+ -bang AssertExpect call AssertExpect('<bang>' == '!', <args>)
+
+  function! EnsureLoaded()
+    if has('vim_starting')
+      runtime! plugin/**/*.vim
+    endif
+  endfunction
+
+  function! RmRf(file)
+    call system(printf('rm -rf "%s"', a:file))
+  endfunction
+
+  function! ReloadPlug()
+    call ResetPlug()
+    source $PLUG_TMP
+    let &rtp = g:base_rtp
+  endfunction
+
+  function! GitBranch(repo)
+    return system(printf('cd %s && git rev-parse --abbrev-ref HEAD', g:plugs[a:repo].dir))[:-2]
+  endfunction
+
+  function! GitTag(repo)
+    return system(printf('cd %s && git describe --tags', g:plugs[a:repo].dir))[:-2]
+  endfunction
+
+  function! GitCommit(repo)
+    return system(printf('cd %s && git rev-parse HEAD', g:plugs[a:repo].dir))[:-2]
+  endfunction
+
+  source $PLUG_TMP
+
+Execute (Print Interpreter Version):
+  redir => out
+  if has('ruby')
+    silent! ruby puts 'Ruby: ' + RUBY_VERSION
+  endif
+  if has('python')
+    silent! python import sys; svi = sys.version_info; print 'Python: {}.{}.{}'.format(svi[0], svi[1], svi[2])
+  endif
+  if has('python3')
+    silent! python3 import sys; svi = sys.version_info; print('Python: {}.{}.{}'.format(svi[0], svi[1], svi[2]))
+  endif
+  redir END
+  Log split(out, '\n')
+
+Include: workflow.vader
+Include: regressions.vader
+Include: functional.vader
+
+Execute (Cleanup):
+  silent! call RmRf(g:temp_plugged)
+  silent! unlet g:plugs g:plug_home g:plug_url_format
+  silent! unlet g:temp_plugged g:first_rtp g:last_rtp g:base_rtp out
+  silent! delf PlugStatusSorted
+  silent! delf AssertExpect
+  silent! delf PlugUpdated
+  silent! delf EnsureLoaded
+  silent! delf ReloadPlug
+  silent! delc AssertExpect
+  silent! unmap /
+  silent! unmap ?
+  call delete($PLUG_TMP)
+
+  Restore
+

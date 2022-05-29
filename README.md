@@ -22,7 +22,7 @@
 
 ## Linux学习
 
-## [🖱️点击进入Linux](linux/linux/README.md)
+## [🖱️点击进入Linux](linux/README.md)
 
 ---
 
@@ -52,5 +52,47 @@
 
 
 
+## 创新创业
 
+## [🖱️学习创新创业](创新创业/README.md)
+
+---
+
+
+
+## nginx
+
+## [🖱️学习nginx](Nginx/README.md)
+
+
+
+## Mysql
+
+## [🖱️学习Mysql](mysql/README.md)
+
+
+
+## Nodejs
+
+## [🖱️学习node.js](node/README.md)
+
+
+
+## xml学习
+
+## [🖱️学习xml](xml/README.md)
+
+
+
+
+
+## C++修炼手册
+
+## [🖱️学习大全](C++/markdown)
+
+
+
+
+
+**我的职业规划**
 

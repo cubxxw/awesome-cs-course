@@ -1,0 +1,30 @@
+首先进入官网下载一个插件和一个专门为ctags修改过的头文件。
+
+OmniComplete下载地址
+https://www.vim.org/scripts/script.php?script_id=1520
+
+C++ 标准库索引文件下载地址
+https://www.vim.org/scripts/script.php?script_id=2358
+
+或者在window下将两个tar包通过vw tools工具直接复制到虚拟机下
+
+
+下载后进行解压命令
+ tar -jxvf tar包文件名
+
+（1）此时在当前解压出两个目录，一个cpp_src，一个omnicppcomplete-0.41，然后进入 cpp_src
+执行ctags -R --sort=1 --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ -f 【生成的tags文件名】  ，若不写-f执行，则默认生成tags。视频中指定文件名为head。
+执行的指令为：ctags -R --sort=1 --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ -f head。
+此时能在cpp_src目录下找到一个head文件。这里head的绝对路径因人而已。可以用pwd命令查看。
+
+（2）然后是安装omnicppcomplete-0.41插件，首先进入当前用户目录 cd ~
+然后执行 ls -la查看用户目录下是否有.vim目录 和 .vimrc文件。若没有则创建.vim目录
+终端命令为mkdir  .vim, 此时解压后的omnicppcomplete-0.41下有三个目录，分别是after、
+Autoloadh和common，将这三个目录复制到用户目录下的.vim目录，该插件就算安装完了。
+
+（3）然后是写vim的配置，若用户目录下没有.vimrc文件，则手动创建一个: touch .vimrc
+然后通过gedit .vimrc打开编辑，复制我的配置信息（打开.vimrc配置.txt复制即可），这里需要修改的为
+
+set tags+=/home/firecar/vim简单配置/cpp_src/head   将其路径改为（1）生成的索引文件。
+
+然后基本完成了，然后可以体验试试。

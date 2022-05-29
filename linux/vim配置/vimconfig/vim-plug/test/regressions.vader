@@ -1,0 +1,375 @@
+**********************************************************************
+Execute (#112 On-demand loading should not suppress messages from ftplugin):
+  call ResetPlug()
+  call plug#begin('$PLUG_FIXTURES')
+  Plug '$PLUG_FIXTURES/ftplugin-msg', { 'for': 'c' }
+  call plug#end()
+
+  redir => out
+  tabnew a.c
+  redir END
+  Assert stridx(out, 'ftplugin-c') >= 0, 'Unexpected output (1): '.out
+
+* The same applies to plug#load())
+  call ResetPlug()
+  redir => out
+  call plug#load('ftplugin-msg')
+  redir END
+  Assert stridx(out, 'ftplugin-c') >= 0, 'Unexpected output (2): '.out
+  q
+
+
+**********************************************************************
+Execute (#114 Should not contain empty path in &rtp):
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  call plug#end()
+
+  Log &rtp
+  Assert &rtp !~ ',,', 'Commas'
+  Assert &rtp !~ '^,', 'Comma prefix'
+  Assert &rtp !~ ',$', 'Comma suffix'
+
+**********************************************************************
+Execute (#130 Proper cleanup of on-demand loading triggers):
+  augroup PlugLOD
+    autocmd!
+  augroup END
+
+  " Cleared on command
+  call ReloadPlug()
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/vim-emoji', { 'on':  ['EmojiCommand', 'EmojiCommand2', '<Plug>(EmojiMapping)'] }
+  call plug#end()
+  PlugInstall | q
+  call mkdir(g:plugs['vim-emoji'].dir.'/after/plugin', 'p')
+
+  Assert exists(':EmojiCommand'), 'EmojiCommand not defined'
+  Assert exists(':EmojiCommand2'), 'EmojiCommand2 not defined'
+  Assert !empty(mapcheck('<Plug>(EmojiMapping)')), '<Plug>(EmojiMapping) not defined'
+
+  silent! EmojiCommand
+
+  Assert !exists(':EmojiCommand'), 'EmojiCommand defined'
+  Assert !exists(':EmojiCommand2'), 'EmojiCommand2 defined'
+  Assert empty(mapcheck('<Plug>(EmojiMapping)')), '<Plug>(EmojiMapping) defined'
+
+  " Cleared on FileType
+  call ReloadPlug()
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/vim-emoji', { 'on': ['EmojiCommandExtra', '<Plug>(EmojiMappingExtra)'], 'for': ['emoji'] }
+  call plug#end()
+
+  Assert exists(':EmojiCommandExtra'), 'EmojiCommandExtra not defined'
+  Assert !empty(mapcheck('<Plug>(EmojiMappingExtra)')), '<Plug>(EmojiMappingExtra) not defined'
+
+  setf emoji
+
+  Assert !exists(':EmojiCommandExtra'), 'EmojiCommandExtra defined'
+  Assert empty(mapcheck('<Plug>(EmojiMappingExtra)')), '<Plug>(EmojiMappingExtra) defined'
+
+**********************************************************************
+Execute (#131 Syntax error):
+  call plug#begin('/proc/no-permission')
+  Plug 'junegunn/vim-emoji'
+  call plug#end()
+
+  redir => out
+  silent PlugInstall
+  redir END
+  Assert out =~ 'Invalid plug directory: /proc/no-permission', out
+
+**********************************************************************
+Execute (#139-1 Using new remote branch):
+  " Make sure to remove the clone
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  call plug#end()
+  PlugClean!
+
+  " Install master branch
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug expand('file:////tmp/vim-plug-test/new-branch')
+  call plug#end()
+  PlugUpdate
+
+  unlet! g:foo g:bar g:baz
+  call ResetPlug()
+  call plug#load('new-branch')
+  Assert exists('g:foo'),  'g:foo should be found (1)'
+  Assert !exists('g:bar'), 'g:bar should not be found (1)'
+  Assert !exists('g:baz'), 'g:baz should not be found (1)'
+
+  " Create a new branch on origin
+  call system('cd /tmp/vim-plug-test/new-branch && git checkout -b new &&'
+      \. 'echo "let g:bar = 1" > plugin/bar.vim && git add plugin/bar.vim &&'
+      \. 'git commit -m second')
+
+  " We're setting up two plugins so that parallel installer is used
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/seoul256.vim'
+  Plug expand('file:////tmp/vim-plug-test/new-branch'), { 'branch': 'new' }
+  call plug#end()
+  PlugUpdate
+  silent %y
+  Log @"
+  Assert @" !~? 'error', 'Should be able to use new remote branch: ' . @"
+
+  unlet! g:foo g:bar g:baz
+  call ResetPlug()
+  call plug#load('new-branch')
+  Assert exists('g:foo'),  'g:foo should be found (2)'
+  Assert exists('g:bar'),  'g:bar should be found (2)'
+  Assert !exists('g:baz'), 'g:baz should not be found (2)'
+
+  call PlugStatusSorted()
+
+Expect:
+  - new-branch: OK
+  - seoul256.vim: OK
+  Finished. 0 error(s).
+  [==]
+
+Execute (#139-2 Using yet another new remote branch):
+  " Create another branch on origin
+  call system('cd /tmp/vim-plug-test/new-branch && git checkout master &&'
+      \. 'git checkout -b brand-new &&'
+      \. 'echo "let g:baz = 1" > plugin/baz.vim && git add plugin/baz.vim &&'
+      \. 'git commit -m third')
+
+  " Test Vim installer here
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug expand('file:////tmp/vim-plug-test/new-branch'), { 'branch': 'brand-new' }
+  call plug#end()
+  PlugUpdate
+  silent %y
+  Log @"
+  Assert @" !~? 'error', 'Should be able to use new remote branch: ' . @"
+
+  unlet! g:foo g:bar g:baz
+  call ResetPlug()
+  call plug#load('new-branch')
+  Assert exists('g:foo'),  'g:foo should be found'
+  Assert !exists('g:bar'), 'g:bar should not be found'
+  Assert exists('g:baz'),  'g:baz should be found'
+
+  call PlugStatusSorted()
+
+Expect:
+  - new-branch: OK
+  Finished. 0 error(s).
+  [=]
+
+Execute (#139-3 Should fail when not possible to fast-forward):
+  " Commit on cloned repo
+  call system('cd /tmp/vim-plug-test/plugged/new-branch && git checkout master &&'
+      \. 'touch foobar && git add foobar && git commit -m foobar')
+
+  " Different commit on remote
+  call system('cd /tmp/vim-plug-test/new-branch && git checkout master &&'
+      \. 'touch foobaz && git add foobaz && git commit -m foobaz')
+
+  for multi in [0, 1]
+    call plug#begin('/tmp/vim-plug-test/plugged')
+    if multi
+      Plug 'junegunn/seoul256.vim'
+    endif
+    Plug expand('file:////tmp/vim-plug-test/new-branch')
+    call plug#end()
+    PlugUpdate
+    silent %y
+    Assert @" =~ 'Not possible to fast-forward', @"
+  endfor
+  q
+
+**********************************************************************
+Execute (#145: Merging on-demand loading triggers - cmd):
+  unlet! g:xxx g:yyy
+  call plug#begin()
+  Plug '$PLUG_FIXTURES/xxx', { 'on': 'XXX' }
+  Plug '$PLUG_FIXTURES/yyy', { 'on': ['XXX', 'YYY'] }
+  call plug#end()
+
+  silent! XXX
+
+  Assert exists('g:xxx'), 'xxx is not loaded'
+  Assert exists('g:yyy'), 'yyy is not loaded'
+  Assert !exists(':YYY')
+
+Execute (#145: Merging on-demand loading triggers - map):
+  unlet! g:xxx g:yyy
+
+  call ReloadPlug()
+  call plug#begin()
+  Plug '$PLUG_FIXTURES/xxx', { 'on': '<Plug>(xxx)' }
+  Plug '$PLUG_FIXTURES/yyy', { 'on': ['<Plug>(xxx)' ,'<Plug>(yyy)' ] }
+  call plug#end()
+
+  Assert !empty(mapcheck("<Plug>(xxx)"))
+  Assert !empty(mapcheck("<Plug>(yyy)"))
+
+# FIXME feedkeys() cannot be tested with Vader
+  call plug#load('xxx', 'yyy')
+  Assert empty(mapcheck("<Plug>(xxx)"))
+  Assert empty(mapcheck("<Plug>(yyy)"))
+
+**********************************************************************
+Execute (#159: shell=/bin/tcsh):
+  let org = &shell
+  try
+    set shell=/bin/tcsh
+    call plug#begin('/tmp/vim-plug-test/plugged')
+    Plug 'junegunn/seoul256.vim'
+    call plug#end()
+
+    PlugStatus
+    Log getline(1, '$')
+    q
+    AssertEqual '/bin/tcsh', &shell
+  finally
+    let &shell = org
+  endtry
+
+**********************************************************************
+Execute (#154: Spaces in &rtp should not be escaped):
+  call plug#begin('/tmp/vim-plug-test/plug it')
+  Plug 'foo/seoul256 vim'
+  call plug#end()
+  Log &rtp
+  Assert stridx(&rtp, 'plug it/seoul256 vim') >= 0
+
+**********************************************************************
+Execute (#184: Duplicate entries in &rtp):
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'foo/plugin1'
+    \| Plug 'foo/plugin0'
+
+  Plug 'foo/plugin2'
+    \| Plug 'foo/plugin0'
+    \| Plug 'foo/plugin1'
+  call plug#end()
+
+  Log &rtp
+  AssertEqual 3, len(filter(split(&rtp, ','), 'stridx(v:val, "plugged") >= 0'))
+
+**********************************************************************
+Execute (#236: Plugin removed from &rtp when .vimrc is reloaded):
+  unlet! g:loaded_easy_align_plugin
+  silent! delc EasyAlign
+
+  call ReloadPlug()
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/vim-easy-align', { 'on': 'EasyAlign' }
+  call plug#end()
+  PlugInstall | q
+
+  Assert &rtp !~ '/vim-easy-align', 'Plugin should not be in &rtp'
+  %EasyAlign=
+  Assert &rtp =~ '/vim-easy-align', 'Plugin should be in &rtp'
+
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/vim-easy-align', { 'on': 'EasyAlign' }
+  call plug#end()
+  Assert &rtp =~ '/vim-easy-align', 'Plugin should still be in &rtp'
+
+**********************************************************************
+Execute (#350: Ruby installer failed to unshallow tagged plugin on update):
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  call plug#end()
+  PlugClean!
+
+  " Shallow clone. We should have at least 2 plugins to enable parallel installer.
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/vim-easy-align'
+  Plug 'junegunn/seoul256.vim'
+  call plug#end()
+  PlugUpdate
+  Assert filereadable(g:plugs['vim-easy-align'].dir.'/.git/shallow')
+
+  " Now unshallowed
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/vim-easy-align', { 'tag': '2.9.0' }
+  Plug 'junegunn/seoul256.vim'
+  call plug#end()
+  PlugUpdate
+  Assert !filereadable(g:plugs['vim-easy-align'].dir.'/.git/shallow')
+  q
+
+**********************************************************************
+Execute (#474: Load ftdetect files in filetypedetect augroup):
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/rust.vim', { 'for': 'rust', 'commit': '115d321d383eb96d438466c56cc871fcc1bd0faa' }
+  call plug#end()
+  PlugInstall!
+  q
+
+  tabnew /tmp/vim-plug-test/any.rs
+  AssertEqual 'rust', &filetype
+  Log &filetype
+  filetype detect
+  AssertEqual 'rust', &filetype
+  Log &filetype
+  bd
+
+**********************************************************************
+Execute (#489/#587 On-demand loading with 'on' option should trigger BufRead autocmd w/o nomodeline):
+  call plug#begin('$PLUG_FIXTURES')
+  Plug 'foo/ftplugin-msg', { 'on': 'XXX' }
+  call plug#end()
+
+  tabnew a.java
+  call setline(1, '// vim: set filetype=lava:')
+  redir => out
+  silent! XXX
+  redir END
+  Assert stridx(out, 'ftplugin-java') >= 0
+  AssertEqual 'lava', &filetype
+  q!
+
+**********************************************************************
+Execute (Cursor moved to another window during post-update hook):
+  function! DoSplit(...)
+    new
+    call setline(1, 'empty')
+  endfunction
+  call plug#begin('/tmp/vim-plug-test/plugged')
+  Plug 'junegunn/rust.vim', { 'do': function('DoSplit') }
+  call plug#end()
+  PlugInstall!
+  AssertEqual 1, line('$')
+  AssertEqual 'empty', getline(1)
+  q!
+  q
+
+**********************************************************************
+Execute (#593 Add plugin to &rtp before running post-update hook with : prefix):
+  call ReloadPlug()
+  call plug#begin()
+  Plug 'junegunn/vim-pseudocl', { 'on': 'XXX', 'do': ':let g:bar = pseudocl#complete#extract_words(''a b'')' }
+  call plug#end()
+  PlugInstall!
+  AssertEqual ['a', 'b'], g:bar
+
+**********************************************************************
+Execute (#602 Confusion with branch name and path name):
+  call plug#begin()
+  Plug expand('file:////tmp/vim-plug-test/new-branch'), { 'branch': 'plugin' }
+  call plug#end()
+  PlugUpdate
+  call PlugStatusSorted()
+
+Expect:
+  - new-branch: OK
+  Finished. 0 error(s).
+  [=]
+
+**********************************************************************
+Execute (PlugStatus showed error with wildcard tag):
+  call plug#begin()
+  Plug 'junegunn/vim-easy-align', { 'tag': '*' }
+  call plug#end()
+  PlugUpdate
+  call PlugStatusSorted()
+
+Expect:
+  - vim-easy-align: OK
+  Finished. 0 error(s).
+  [=]

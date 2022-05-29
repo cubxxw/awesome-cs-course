@@ -1,0 +1,130 @@
+<html>
+  <head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>i5ting_ztree_toc:1</title>
+		<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+	  <style>
+		pre {
+		    counter-reset: line-numbering;
+		    border: solid 1px #d9d9d9;
+		    border-radius: 0;
+		    background: #fff;
+		    padding: 0;
+		    line-height: 23px;
+		    margin-bottom: 30px;
+		    white-space: pre;
+		    overflow-x: auto;
+		    word-break: inherit;
+		    word-wrap: inherit;
+		}
+
+		pre a::before {
+		  content: counter(line-numbering);
+		  counter-increment: line-numbering;
+		  padding-right: 1em; /* space after numbers */
+		  width: 25px;
+		  text-align: right;
+		  opacity: 0.7;
+		  display: inline-block;
+		  color: #aaa;
+		  background: #eee;
+		  margin-right: 16px;
+		  padding: 2px 10px;
+		  font-size: 13px;
+		  -webkit-touch-callout: none;
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
+
+		pre a:first-of-type::before {
+		  padding-top: 10px;
+		}
+
+		pre a:last-of-type::before {
+		  padding-bottom: 10px;
+		}
+
+		pre a:only-of-type::before {
+		  padding: 10px;
+		}
+
+		.highlight { background-color: #ffffcc } /* RIGHT */
+		</style>
+  </head>
+  <body>
+	  <div>
+				<div style='width:25%;'>
+						<ul id="tree" class="ztree" style='width:100%'>
+
+						</ul>
+				</div>
+        <div id='readme' style='width:70%;margin-left:20%;'>
+          	<article class='markdown-body'>
+            	<h1 id="node-js-">Node.js 教程</h1>
+<p><img src="https://www.runoob.com/wp-content/uploads/2014/03/nodejs.jpg" alt="nodejs"></p>
+<p>简单的说 Node.js 就是运行在服务端的 JavaScript。</p>
+<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。</p>
+<p>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好。</p>
+<p><strong>1. 浏览器是JavaScript的前端运行环境</strong></p>
+<p><strong>2. node.js是JavaScript的后端运行环境。</strong></p>
+<p><strong>node.js中无法调用DOM和BOM等浏览器内置的api</strong></p>
+<hr>
+<h2 id="-">谁适合阅读本教程？</h2>
+<p>如果你是一个前端程序员，你不懂得像PHP、Python或Ruby等动态编程语言，然后你想创建自己的服务，那么Node.js是一个非常好的选择。</p>
+<p>Node.js 是运行在服务端的 JavaScript，如果你熟悉Javascript，那么你将会很容易的学会Node.js。</p>
+<p>当然，如果你是后端程序员，想部署一些高性能的服务，那么学习Node.js也是一个非常好的选择。</p>
+<hr>
+<h2 id="-">学习本教程前你需要了解</h2>
+<p>在继续本教程之前，你应该了解一些基本的计算机编程术语。如果你学习过Javascript,PHP，Java等编程语言，将有助于你更快的了解Node.js编程。</p>
+<hr>
+<h2 id="-">使用的版本</h2>
+<p>我们可以使用以下命令来查看当前的 Node 版本：</p>
+<pre><code>$ node -v
+v4.4.3
+</code></pre><p><strong>注意：</strong>不同版本间可能是有差异的。</p>
+<hr>
+<h2 id="-node-js-hello-world-">第一个Node.js程序：Hello World！</h2>
+<h3 id="-">脚本模式</h3>
+<p>以下是我们的第一个Node.js程序：</p>
+<h2 id="-">实例</h2>
+<pre><code>console.log(&quot;Hello World&quot;);
+</code></pre><p><a href="https://www.runoob.com/try/shownodejs.php?filename=helloworld">运行实例 »</a></p>
+<p>保存该文件，文件名为 helloworld.js， 并通过 node命令来执行：</p>
+<pre><code>node helloworld.js
+</code></pre><p>程序执行后，正常的话，就会在终端输出 Hello World。</p>
+<h3 id="-">交互模式</h3>
+<p>打开终端，键入node进入命令交互模式，可以输入一条代码语句后立即执行并显示结果，例如：</p>
+<pre><code>$ node
+&gt; console.log(&#39;Hello World!&#39;);
+Hello World!
+</code></pre><hr>
+<h2 id="gif-">Gif 实例演示</h2>
+<p>接下来我们通过 Gif 图为大家演示实例操作：</p>
+<p><img src="https://s2.loli.net/2022/04/24/QZT8WFRKtzdAMLO.gif" alt="img"></p>
+
+          	</article>
+        </div>
+		</div>
+  </body>
+</html>
+<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+<script type="text/javascript" src="toc_conf.js"></script>
+
+<SCRIPT type="text/javascript" >
+<!--
+$(document).ready(function(){
+    var css_conf = eval(markdown_panel_style);
+    $('#readme').css(css_conf)
+    
+    var conf = eval(jquery_ztree_toc_opts);
+		$('#tree').ztree_toc(conf);
+});
+//-->
+</SCRIPT>
