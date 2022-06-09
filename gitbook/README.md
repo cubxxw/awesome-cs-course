@@ -38,17 +38,17 @@
 
 #### 5. [npm包的问题和镜像](markdown/5.md)
 
-#### 6. [](markdown/6.md)
+#### 6. [展示吧](markdown/6.md)
 
-#### 7. [](markdown/7.md)
+#### 7. [其他技巧补充](markdown/7.md)
 
-#### 8. [](markdown/8.md)
+#### 8. [配置模板](markdown/8.md)
 
-#### 9. [](markdown/9.md)
+#### 9. [gitbook配置](markdown/9.md)
 
-#### 10. [](markdown/10.md)
+#### 10. [安装插件](markdown/10.md)
 
-#### 11. [](markdown/11.md)
+#### 11. [pages服务](markdown/11.md)
 
 #### 12. [](markdown/12.md)
 
