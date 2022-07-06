@@ -98,7 +98,11 @@
 
 
 
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_timeline.svg)](https://github.com/3293172751/CS_COURSE/commits)
+[![Issue status graph](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_issues.svg)](https://github.com/3293172751/CS_COURSE/issues)
+[![Pull request status graph](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_prs.svg)](https://github.com/3293172751/CS_COURSE/pulls)
+[![Trending topics](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_words.svg)](https://github.com/3293172751/CS_COURSE/commits)
+[![Top contributors](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_users.svg)](https://github.com/3293172751/CS_COURSE/graphs/contributors)
 
-
-**我的职业规划**
 
