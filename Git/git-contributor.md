@@ -1,8 +1,17 @@
 # 参与本项目
 
++ [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
++ [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
+
+### 谷歌代码规范
+
+<img src="https://s2.loli.net/2022/07/05/E1GMeZO5A3kbK29.png" style="zoom:200%;" />
 
 
-### 步骤：
+
+### 贡献步骤
+
+步骤：
 
 1. 首先在`Github`上`fork`本仓库到你的仓库
 2. `git clone`克隆到本地
@@ -46,4 +55,3 @@ git add之前，要git diff 查看一下，本次提交所修改的代码是不�
 git clone https://github.com/3293172751/Block_Chain.git
 ```
 
-**注意！！！强烈不建议直接在 main 分支下修改！**

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1.heml</title>
+    <script>
+        var a = 13
+        var b = '13'
+        var c = a+b
+        document.write("a = "+isNaN(a));   //false
+        document.write("\nb = "+isNaN(b));   //false
+        document.write("\nc1 = "+isNaN(c));   //false
+        var b = b.toString();  //强转
+        document.write("\nb2 = "+isNaN(b));   //false
+        document.write("\na2 = "+isNaN(a + ' '));   //false
+        alert('c = '+c);
+        var c = a + b + "class";
+        document.write("\nc3 = "+isNaN(c));   //true
+            
+        // 字符型转化为数字类型
+        var s = "112124141291";
+        alert("s类型为:"+isNaN(s));
+        parseInt(s);
+        /* 强转 */
+        alert('转换后的s:'+isNaN(s));
+        console.log(s);
+
+        // 换行方法
+        alert('你好嘛,请问你知道这个地球是我们的家园嘛，保护家园是我们共同的责任。\n嗯嗯\\恩\t如果你知道的话'
+        +'那就赶快行动起来吧')
+        var str = "hello word there";
+        var x = prompt("请输入一串字母");
+        str+=x;
+        alert("+hello word there后输入的长度"+str.length);
+    </script>
+</head>
+<body>
+</body>
+</html>

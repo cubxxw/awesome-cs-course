@@ -2,41 +2,39 @@
 
 [TOC]
 
-😶‍🌫️go语言官方编程指南：[https://golang.org/#](https://golang.org/#)  
+##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
->   go语言的官方文档学习笔记很全，推荐去官网学习
+**[English](readme_english.md) | [中文](README.md)**
 
-😶‍🌫️我的学习笔记：github: [https://github.com/3293172751/golang-rearn](https://github.com/3293172751/golang-rearn)
+<p align='center'>
+<a href="https://twitter.com/xxw3293172751" target="_blank"><img src=""></a>
+<a href="https://www.zhihu.com/people/3293172751" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E9%93%BE%E5%AD%A6%E8%80%85%E7%A4%BE%E5%8C%BA-blue?logo=%22zhihu%22"></a>
+<a href=https://s2.loli.net/2022/07/05/sQHuozItvWg1heA.jpg" target="_blank"><img src=""></a>
+<a href="https://space.bilibili.com/14089380" target="_blank"><img src=""></a>
+</p>
+
+
 
 ---
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
+**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是<font color =“green">去中心化，公开透明，信息不可篡改性，隐私匿名性</font>
 
 >   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
-
----
-
-# ⏬⏬⏬⏬⏬⏬**往下看**⏬⏬⏬⏬⏬⏬
+>
 
 ### 目录
 
-## Linux学习
+## [🖱️操作系统学习](https://github.com/3293172751/os)
+
+------
 
 ## [🖱️点击进入Linux](linux/README.md)
 
 ---
 
-
-
-## HTML学习
-
 ## [🖱️点击进入HTML学习](HTML/README.md)
 
 ---
-
-
-
-## Markdown学习
 
 ## [🖱️点击进入markdown学习](markdown/README.md)
 
@@ -98,7 +96,18 @@
 
 
 
+## 如何贡献
 
++ [参与贡献❤️❤️💕💕](https://github.com/3293172751/CS_COURSE/blob/master/Git/git-contributor.md/)
 
-**我的职业规划**
+  <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 
+**要求：**
+
++ [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
+
++ [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
+
+  + 标签页大图查看更清晰
+
+  <img src="https://s2.loli.net/2022/07/05/E1GMeZO5A3kbK29.png" style="zoom:200%;" />
