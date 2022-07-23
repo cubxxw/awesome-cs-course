@@ -69,10 +69,6 @@
 
 ### [SED](markdown/33.md)
 
-### [make](markdown/34.md)
-
-### [linux C](markdown/35.md)
-
 ### [shell编程](markdown/36.md)
 
 ### [shell预定义变量](markdown/37.md)
@@ -91,3 +87,14 @@
 
 ### [Vim的正则表达式](markdown/44.md)
 
+
+
+## linux C
+
+### [make](markdown/34.md)
+
+### [linux C](markdown/35.md)
+
+
+
+### [定制Linux系统](./定制Linux系统.pdf)
