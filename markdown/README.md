@@ -18,6 +18,14 @@ markdown是一个程序员必备记笔记的工具，它支持windows,linux,max�
 
 
 
+> 我们可以用markdown还能做些什么？
+
+1. [slidev](slidev.md)使用markdown做出精美的PPT
+2. [VuePress](https://github.com/3293172751/vuepress)做出精美的文档
+3. [Markmap](markmap.md)做出好看的流程图
+
+
+
 ## 1. 前言
 
 Markdown 的原生语法不支持绘制图形，但通过 Mermaid 扩展，我们可以将一些格式化的文字渲染成我们需要的图形。常用的图形有 “流程图”、“时序图”、“类图”、“状态图”、“甘特图”、"饼图" 等。
