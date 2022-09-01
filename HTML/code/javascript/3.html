@@ -1,0 +1,121 @@
+<!--
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-07-15 09:14:47
+ * @LastEditors: xiongxinwei 3293172751nss@gmail.com
+ * @LastEditTime: 2022-07-15 10:33:28
+ * @FilePath: \code\3.html
+ * @Description: JavaScript基本语法学习
+ * 
+ * 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3.heml</title>
+    <script>
+        console.log(1 + 1);
+        console.log(1 * 1);
+        console.log(1 / 1);
+        console.log(1 - 1);
+        console.log(5 % 2);
+        console.log(2 ** 3);
+        console.log(0 & 1);
+        console.log(0 | 1);
+        console.log(1 ^ 1); //001 ^ 001 
+        console.log(4 >> 1);
+        // console.log(4 ++);
+        // console.log(4 --);
+        // console.log(++4);
+        // console.log(--4);
+        console.log(4>2);
+        console.log(0&&1);
+        console.log(0&&1);
+        console.log(2 ^ 4);
+        // console.log(1+=1);
+        // console.log(1*=1);
+        // console.log(1/=1);
+        // console.log(1^=1);
+        // console.log(4>>=1);
+
+        console.log(1.12 == 1.12);
+        console.log(1.12 === 1.12);
+        //console.log(1.12 = 1.12);
+        console.log(1.12 != 1.12);
+        console.log(1.12 !== 1.12);
+        console.log(1 * 1);
+        /*                     
+            3.html:20 2
+            3.html:21 1
+            3.html:22 1
+            3.html:23 0
+            3.html:24 1
+            3.html:25 8
+            3.html:26 0
+            3.html:27 1
+            3.html:28 0
+            3.html:29 2
+            3.html:34 true
+            3.html:35 0
+            3.html:36 0
+            3.html:37 6
+            3.html:44 true
+            3.html:45 true
+            3.html:47 false
+            3.html:48 false
+            3.html:49 1
+        */
+        console.log("---------------------")
+        var a = 10;
+        var b = 10;
+        console.log("a="+a);
+        console.log(++a); //10
+        console.log(b++); //11
+        console.log(a);  //11
+        console.log(a ++ +a++); //23   11+12
+        console.log(a); //13
+        /* 
+        ---------------------
+            3.html:74 a=10
+            3.html:75 11
+            3.html:76 10
+            3.html:77 11
+            3.html:78 23
+            3.html:79 13
+        */
+       console.log(" "||"qwe");
+       console.log("三元运算符");
+       var san = a>b?a:b;
+       console.log(a);   //13
+        for(var i=0;i<3;i++){
+        console.log("-------判断润年--------");
+        var year = prompt("请输入你需要输入的年份");
+        if((year % 4 == 0 && year % 100 != 0)|| year % 400 == 0){
+            alert("你输入的年份是闰年");
+        }else{
+            alert("你输入的年份不是是闰年");
+        } 
+    }
+        console.log("-------switch--------");
+        var key = prompt("请输入一个表达式来进行switch循环,\n数字0~5");
+        switch (key) {
+            case '1':
+                alert("你输入的是1");    
+                break;
+        
+            case '2':
+            case '3':
+                alert("你输入的是2或者3");    
+            default:
+                break;
+        }
+
+        
+    </script>
+</head>
+<body>
+</body>
+</html>
