@@ -15,10 +15,12 @@
 
 ## 目录
 
+### 应用层和传输层基础
+
 - [第1节 应用层协议的实现](markdown/1.md)
 - [第2节 计算机网络和因特网](markdown/2.md)
 - [第3节 应用层—协议](markdown/3.md)
-- [# 第4节 HTTP协议](markdown/4.md)
+- [第4节 HTTP协议](markdown/4.md)
 - [第5节 FTP协议](markdown/5.md)
 - [第6节 SMTP协议](markdown/6.md)
 - [第7节 DNS协议](markdown/7.md)
@@ -28,7 +30,9 @@
 - [第11节 大小端字节序和地址转化](markdown/11.md)
 - [第12节 TCP和UDP通信流程](markdown/12.md)
 
-##### socket套接字编程
+---
+
+#### socket套接字编程
 
 - [第13节 sockaddr数据结构](markdown/13.md)
 - [第14节 win套接字通信](markdown/14.md)
@@ -38,7 +42,9 @@
 - [第18节 Python里的socket编程](markdown/18.md)
 - [第19节 传输层协议](markdown/19.md)
 
-##### 网络抓包的实现
+---
+
+### 网络抓包的实现
 
 - [第20节 ICMP以及功能使用](markdown/20.md)
 
@@ -47,6 +53,11 @@
 - [第23节 TCP协议抓包](markdown/23.md)
 - [第24节 HTTP协议抓包](markdown/24.md)
 - [第25节 WireShark抓包解决服务器无法上网](markdown/25.md)
+
+---
+
+#### 应用层实战
+
 - [](markdown/26.md)
 - [](markdown/27.md)
 - [](markdown/28.md)
@@ -86,7 +97,7 @@
 + [**你需要学会使用markdown🖱️**](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
 + [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
-#### 参与贡献❤️❤️[💕💕](https://github.com/3293172751/CS_COURSE/blob/master/Git/git-contributor.md/)
+#### [参与贡献❤️❤️💕💕](https://github.com/3293172751/CS_COURSE/blob/master/Git/git-contributor.md/)
 
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。 </font>
 

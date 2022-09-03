@@ -2,7 +2,7 @@
  * @Author: xiongxinwei 3293172751nss@gmail.com
  * @Date: 2022-09-01 13:27:23
  * @LastEditors: xiongxinwei 3293172751nss@gmail.com
- * @LastEditTime: 2022-09-02 12:05:03
+ * @LastEditTime: 2022-09-02 14:24:23
  * @FilePath: \code\html\2.html
  * @Description: CSS
  * 
@@ -31,11 +31,65 @@
     <style>
         @import url(./css/2.css);
     </style>
+    <style>
+        div{
+            background-color: aliceblue;
+            color: blue;
+        }
+        .my{
+            background-color: violet;
+        }
+        .my1{
+            color:chartreuse;
+        }
+        .my2{
+            background-color: yellow;
+            color: red;
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: teal;
+        }
+        #box3{
+             background-color: yellow;
+             color: white;
+        }
+        *{
+            /* 外边距 */
+            margin:0;
+            /* 内边距 */
+            padding:0;
+        }
+        div,.my4,.my5{
+            color: red;
+        }
+    </style>
 </head>
 <body>
 <h1>h1样式</h1>
 <h2>h2样式</h2>
 <h3 style="color: red;">h3行内样式</h3>
+
+<!-- 元素选择器 -->
+<!-- <div>1111111111</div>
+<div class="my1 my">222222222</div>
+<div class="my">33333333333</div>
+<div class="my2">4444444444</div> -->
+
+<div id = "box1">123123111</div>
+<div id = "box2">123123222</div>
+<div id = "box3">123123333</div>
+
+<h5>123</h5>
+<ul>
+    <li>111</li>
+    <li>222</li>
+    <li>333</li>
+</ul>
+
+<!-- 群组选择器 -->
 </body>
 
 </html>
