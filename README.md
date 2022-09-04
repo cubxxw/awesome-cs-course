@@ -121,9 +121,6 @@
 ## [🖱️计算机网络](www/README.md)
 
 
-
-<<<<<<< HEAD
-
 ## 如何贡献
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_badge.svg)](https://repography.com)
