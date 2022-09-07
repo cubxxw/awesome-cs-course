@@ -4,13 +4,57 @@
 
 [😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
 
->   wow - - -  - – - -  
-
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/CS_COURSE)
 
-❤️💕💕 **[MY博客](https://nsddd.top)**
+❤️💕💕 **[我的博客](https://nsddd.top)**
 
 ---
+
+## 大致流程
+
+> 我们在开发中，一般有新的框架，都是通过重新创建一个新的分支，然后在这个新的分支上修改文件，最后回到主分支，然后合并分支，分支的合并有两种方法
+
+### 方法一：merge方式
+
+![image-20220907145123296](https://sm.nsddd.top//typora/image-20220907145123296.png?mail:3293172751@qq.com)
+
+
+
+### 方法二：Rebase
+
+第二种合并分支的方法是 `git rebase`。Rebase 实际上就是取出一系列的提交记录，“复制”它们，然后在另外一个地方逐个的放下去。
+
+Rebase 的优势就是可以创造更线性的提交历史，这听上去有些难以理解。如果只允许使用 Rebase 的话，代码库的提交历史将会变得异常清晰。
+
+1. 还是准备了两个分支；注意当前所在的分支是 bugFix（星号标识的是当前分支）
+
+   我们想要把 bugFix 分支里的工作直接移到 main 分支上。移动以后会使得两个分支的功能看起来像是按顺序开发，但实际上它们是并行开发的。
+
+   咱们这次用 `git rebase` 实现此目标
+
+   <img src="https://sm.nsddd.top//typora/image-20220907145359017.png?mail:3293172751@qq.com" alt="image-20220907145359017" style="zoom:33%;" />
+
+   ```
+   git rebase main
+   ```
+
+   
+
+2. 现在 bugFix 分支上的工作在 main 的最顶端，同时我们也得到了一个更线性的提交序列。
+
+   <img src="https://sm.nsddd.top//typora/image-20220907145459343.png?mail:3293172751@qq.com" alt="image-20220907145459343" style="zoom:33%;" />
+
+   ```
+   git chekout bugFix #或者git switch bugFix
+   git rebose bugFix
+   ```
+
+> 总结步骤
+>
+> - 新建并切换到 `bugFix` 分支
+> - 提交一次
+> - 切换回 main 分支再提交一次
+> - 再次切换到 bugFix 分支，rebase 到 main 上
 
 
 

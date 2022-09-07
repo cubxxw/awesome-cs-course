@@ -16,7 +16,7 @@
 
 如何在 GitHub 的项目中创建一个分支呢？ 其实很简单啦，直接点击 Branch，然后在弹出的文本框中添加自己的 Branch Name 然后点击蓝色的Create branch就可以了，这样一来，你这个项目就有2个分支了（master 和 reademe-edits）。
 
-![img](https://s2.loli.net/2022/03/25/cisZIAWzOBbXQhl.png)
+![img](https://sm.nsddd.top//typora/cisZIAWzOBbXQhl.png?mail:3293172751@qq.com)
 
 
 
@@ -116,7 +116,7 @@ git push -u origin master
 
 ---
 
-参考:
+## 参考
 
 >  [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
 
