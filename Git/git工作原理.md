@@ -12,7 +12,7 @@
 
 ---
 
-# git的基本流程
+# git的基本流程以及git的版本更新
 
 1. workspace:工作区，就是平常存放代码的地方
 
@@ -177,3 +177,44 @@ git branch newdev  --新建一个分支
 **3.  只读分支：任何人都无法推送代码（包括管理员和所有者），需要推送代码时应设为“常规”或“保护”分支**
 
 ****
+
+
+
+## git的版本更新
+
+### windows git更新命令
+
+2.17.1版本之前git
+
+```
+git update
+```
+
+2.17.1 版本之后git
+
+```
+git update-git-for-windows
+```
+
+### linux git更新命令
+
+1. 添加git官方软件源
+
+```
+sudo add-apt-repository ppa:git-core/ppa
+```
+
+
+
+2. 更新git
+
+```
+sudo apt update
+sudo apt-get update
+sudo apt-get install git
+```
+
+
+
+**更新实战**
+
