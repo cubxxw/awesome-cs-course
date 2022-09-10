@@ -1,5 +1,13 @@
 # Git忽略和 .gitignore
 
+[toc]
+
+## 关于
+
+有用的 .gitignore 模板的集合
+
++ [x] [GitHub上的gitignore模板](https://github.com/github/gitignore)
+
 ## Git 忽略
 
 与他人共享您的代码时，通常有您不想共享的文件或项目的一部分。
