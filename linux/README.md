@@ -16,85 +16,83 @@
 
 # linux笔记
 
-### [我的vimrc配置](markdown/my_vim.md)
++ [x] [😎🧋我的vimrc配置](markdown/my_vim.md)
 
-### [vim简介](markdown/1.md)
++ [x] [😎🧋vim简介](markdown/1.md)
 
-###  [vim基本语法](markdown/2.md)
++ [x] [😎🧋vim基本语法](markdown/2.md)
 
-### [vim-plug](markdown/3.md)
++ [x] [😎🧋vim-plug](markdown/3.md)
 
-### [vim窗口和基本插件安装](markdown/4.md)
++ [x] [😎🧋vim窗口和基本插件安装](markdown/4.md)
 
-### [linux防火墙](markdown/5.md)
++ [x] [😎🧋linux防火墙](markdown/5.md)
 
-### [EASYMOTION快速跳转](markdown/6.md)
++ [x] [😎🧋EASYMOTION快速跳转](markdown/6.md)
 ***
-### [linux基本命令](markdown/7.md)
-### [sudo命令](markdown/8.md)
-### [系统指令和找回密码](markdown/9.md)
-### [帮助与查找](markdown/10.md)
-### [时间指令和压缩解压指令](markdown/11.md)
-### [at 命令 ](markdown/12.md)
-### [用户和组](markdown/13.md)
-### [linux权限](markdown/14.md)
-### [任务调度](markdown/15.md)
-### [Linux磁盘分区](markdown/16.md)
-### [磁盘查询](markdown/17.md)
-### [Linux补充常用技巧指令](markdown/18.md)
-### [网络配置](markdown/19.md)
-### [DNS域名解析](markdown/20.md)
-### [修改host文件](markdown/21.md)
-### [linux rpm包](markdown/22.md)
++ [x] [😎🧋linux基本命令](markdown/7.md)
++ [x] [😎🧋sudo命令](markdown/8.md)
++ [x] [😎🧋系统指令和找回密码](markdown/9.md)
++ [x] [😎🧋帮助与查找](markdown/10.md)
++ [x] [😎🧋时间指令和压缩解压指令](markdown/11.md)
++ [x] [😎🧋at 命令 ](markdown/12.md)
++ [x] [😎🧋用户和组](markdown/13.md)
++ [x] [😎🧋linux权限](markdown/14.md)
++ [x] [😎🧋任务调度](markdown/15.md)
++ [x] [😎🧋Linux磁盘分区](markdown/16.md)
++ [x] [😎🧋磁盘查询](markdown/17.md)
++ [x] [😎🧋Linux补充常用技巧指令](markdown/18.md)
++ [x] [😎🧋网络配置](markdown/19.md)
++ [x] [😎🧋DNS域名解析](markdown/20.md)
++ [x] [😎🧋修改host文件](markdown/21.md)
++ [x] [😎🧋linux rpm包](markdown/22.md)
 ***
-### [进程管理](markdown/23.md)
++ [x] [😎🧋进程管理](markdown/23.md)
 
-### [服务](markdown/24.md)
++ [x] [😎🧋服务](markdown/24.md)
 
-### [动态服务监测](markdown/25.md)
++ [x] [😎🧋动态服务监测](markdown/25.md)
 
-### [日志管理](markdown/26.md)
++ [x] [😎🧋日志管理](markdown/26.md)
 
-### [日志管理服务](markdown/27.md)
++ [x] [😎🧋日志管理服务](markdown/27.md)
 
-### [日志交替](markdown/28.md)
++ [x] [😎🧋日志交替](markdown/28.md)
 
-### [ubuntu](markdown/29.md)
++ [x] [😎🧋ubuntu系统一些解决方案](markdown/29.md)
 
-### [远程链接](markdown/30.md)
++ [x] [😎🧋远程链接](markdown/30.md)
 
-### [Linux常用命令手册 ](markdown/31.md)
++ [x] [😎🧋Linux常用命令手册 ](markdown/31.md)
 
-### [AWK](markdown/32.md)
++ [x] [😎🧋AWK](markdown/32.md)
 
-### [SED](markdown/33.md)
++ [x] [😎🧋SED](markdown/33.md)
 
-### [shell编程](markdown/36.md)
++ [x] [😎🧋shell编程](markdown/36.md)
 
-### [shell预定义变量](markdown/37.md)
++ [x] [😎🧋shell预定义变量](markdown/37.md)
 
-### [READ](markdown/38.md)
++ [x] [😎🧋READ](markdown/38.md)
 
-### [shell备份数据库](markdown/39.md)
++ [x] [😎🧋shell备份数据库](markdown/39.md)
 
-### [多用户状态有网络服务](markdown/40.md)
++ [x] [😎🧋多用户状态有网络服务](markdown/40.md)
 
-### [linux的备份和恢复](markdown/41.md)
++ [x] [😎🧋linux的备份和恢复](markdown/41.md)
 
-### [浅浅了解Linux内核](markdown/42.md)
++ [x] [😎🧋浅浅了解Linux内核](markdown/42.md)
 
-### [set ff = linux](markdown/43.md)
++ [x] [😎🧋set ff = linux](markdown/43.md)
 
-### [Vim的正则表达式](markdown/44.md)
++ [x] [😎🧋Vim的正则表达式](markdown/44.md)
 
 
 
 ## linux C
 
-### [make](markdown/34.md)
++ [x] [😎🧋make](markdown/34.md)
 
-### [linux C](markdown/35.md)
++ [x] [😎🧋linux C](markdown/35.md)
 
-
-
-### [定制Linux系统](./定制Linux系统.pdf)
++ [x] [😎🧋定制Linux系统](./定制Linux系统.pdf)
