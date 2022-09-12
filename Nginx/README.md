@@ -131,3 +131,21 @@
 #### 49. [](49.md)
 
 #### 50. [](50.md)
+
+
+参与贡献💕
+🫵参与贡献❤️❤️💕💕
+
+要求：
+
+你需要学会使用markdown🖱️
+符合Google代码规范
+如果你也想对本项目做出贡献，那么你可以先把该项目进行 fork 或者 git clone 到本地，然后自己建立一个分支 your-branch，然后上传资料到 对应目录 下，图片信息可以上传到 /images，然后更新 README。
+
+Repography logo / Recent activity Time period
+Timeline graph Issue status graph Pull request status graph Trending topics Top contributors
+
+版权声明 ©
+GitHub license
+
+本书所有内容遵循CC-BY-SA 3.0协议（署名-相同方式共享）©
