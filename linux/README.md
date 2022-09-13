@@ -16,6 +16,8 @@
 
 # linux笔记
 
+> ⭐vim是我在Linux花费了大量的时间和尽力去学习的工具，从大一下半年到现在，Linux中一直使用的是vim。作为一个神器，vim给了我们太多的惊喜。插件、窗口、宏、各种操作。甚至离开了Linux，你也随处可见：在浏览器中、ide中……
+
 + [x] [😎🧋我的vimrc配置](markdown/my_vim.md)
 
 + [x] [😎🧋vim简介](markdown/1.md)
@@ -24,7 +26,7 @@
 
 + [x] [😎🧋vim-plug](markdown/3.md)
 
-+ [x] [😎🧋vim窗口和基本插件安装](markdown/4.md)
++ [x] [😎🧋vim窗口和宏](markdown/4.md)
 
 + [x] [😎🧋linux防火墙](markdown/5.md)
 
