@@ -2,7 +2,7 @@
  * @Author: xiongxinwei 3293172751nss@gmail.com
  * @Date: 2022-06-30 18:06:52
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-15 14:14:54
+ * @LastEditTime: 2022-09-15 14:41:11
  * @FilePath: \undefinedd:\文档\git\CS_COURSE\python3\script.go
  * @Description: github - markdown
  */
@@ -108,7 +108,8 @@ func main() {
 		write.WriteString("\n")
 		//批量加入文件，
 
-		write.WriteString("<div><a href = '" + a3 + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + "' style='float: right'>⬇️下一节🔗</a></div>\n")
+		write.WriteString("<div><a href = '" + a3 + ".md" + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + ".md" + "' style='float: right'>⬇️下一节🔗</a></div>\n")
+		write.WriteString("\n")
 		write.WriteString("\n")
 		write.WriteString("> ❤️💕💕" + st + "Myblog:[http://nsddd.top](http://nsddd.top/)\n")
 		write.WriteString("\n")
@@ -118,7 +119,7 @@ func main() {
 			write.WriteString("\n")
 		}
 		write.WriteString("## END 链接\n")
-		write.WriteString("<ul><li><div><a href = '" + a3 + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + "' style='float: right'>⬇️下一节🔗</a></div></li></ul>\n")
+		write.WriteString("<ul><li><div><a href = '" + a3 + ".md" + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + ".md" + "' style='float: right'>⬇️下一节🔗</a></div></li></ul>\n")
 		write.WriteString("\n")
 		write.WriteString("+ [Ⓜ️回到目录🏠](../README.md)\n")
 		write.WriteString("\n")
