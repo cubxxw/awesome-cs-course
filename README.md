@@ -44,6 +44,7 @@
 ## 导航
 
 + [x] [🎉🖱️Java全教程](java/README.md)
++ [x] 🎉🖱️[python教程](python3/README.md)
 + [x] [🎉🖱️HTML教程](HTML/README.md)
 + [x] [🎉🖱️ JavaScript教程](javascript/README.md)
 + [x] [🎉🖱️操作系统学习](https://github.com/3293172751/os)

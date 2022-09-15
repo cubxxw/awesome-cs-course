@@ -17,13 +17,13 @@
 
 ## 目录
 
-  - [ipython和python基本语法](markdown/1.md)
+  - [第1节 ipython和python基本语法](markdown/1.md)
 
-  - [](markdown/2.md)
+  - [第2节 字符串](markdown/2.md)
 
-  - [](markdown/3.md)
+  - [第3节 布尔值和运算符](markdown/3.md)
 
-  - [](markdown/4.md)
+  - [第4节 Python列表](markdown/4.md)
 
   - [](markdown/5.md)
 
