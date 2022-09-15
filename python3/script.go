@@ -2,8 +2,8 @@
  * @Author: xiongxinwei 3293172751nss@gmail.com
  * @Date: 2022-06-30 18:06:52
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-14 20:08:07
- * @FilePath: \undefinedc:\Users\smile\Desktop\其他\测试文件夹\script.go
+ * @LastEditTime: 2022-09-15 14:03:06
+ * @FilePath: \undefinedd:\文档\git\CS_COURSE\python3\script.go
  * @Description:
  */
 
@@ -102,11 +102,14 @@ func main() {
 		//写入文件时，使用带缓存的 *Writer
 		write := bufio.NewWriter(file)
 		write.WriteString("+ [author](" + xm + ")\n")
+		write.WriteString("\n")
 		write.WriteString("# 第" + a1 + "节\n")
 
+		write.WriteString("\n")
 		//批量加入文件，
 
 		write.WriteString("<div><a href = '" + a3 + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + "' style='float: right'>⬇️下一节🔗</a></div>\n")
+		write.WriteString("\n")
 		write.WriteString("> ❤️💕💕" + st + "Myblog:[http://nsddd.top](http://nsddd.top/)\n")
 		write.WriteString("---\n")
 		write.WriteString("[TOC]\n")
@@ -116,6 +119,7 @@ func main() {
 		write.WriteString("## END 链接\n")
 		write.WriteString("---\n")
 		write.WriteString("<ul><li><div><a href = '" + a3 + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + "' style='float: right'>⬇️下一节🔗</a></div></li></ul>\n")
+		write.WriteString("\n")
 		write.WriteString("+ [Ⓜ️回到目录🏠](../README.md)\n")
 		write.WriteString("+ [**🫵参与贡献💞❤️‍🔥💖**](https://nsddd.top/archives/contributors))\n")
 		// 版权声明
