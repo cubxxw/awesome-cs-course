@@ -2,7 +2,7 @@
  * @Author: xiongxinwei 3293172751nss@gmail.com
  * @Date: 2022-06-30 18:06:52
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-15 14:41:11
+ * @LastEditTime: 2022-09-15 14:59:25
  * @FilePath: \undefinedd:\文档\git\CS_COURSE\python3\script.go
  * @Description: github - markdown
  */
@@ -109,7 +109,7 @@ func main() {
 		//批量加入文件，
 
 		write.WriteString("<div><a href = '" + a3 + ".md" + "' style='float:left'>⬆️上一节🔗</a><a href = '" + a2 + ".md" + "' style='float: right'>⬇️下一节🔗</a></div>\n")
-		write.WriteString("\n")
+		write.WriteString("<br>\n")
 		write.WriteString("\n")
 		write.WriteString("> ❤️💕💕" + st + "Myblog:[http://nsddd.top](http://nsddd.top/)\n")
 		write.WriteString("\n")

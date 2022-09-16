@@ -38,6 +38,8 @@
 
 ## 最新 – 进阶
 
+> git基础篇会解决我们日常的百分之九十的问题，但是总是有那么一些问题需要我们注意的。比如说某一个，我开发的项目的某一个模块感觉这个模块没有之前的好了，那么我想切换回以前的模块。这个时候我们可以用`git log 指定项目目录` 得到以前的提交记录，然后`git switch 想要的版本hash \指定的目录` 最后就是`git commit -m "checkout ...."` 。
+
 > 2022年9月10日 17:47:28
 
 + [x] [😎🎉Git高级部分](./markdown/super.md)
@@ -48,7 +50,11 @@
 
 + [x] [😎🎉Git — module](./markdown/module.md)
 
-> git - module不仅仅很有用，而且里面的实现也值得学习
++ [x] [😎🎉Git — Script自动推送脚本](./markdown/git-script.md)
+
+> `git - module`不仅仅很有用，而且里面的实现也值得学习
+>
+> `git - Script`脚本能让我们更快的、更方便推动项目
 
 
 
