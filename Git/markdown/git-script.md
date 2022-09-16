@@ -67,7 +67,7 @@ if (检查文件是否有改动 == TRUE) {
 
 > 直接提交, 免输入提交说明. 默认为 `git用户名 update`
 
-```
+```bash
 gitsync.sh
 ```
 

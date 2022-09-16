@@ -4,17 +4,20 @@
 
 ### 项目：
 
-**要求：**
-
-+ python
-+ hash
-+ mysql
+> **要求：**
+>
+> + python
+> + hash
+> + mysql
+>
 
 **仓库地址：**
 
-+ [ ] [项目学生信息管理python+mysql+hash加密](https://github.com/3293172751/course-design-of-database)
++ [x] [项目学生信息管理python+mysql+hash加密](https://github.com/3293172751/course-design-of-database)
 
 ##  MySQL实操篇
+
+
 
 ## 安装数据库：
 
@@ -166,7 +169,7 @@ flush privileges;
 
 
 
-##代码
+## 代码
 
 -   **修改数据表用的是  ---alter**
 
@@ -271,13 +274,7 @@ flush privileges;
     insert into my5 (data2,name) values('9999-12-15 12:15:30','aedf');
     ```
 
--   
-
--   
-
--   ## 
-
--   ##事务（transaction）
+## 事务（transaction）
 
 -   **一个事务是一个完整的业务逻辑单元，不可再分。**
 
