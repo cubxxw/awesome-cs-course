@@ -2,7 +2,7 @@
 
 [TOC]
 
-### 项目：
+## 项目：
 
 > **要求：**
 >
@@ -21,17 +21,16 @@
 
 ## 安装数据库：
 
-备注😁😁我使用的是Linux版本，列出常见的问题：1、安装
+备注😁😁我使用的是Linux版本，列出常见的问题：
 
-查看是否已经安装了MYSQL
+1、安装 – 查看是否已经安装了MYSQL
 
+>   ```bash
 >   rpm -qa mysql
->
 >   mysql-4.1.7-4.RHEL4.1
->
->   点开add/remove programe里面的mysql的detail
->
->   勾上mysql-server
+>   #点开add/remove programe里面的mysql的detail
+>   #勾上mysql-server
+>   ```
 >
 >   2、启动
 >
@@ -103,8 +102,6 @@ iptables -A OUTPUT -p tcp -m tcp --dport 3306 -j ACCEPT
 service iptables save
 
 service iptables restart
-
- 
 ```
 
 还是其他机器不能访问，估计是MYSQL权限问题。
@@ -113,7 +110,7 @@ service iptables restart
 
 在本机登陆
 
-```
+```bash
 mysql -h localhost -u root -pkaishi
 
 show databases;
@@ -867,7 +864,7 @@ call myprocedure(@ret);
 3.  取出数据；
 4.  关闭游标；
 
-```
+```bash
 delimiter //
  create procedure myprocedure(out ret int)
    begin
