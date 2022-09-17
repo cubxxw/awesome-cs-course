@@ -23,11 +23,11 @@
 
   - [第3节 布尔值和运算符](markdown/3.md)
 
-  - [第4节 Python列表](markdown/4.md)
+  - [第4节 Python列表(list)](markdown/4.md)
 
-  - [](markdown/5.md)
+  - [第5节 python元组(tuple)](markdown/5.md)
 
-  - [](markdown/6.md)
+  - [第6节 python的集合(set)](markdown/6.md)
 
   - [](markdown/7.md)
 
