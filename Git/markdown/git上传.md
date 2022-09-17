@@ -10,9 +10,9 @@
 
 # 上传到GitHub步骤
 
-**\1.  进入Github首页，点击New repository新建一个项目**
+**1.  进入Github首页，点击New repository新建一个项目**
 
-**\2.  填写相应信息后点击create repository即可**
+**2.  填写相应信息后点击create repository即可**
 
 > a.  Repository name: 仓库名称（输入名字，最好不要使用中文）
 >
@@ -26,15 +26,15 @@
 >
 > f.   license: 证书类型，对应生成文件LICENSE
 
-**\3.  创建成功以后，界面如下，copy这个地址备用。**
+**3.  创建成功以后，界面如下，copy这个地址备用。**
 
-**\4.  接下来就到本地操作了，首先右键你的项目，如果你之前安装git成功的话，右键会出现两个新选项，分别为Git Gui Here,Git Bash Here,这里我们选择Git Bash Here，进入如下界面，Test_Bluetooth即为我的项目名。**
+**4.  接下来就到本地操作了，首先右键你的项目，如果你之前安装git成功的话，右键会出现两个新选项，分别为Git Gui Here,Git Bash Here,这里我们选择Git Bash Here，进入如下界面，Test_Bluetooth即为我的项目名。**
 
-**\5.  接下来输入如下代码（关键步骤），把github上面的仓库克隆到本地**
+**5.  接下来输入如下代码（关键步骤），把github上面的仓库克隆到本地**
 
-git clone [https://github.com/CKTim/BlueTooth.git（https://github.com/CKTim/BlueTooth.git替换成你之前复制的地址）](https://github.com/CKTim/BlueTooth.git（https:/github.com/CKTim/BlueTooth.git替换成你之前复制的地址）)
-
- 
+```
+git clone https://github.com/3293172751/BlueTooth.git（https:/github.com/3293172751/BlueTooth.git替换成你之前复制的地址） 
+```
 
 ![img](https://s2.loli.net/2022/03/24/3zKZfi8JWxvrQlc.jpg)
 
@@ -90,7 +90,7 @@ push完成之后：
 
 
 
-#### 补坑：
+## 补坑：
 
 如果在第9步新建一个Github仓库时，选择了
 

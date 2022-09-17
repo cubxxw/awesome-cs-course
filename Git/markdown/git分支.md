@@ -1,8 +1,12 @@
+# git的分支
+
 [toc]
+
+
 
 ---
 
-[😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
+[😶‍🌫️需要联系我🖱️](xxw@nsddd.top)
 
 >   go语言的官方文档学习笔记很全，推荐去官网学习
 
@@ -11,8 +15,6 @@
 ❤️💕💕 **[MY博客](https://nsddd.top)**
 
 ---
-
-# git的分支
 
 如何在 GitHub 的项目中创建一个分支呢？ 其实很简单啦，直接点击 Branch，然后在弹出的文本框中添加自己的 Branch Name 然后点击蓝色的Create branch就可以了，这样一来，你这个项目就有2个分支了（master 和 reademe-edits）。
 
@@ -28,7 +30,7 @@
 
 **具体操作步骤:**
 
-## 一、上传一个独立的分支
+## 上传一个独立的分支
 
 （比如代码是从工程中直接DOWNLOAD ZIP文件如BowlingScore-test.zip，该文件与原MASTER分支是独立的）
 
@@ -78,7 +80,10 @@ git push origin test
 
 注意:提示 “请输入github用户名和密码“
 
-## 二、上传一个与MASTER相关的分支
+
+
+## 上传一个与MASTER相关的分支
+
 （该分支是从MASTER中git clone 得到，相关信息在 .git 文件中）
 
 修改后源码后，在进行如下操作
