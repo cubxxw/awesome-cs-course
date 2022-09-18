@@ -29,9 +29,9 @@
 
   - [第6节 python的集合(set)](markdown/6.md)
 
-  - [](markdown/7.md)
+  - [第7节 Python字典(dict)](markdown/7.md)
 
-  - [](markdown/8.md)
+  - [第8节 python分支循环](markdown/8.md)
 
   - [](markdown/9.md)
 

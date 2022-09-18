@@ -66,6 +66,8 @@
 
 ## 💡链学者社区
 
+ ➡️ 涉及`golang`、`区块链`、`docker`
+
 ⚠️ 这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你😎 —> **喜欢请给个⭐收藏~**
 
 >  **更多请移步[菜鸟的成长手册](https://github.com/3293172751/cs-awesome-Block_Chain)，涉及😎菜鸟成长手册🎈CS系列、web系列、区块链系列、Golang系列......**
@@ -74,24 +76,43 @@
 
 
 
+## 🗃️介绍
+
+🔖 仓库后期会慢慢做成文档形式，由于GitHub上面网络原因无法访问，可以选择🏷️DocCub 文档访问，或者是选择对应[国内的镜像Gitee](https://gitee.com/xxw3293172751/CS_COURSE)。这个仓库是和隔壁[➡️菜鸟的成长手册](https://github.com/3293172751/cs-awesome-Block_Chain)一起维护的。我的学习也是跟着github走的，前期以视频为主，后面基本上都是网站文档为主了。
+
+:cherry_blossom:一些很优质的项目，或者我自己觉得特别喜欢的文章，都发表在自己的[博客](http://nsddd.top)
+
+📔有一些我很喜欢（经常用），或许也很热门的学习网站
+
++ [x] [代码随想录](https://www.programmercarl.com/)
++ [x] [CS自学指南](https://csdiy.wiki/)
++ [x] [freeCode](https://www.freecodecamp.org/)
+
+
+
 ## 🗒️CS系列
 
-+ [x] [🎉🖱️Java全教程](java/README.md)
-+ [x] 🎉🖱️[python教程](python3/README.md)
-+ [x] [🎉🖱️HTML教程](HTML/README.md)
-+ [x] [🎉🖱️ JavaScript教程](javascript/README.md)
-+ [x] [🎉🖱️操作系统学习](https://github.com/3293172751/os)
-+ [x] [🎉🖱️点击进入Linux](linux/README.md)
-+ [x] [🎉🖱️点击进入markdown学习](markdown/README.md)
-+ [x] [🎉🖱️点击进入Git学习](Git/README.md)
-+ [x] [🎉🖱️点击进入Gitbook学习](gitbook/README.md)
-+ [x] [🎉🖱️学习创新创业](创新创业/README.md)
-+ [x] [🎉🖱️学习nginx](Nginx/README.md)
-+ [x] [🎉🖱️学习Sql](mysql/README.md)
-+ [x] [🎉🖱️学习node.js](node/README.md)
-+ [x] [🎉🖱️学习xml](xml/README.md)
-+ [x] [🎉🖱️学习大全](C++/README.md)
-+ [x] [🎉🖱️计算机网络](www/README.md)
++ [x] [🎉🔖Java全](java/README.md)
++ [x] [🎉🔖python](python3/README.md)
++ [x] [🎉🔖HTML和CSS](HTML/README.md)
++ [x] [🎉🔖JavaScript](javascript/README.md)
++ [ ] [🎉🔖Vue.js](vue/README.md)
++ [ ] [🎉🔖node.js](node/README.md)
++ [x] [🎉🔖操作系统OS](https://github.com/3293172751/os)
++ [x] [🎉🔖计算机网络](www/README.md)
++ [x] [🎉🔖Linux](linux/README.md)
++ [x] [🎉🔖markdown](markdown/README.md)
++ [x] [🎉🔖Git](Git/README.md)
++ [x] [🎉🔖vuepress](Git/README.md)
++ [x] [🎉🔖Gitbook](gitbook/README.md)
++ [x] [🎉🔖创新创业](创新创业/README.md)
++ [x] [🎉🔖nginx](Nginx/README.md)
++ [x] [🎉🔖MySql](mysql/README.md)
++ [ ] [🎉🔖Redis](mysql/README.md)
++ [ ] [🎉🔖Mongodb](mysql/README.md)
++ [x] [🎉🔖xml](xml/README.md)
++ [ ] [🎉🔖json](json/README.md)
++ [ ] [🎉🔖C++](C++/README.md)
 
 
 
@@ -101,7 +122,7 @@
 
 **要求：**
 
-+ [你需要学会使用markdown🖱️](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
++ [你需要学会使用markdown🔖](https://github.com/3293172751/CS_COURSE/blob/master/markdown/README.md)
 + [符合Google代码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/)
 
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。
