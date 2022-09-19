@@ -1,8 +1,8 @@
-[😶‍🌫️XML学习指南（需外网）](https://www.w3schools.com/xml/default.asp)
 
->   学习资料很全，推荐！！！！
 
-[😶‍🌫️我的学习笔记（github）:](https://github.com/3293172751/golang-rearn)
+# Gitbook
+
+[Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
 ---
 
@@ -14,38 +14,27 @@
 
 ---
 
-# Gitbook
-
-## 为什么要学习Gitbook？
-
-> 1. XML 在许多不同的 IT 系统中发挥着重要作用。
->
-> 2. XML 通常用于在 Internet 上分发数据。
->
-> 3. 对 XML 有很好的理解是很重要的（对于所有类型的软件开发人员！）。
-
 ## 目录
 
-#### 1. Gitbook开始
+- [📚📖Gitbook开始](markdown/1.md)
 
-## [Gitbook开始](markdown/1.md)
+- [📚📖Gitbook使用](markdown/2.md)
 
-#### 2. [Gitbook使用](markdown/2.md)
+- [📚📖gitbook init报错分析](markdown/3.md)
 
-#### 3. [gitbook init报错分析](markdown/3.md)
+- [📚📖npm和包](markdown/4.md)
 
-#### 4. [npm和包](markdown/4.md)
+- [📚📖npm包的问题和镜像](markdown/5.md)
 
-#### 5. [npm包的问题和镜像](markdown/5.md)
+- [📚📖展示吧](markdown/6.md)
 
-#### 6. [展示吧](markdown/6.md)
+- [📚📖其他技巧补充](markdown/7.md)
 
-#### 7. [其他技巧补充](markdown/7.md)
+- [📚📖配置模板](markdown/8.md)
 
-#### 8. [配置模板](markdown/8.md)
+- [📚📖gitbook配置](markdown/9.md)
 
-#### 9. [gitbook配置](markdown/9.md)
+- [📚📖安装插件](markdown/10.md)
 
-#### 10. [安装插件](markdown/10.md)
+- [📚📖pages服务](markdown/11.md)
 
-#### 11. [pages服务](markdown/11.md)
