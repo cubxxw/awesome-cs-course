@@ -11,14 +11,20 @@
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
-## 项目
+## 🔦导航
+
+*你永远不会太老而不能设定另一个目标，或者梦想一个新的梦想。*
+
+​																								——*CS刘易斯*
+
+## 🗃️项目
 
 > 课程使用的是
 
 + [x] [星空](https://github.com/3293172751/starry)
 + [x] [resume-blog](http://github.com/3293172751/resume)
 
-## 目录
+## 📑目录
 
 + [HTML常用元素](markdown/HTML常用元素.md)
 + [HTML基础](markdown/基础)
@@ -38,9 +44,9 @@
 
   7. [第7节 应用无障碍](markdown/7.md)
 
-  8. [](markdown/8.md)
+  8. [第8节 响应式网页设计原则](markdown/8.md)
 
-  9. [](markdown/9.md)
+  9. [第9节 CSS 弹性盒子](markdown/9.md)
 
   10. [](markdown/10.md)
 
