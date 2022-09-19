@@ -1,4 +1,4 @@
-
+# HTML和CSS设计
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -13,7 +13,10 @@
 </p>
 ## 项目
 
-+ [ ] [星空](https://github.com/3293172751/starry)
+> 课程使用的是
+
++ [x] [星空](https://github.com/3293172751/starry)
++ [x] [resume-blog](http://github.com/3293172751/resume)
 
 ## 目录
 
@@ -29,11 +32,11 @@
 
   4. [第4节 CSS下](markdown/4.md)
 
-  5. [](markdown/5.md)
+  5. [第5节 CSS样式实战和总结](markdown/5.md)
 
-  6. [](markdown/6.md)
+  6. [第6节 应用视觉设计](markdown/6.md)
 
-  7. [](markdown/7.md)
+  7. [第7节 应用无障碍](markdown/7.md)
 
   8. [](markdown/8.md)
 
