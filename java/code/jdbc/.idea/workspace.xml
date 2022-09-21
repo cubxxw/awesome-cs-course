@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b4b4c12-f355-42e0-9815-c9aa591c670b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaGuide" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaGuide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jdbc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module3/src/main/resources/static/html/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module3/src/main/resources/static/html/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../markdown/10.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../markdown/24.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/24.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../markdown/26.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/26.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javascript/hongs-study-notes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/hongs-study-notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python3/markdown/22.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python3/markdown/22.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python3/markdown/25.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python3/markdown/25.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/javascript/hongs-study-notes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../web/javascript/hongs-study-notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../www/-Computer-networking-A-top-down-approach-Notes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../www/-Computer-networking-A-top-down-approach-Notes" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2F4iIBtt2cW96tMbKUwebAYcVHM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/文档/git/CS_COURSE/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7b4b4c12-f355-42e0-9815-c9aa591c670b" name="变更" comment="" />
+      <created>1663757677624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663757677624</updated>
+      <workItem from="1663757679107" duration="3264000" />
+      <workItem from="1663762683536" duration="448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

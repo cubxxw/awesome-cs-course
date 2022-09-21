@@ -33,37 +33,37 @@
 
   - [第8节 python分支循环](markdown/8.md)
 
-  - [](markdown/9.md)
+  - [第9节 python函数](markdown/9.md)
 
-  - [](markdown/10.md)
+  - [第10节 Python类和对象](markdown/10.md)
 
-  - [](markdown/11.md)
+  - [第11节 python继承](markdown/11.md)
 
-  - [](markdown/12.md)
+  - [第12节 python迭代器和python的范围](markdown/12.md)
 
-  - [](markdown/13.md)
+  - [第13节 Python模块](markdown/13.md)
 
-  - [](markdown/14.md)
+  - [第14节 python时间日期](markdown/14.md)
 
-  - [](markdown/15.md)
+  - [第15节 python数学](markdown/15.md)
 
-  - [](markdown/16.md)
+  - [第16节 pip](markdown/16.md)
 
-  - [](markdown/17.md)
+  - [第17节 异常处理](markdown/17.md)
 
-  - [](markdown/18.md)
+  - [第18节 python文件处理](markdown/18.md)
 
-  - [](markdown/19.md)
+  - [第19节 NumPy教程](markdown/19.md)
 
-  - [](markdown/20.md)
+  - [第20节 DjanGo构建web](markdown/20.md)
 
-  - [](markdown/21.md)
+  - [第21节 SciPy](markdown/21.md)
 
-  - [](markdown/22.md)
+  - [第22节 pandas](markdown/22.md)
 
-  - [](markdown/23.md)
+  - [第23节 matplotlib](markdown/23.md)
 
-  - [](markdown/24.md)
+  - [第24节 机器学习](markdown/24.md)
 
   - [](markdown/25.md)
 
