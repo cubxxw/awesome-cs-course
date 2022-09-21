@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1.heml</title>
+    <script>
+        //alert("内嵌式js")
+        var myName = "xiongxinwei hello";
+        alert(myName);
+
+        var email = "3293172751nss@gmail.com";
+        console.log(email);
+
+        document.write("email:"+email);  
+
+        var uemail = prompt("请输入你的Emile");
+        alert(uemail);
+
+        var a = prompt("是否选择修改邮箱? Y or N")
+        if(a == 'Y' && a == 'y' && a == 'yes'){
+            var email = prompt("需要修改的邮箱号码")
+            alert("email:"+email); 
+        }else{
+            alert("email:"+email); 
+        }
+
+        var func = function() {
+            alert("你已经被警告一次了,请注意")
+        };
+        func();
+        func();
+    </script>
+    <script src="1.js"></script>  
+    <!-- 外部js写法 -->
+</head>
+<body>
+    <!-- 1. 行内式js直接写 -->
+    <input type="button" value="你好啊" onclick="alert('xiongxinwei')">
+</body>
+</html>

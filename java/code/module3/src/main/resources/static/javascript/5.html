@@ -1,0 +1,79 @@
+<!--
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-07-15 11:26:34
+ * @LastEditors: xiongxinwei 3293172751nss@gmail.com
+ * @LastEditTime: 2022-07-16 15:15:35
+ * @FilePath: \code\5.html
+ * @Description: 
+ * 
+ * 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>5.heml</title>
+    <script>
+        var arr1 = []; //创建数组
+        var arr2 = new Array();
+        var arr3 = [1,3,4,'sad',null,true,false];
+        arr1[1] = 'arr1';
+        console.log(arr1[1]);  //arr1
+        console.log(arr3[arr3.length-1]);  //fales
+
+        console.log("遍历数组-------");
+        for(var i=0; i<arr3.length; i++) {
+            console.log(arr3[i]);
+        }
+
+        /* 追加元素 -- 数组 */
+        console.log("arr3.length="+arr3.length);
+        var len = arr3.length;
+        for(var i=0; i<len; i++) {
+            arr3[i+len] = i;
+        }
+        for(var i=0; i<arr3.length; i++) {
+            console.log(arr3[i]);
+        }
+        console.log("arr3.length="+arr3.length);
+        
+        /* 对数组进行排序的案例  -- 冒泡排序*/
+        var arr4 = [12,321,12,412,23,234,223,12,412,512,12,123,123,25,23,1,1,3,5,7,3,0];
+        console.log(arr4);
+        for(var i = 0; i<arr4.length; i++) {
+            var bz = false; 
+            for(var j =0; j<arr4.length-i-1; j++) {
+                if(arr4[j]<arr4[j+1]){
+                    var test = arr4[j];
+                    arr4[j] = arr4[j+1];
+                    arr4[j+1] = test;
+                    bz = true;
+                }
+                if(bz){
+                    break;
+                }
+            }
+        }
+        console.log(arr4);
+        /* 第二种遍历数组的方法 */
+    arr4.forEach(function(value , index , obj){    
+    });  
+    
+    /* 筛选出数组元素大于10的数组 */
+    var arr = [2,3,1,5,2,23,353,234,12,12,3];
+    var newArr = [];
+    for(var i=0; i<arr.length; i++) {
+        if(arr[i] >= 10) {
+            //新数组的索引号应该从0开始 依次递增
+            newArr[newArr.length] = arr[i];
+        }
+    }
+    console.log(newArr);
+</script>
+</head>
+<body>
+</body>
+</html>
