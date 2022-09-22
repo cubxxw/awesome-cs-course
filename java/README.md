@@ -2,21 +2,49 @@
 
 ---
 
-## 介绍
+## 📑介绍
 
-**这个仓库适合学过Java想要复习，或者有过其它语言的编程基础，又或者觉得学习能力还可以，想要快速入手的编程者。**
+> 📚java的课程详细参考：
+>
+> + bilibili – java
+> + bilibili - javaweb
+> + bilibili – ssm – spingcloud
+> + github – javaCuide
+> + w3shcool
 
 <a href='https://github.com/3293172751/block_Chain/'><img src="https://github-readme-stats.vercel.app/api/pin?username=3293172751&repo=block_Chain&theme=radical" referrerpolicy="no-referrer" alt="菜鸟成长手册" style="zoom:150%;" ></a>
 
 
 
+### 为什么要做这个仓库？
+
+🔖 我是有过Go语言基础的，但是想把Java学一下，Java的生态很好，而且有些区块链项目也是Java做的
+
+🔦 仓库以后会做成DocCub文档形式，支持全文搜索，也是为了方便后面很快的检索
+
+
+
+ ❗这个仓库的侧重点有下面部分：
+
++ 基础部分： 数据类型、二进制、位运算、构造器
++ 中级部分：封装、继承、**多态**
++ 高级部分：类变量、类方法、**接口**、内部类、异常体系图、异常处理、String、StringBuffer、StringBuilder、集合框架体系、ArrayList、Vector、HashSet、HashMap、**泛型**、**线程**、输入流、输出流、
++ 进阶：Mysql、JDBC和连接池、正则表达式的常用类、分组捕获和反向引用
++ 新特性：
+  + Java8： Lambda、函数式接口、stream API 
+  + Java11：类型推断、集合增强API…….
+
+
+
+
+
 **python程序员过度到Java，可以看这个教程 – [从python到Java](http://kennethalambert.com/pythontojava/)**
 
-## 项目仓库
+## 🗃️项目仓库
 
 + [x] [jigsaw-puzzle拼图](https://github.com/3293172751/jigsaw-puzzle)
 
-## 目录
+## 📖目录
 
   - [第1节 基础概念与常识](markdown/1.md)
 
