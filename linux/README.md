@@ -8,19 +8,19 @@
 
 ----
 
-- [x] [😎🔑ifconfig](./linux-web/1.md)
+- [x] [😎第1节 ifconfig命令](./linux-web/1.md)
 
-- [x] [😎🔑](./linux-web/2.md)
+- [x] [😎第2节 route路由命令](./linux-web/2.md)
 
-- [x] [😎🔑](./linux-web/)3.md)
+- [x] [😎第3节 IP命令](./linux-web/3.md)
 
-- [x] [😎🔑](./linux-web/)4.md)
+- [x] [😎第4节 netstat网络端口查看](./linux-web/4.md)
 
-- [x] [😎🔑](./linux-web/)5.md)
+- [x] [😎第5节 ping命令和telnet命令](./linux-web/5.md)
 
-- [x] [😎🔑](./linux-web/)6.md)
+- [x] [😎第6节 nc命令](./linux-web/6.md)
 
-- [x] [😎🔑](./linux-web/)7.md)
+<!--- [x] [😎🔑](./linux-web/)7.md)
 
 - [x] [😎🔑](./linux-web/)8.md)
 
@@ -107,7 +107,7 @@
 - [x] [😎🔑](./linux-web/)49.md)
 
 - [x] [😎🔑](./linux-web/)50.md)
-
+ -->
 
 
 ## 🐧不一样的篇幅
