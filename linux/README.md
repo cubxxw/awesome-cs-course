@@ -1,35 +1,116 @@
 # linux
 
-## vim篇
+## 🖥️Linux网络通信
 
-> ⭐vim是我在Linux花费了大量的时间和尽力去学习的工具，从大一下半年到现在，Linux中一直使用的是vim。作为一个神器，vim给了我们太多的惊喜。插件、窗口、宏、各种操作。甚至离开了Linux，你也随处可见：在浏览器中、ide中……
->
-> 熟悉至少一个基于文本的编辑器。通常而言 Vim （`vi`） 会是你最好的选择，毕竟在终端中编辑文本时 Vim 是最好用的工具（甚至大部分情况下 Vim 要比 Emacs、大型 IDE 或是炫酷的编辑器更好用）。
->
-> 甚至你在命令行中，可以执行 `set -o vi` 来使用 vi 风格的快捷键，而执行 `set -o emacs` 可以把它改回来。
+**这个板块包括计算机网络、TCP/IP、网络抓包的实现、Linux网络编程**
 
-+ [x] [😎🧋我的vimrc配置](markdown/my_vim.md)
++ [x] [网络学习](https://github.com/3293172751/cs-awesome-Block_Chain/blob/master/web/README.md)
 
-+ [x] [😎🧋vim简介](markdown/1.md)
+----
 
-+ [x] [😎🧋vim基本语法](markdown/2.md)
+- [x] [😎🔑ifconfig](./linux-web/1.md)
 
-+ [x] [😎🧋vim-plug](markdown/3.md)
+- [x] [😎🔑](./linux-web/2.md)
 
-+ [x] [😎🧋vim窗口和宏](markdown/4.md)
+- [x] [😎🔑](./linux-web/)3.md)
 
-+ [x] [😎🧋linux防火墙](markdown/5.md)
+- [x] [😎🔑](./linux-web/)4.md)
 
-+ [x] [😎🧋EASYMOTION快速跳转](markdown/6.md)
+- [x] [😎🔑](./linux-web/)5.md)
 
-> 我们花费了很多时间去配置git，但是也有很多问题。有时候，我们会在几台不同的电脑上使用Vim. 例如，我们可能在自己的电脑和公司的电脑上都安装了Vim. 有时候，我们需要实现，如果我们配置好了其中一个Vim环境，就能轻松的把这些配置很容易的复制到另外一台机器，甚至于我们更新其中一台机器甚至几台机器的配置之后，可以很容易的将其同步到其他机器。好在现在有较多的云存储的选择。利用它们，加上一个版本控制软件，我们就可以很容易的做到这一点。
+- [x] [😎🔑](./linux-web/)6.md)
 
-+ [x] [🅱️⭕Git学习指南](https://github.com/3293172751/awesome-cs-course/tree/master/Git)
-+ [x] [🅱️⭕Vim同步](../markdown/vim-git.md)
+- [x] [😎🔑](./linux-web/)7.md)
+
+- [x] [😎🔑](./linux-web/)8.md)
+
+- [x] [😎🔑](./linux-web/)9.md)
+
+- [x] [😎🔑](./linux-web/)10.md)
+
+- [x] [😎🔑](./linux-web/)11.md)
+
+- [x] [😎🔑](./linux-web/)12.md)
+
+- [x] [😎🔑](./linux-web/)13.md)
+
+- [x] [😎🔑](./linux-web/)14.md)
+
+- [x] [😎🔑](./linux-web/)15.md)
+
+- [x] [😎🔑](./linux-web/)16.md)
+
+- [x] [😎🔑](./linux-web/)17.md)
+
+- [x] [😎🔑](./linux-web/)18.md)
+
+- [x] [😎🔑](./linux-web/)19.md)
+
+- [x] [😎🔑](./linux-web/)20.md)
+
+- [x] [😎🔑](./linux-web/)21.md)
+
+- [x] [😎🔑](./linux-web/)22.md)
+
+- [x] [😎🔑](./linux-web/)23.md)
+
+- [x] [😎🔑](./linux-web/)24.md)
+
+- [x] [😎🔑](./linux-web/)25.md)
+
+- [x] [😎🔑](./linux-web/)26.md)
+
+- [x] [😎🔑](./linux-web/)27.md)
+
+- [x] [😎🔑](./linux-web/)28.md)
+
+- [x] [😎🔑](./linux-web/)29.md)
+
+- [x] [😎🔑](./linux-web/)30.md)
+
+- [x] [😎🔑](./linux-web/)31.md)
+
+- [x] [😎🔑](./linux-web/)32.md)
+
+- [x] [😎🔑](./linux-web/)33.md)
+
+- [x] [😎🔑](./linux-web/)34.md)
+
+- [x] [😎🔑](./linux-web/)35.md)
+
+- [x] [😎🔑](./linux-web/)36.md)
+
+- [x] [😎🔑](./linux-web/)37.md)
+
+- [x] [😎🔑](./linux-web/)38.md)
+
+- [x] [😎🔑](./linux-web/)39.md)
+
+- [x] [😎🔑](./linux-web/)40.md)
+
+- [x] [😎🔑](./linux-web/)41.md)
+
+- [x] [😎🔑](./linux-web/)42.md)
+
+- [x] [😎🔑](./linux-web/)43.md)
+
+- [x] [😎🔑](./linux-web/)44.md)
+
+- [x] [😎🔑](./linux-web/)45.md)
+
+- [x] [😎🔑](./linux-web/)46.md)
+
+- [x] [😎🔑](./linux-web/)47.md)
+
+- [x] [😎🔑](./linux-web/)48.md)
+
+- [x] [😎🔑](./linux-web/)49.md)
+
+- [x] [😎🔑](./linux-web/)50.md)
 
 
 
-## 不一样的篇幅
+## 🐧不一样的篇幅
 
 > 在一些操作里面或许有着鲜为人知但是很好用的技巧，比如说在 Bash 中，可以按下 **ctrl-w** 删除你键入的最后一个单词，**ctrl-u** 可以删除行内光标所在位置之前的内容，**alt-b** 和 **alt-f** 可以以单词为单位移动光标，**ctrl-a** 可以将光标移至行首，**ctrl-e** 可以将光标移至行尾，**ctrl-k** 可以删除光标至行尾的所有内容，**ctrl-l** 可以清屏。键入 `man readline` 可以查看 Bash 中的默认快捷键。内容有很多，例如 **alt-.** 循环地移向前一个参数，而 **alt-*** 可以展开通配符。
 >
@@ -63,7 +144,7 @@
 >
 > **接下来就是系统的Linux学习**
 
-## Linux系统篇
+## 📚Linux系统篇
 
 > 我们在写脚本的时候，有很多的技巧，可以节省我们很多的精力：
 >
@@ -139,3 +220,33 @@
 + [x] [😎🧋linux C](markdown/35.md)
 
 + [x] [😎🧋定制Linux系统](./定制Linux系统.pdf)
+
+
+
+## 🔦vim篇
+
+> ⭐vim是我在Linux花费了大量的时间和尽力去学习的工具，从大一下半年到现在，Linux中一直使用的是vim。作为一个神器，vim给了我们太多的惊喜。插件、窗口、宏、各种操作。甚至离开了Linux，你也随处可见：在浏览器中、ide中……
+>
+> 熟悉至少一个基于文本的编辑器。通常而言 Vim （`vi`） 会是你最好的选择，毕竟在终端中编辑文本时 Vim 是最好用的工具（甚至大部分情况下 Vim 要比 Emacs、大型 IDE 或是炫酷的编辑器更好用）。
+>
+> 甚至你在命令行中，可以执行 `set -o vi` 来使用 vi 风格的快捷键，而执行 `set -o emacs` 可以把它改回来。
+
++ [x] [😎🧋我的vimrc配置](markdown/my_vim.md)
+
++ [x] [😎🧋vim简介](markdown/1.md)
+
++ [x] [😎🧋vim基本语法](markdown/2.md)
+
++ [x] [😎🧋vim-plug](markdown/3.md)
+
++ [x] [😎🧋vim窗口和宏](markdown/4.md)
+
++ [x] [😎🧋linux防火墙](markdown/5.md)
+
++ [x] [😎🧋EASYMOTION快速跳转](markdown/6.md)
+
+> 我们花费了很多时间去配置git，但是也有很多问题。有时候，我们会在几台不同的电脑上使用Vim. 例如，我们可能在自己的电脑和公司的电脑上都安装了Vim. 有时候，我们需要实现，如果我们配置好了其中一个Vim环境，就能轻松的把这些配置很容易的复制到另外一台机器，甚至于我们更新其中一台机器甚至几台机器的配置之后，可以很容易的将其同步到其他机器。好在现在有较多的云存储的选择。利用它们，加上一个版本控制软件，我们就可以很容易的做到这一点。
+
++ [x] [🅱️⭕Git学习指南](https://github.com/3293172751/awesome-cs-course/tree/master/Git)
++ [x] [🅱️⭕Vim同步](../markdown/vim-git.md)
+
