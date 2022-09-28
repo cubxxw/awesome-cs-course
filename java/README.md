@@ -96,9 +96,9 @@
 
   - [第26节 maven创建jdbc连接MySQL](markdown/26.md)
 
-  - [](markdown/27.md)
+  - [第27节 Druid连接池和案例](markdown/27.md)
 
-  - [](markdown/28.md)
+  - [第28节 Java的进制](markdown/28.md)
 
   - [](markdown/29.md)
 
