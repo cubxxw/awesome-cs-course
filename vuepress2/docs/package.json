@@ -1,0 +1,23 @@
+{
+  "name": "vuepress-halo-hugo",
+  "version": "1.0.0",
+  "description": "⚠️这个仓库记录了搭建博客和技术文档设计vuepress、gitbook、halo、hugo等，还有`awesome`类型资料，如果你希望很容易的搭建一个博客，或者是技术文档，那么它可以帮助到你😎喜欢可以给个⭐",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.51",
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.51",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.51",
+    "@vuepress/plugin-external-link-icon": "^2.0.0-beta.51",
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta.51",
+    "@vuepress/plugin-search": "^2.0.0-beta.51",
+    "vue": "^3.2.29",
+    "vuepress": "2.0.0-beta.51",
+    "vuepress-theme-hope": "2.0.0-beta.100"
+  }
+}

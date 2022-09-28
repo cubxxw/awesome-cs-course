@@ -1,0 +1,20 @@
+<svg width="307.4" height="20" viewBox="0 0 3074 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="@vuepress/plugin-back-to-top@next: v2.0.0-beta.51">
+  <title>@vuepress/plugin-back-to-top@next: v2.0.0-beta.51</title>
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="m"><rect width="3074" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#m)">
+    <rect width="2145" height="200" fill="#555"/>
+    <rect width="929" height="200" fill="#1BC" x="2145"/>
+    <rect width="3074" height="200" fill="url(#a)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="2045" fill="#000" opacity="0.25">@vuepress/plugin-back-to-top@next</text>
+    <text x="50" y="138" textLength="2045">@vuepress/plugin-back-to-top@next</text>
+    <text x="2200" y="148" textLength="829" fill="#000" opacity="0.25">v2.0.0-beta.51</text>
+    <text x="2190" y="138" textLength="829">v2.0.0-beta.51</text>
+  </g>
+  
+</svg>
