@@ -93,25 +93,45 @@
 ## 🗒️CS系列
 
 + [x] [🎉🔖Java全](java/README.md)
+
 + [x] [🎉🔖python](python3/README.md)
+
 + [x] [🎉🔖HTML和CSS](HTML/README.md)
+
 + [x] [🎉🔖JavaScript](javascript/README.md)
+
 + [ ] [🎉🔖Vue.js](vue/README.md)
+
 + [ ] [🎉🔖node.js](node/README.md)
+
 + [x] [🎉🔖操作系统OS](https://github.com/3293172751/os)
+
 + [x] [🎉🔖计算机网络](www/README.md)
+
 + [x] [🎉🔖Linux](linux/README.md)
+
 + [x] [🎉🔖markdown](markdown/README.md)
+
 + [x] [🎉🔖Git](Git/README.md)
+
 + [x] [🎉🔖vuepress](Git/README.md)
+
 + [x] [🎉🔖Gitbook](gitbook/README.md)
+
 + [x] [🎉🔖创新创业](创新创业/README.md)
+
 + [x] [🎉🔖nginx](Nginx/README.md)
+
 + [x] [🎉🔖MySql](mysql/README.md)
+
 + [ ] [🎉🔖Redis](mysql/README.md)
+
 + [ ] [🎉🔖Mongodb](mysql/README.md)
+
 + [x] [🎉🔖xml](xml/README.md)
+
 + [ ] [🎉🔖json](json/README.md)
+
 + [ ] [🎉🔖C++](C++/README.md)
 
 
