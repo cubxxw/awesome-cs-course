@@ -148,8 +148,6 @@
 <font size = 2>如果你也想对本项目做出贡献，那么你可以先把该项目进行 `fork` 或者 `git clone` 到本地，然后自己建立一个分支 `your-branch`，然后上传资料到 对应目录 下，图片信息可以上传到` /images`，然后更新 `README`。
 
 
-
-
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_badge.svg)](https://repography.com)
 [![Timeline graph](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_timeline.svg)](https://github.com/3293172751/CS_COURSE/commits)
 [![Issue status graph](https://images.repography.com/26892425/3293172751/CS_COURSE/recent-activity/75d16aa9cc6c3519effd2fec7f24fae5_issues.svg)](https://github.com/3293172751/CS_COURSE/issues)
