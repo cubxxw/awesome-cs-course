@@ -1,4 +1,4 @@
-
+# HTML和CSS设计
 
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin"></a>
@@ -11,7 +11,20 @@
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
 </p>
-## 目录
+## 🔦导航
+
+*你永远不会太老而不能设定另一个目标，或者梦想一个新的梦想。*
+
+​																								——*CS刘易斯*
+
+## 🗃️项目
+
+> 课程使用的是
+
++ [x] [星空](https://github.com/3293172751/starry)
++ [x] [resume-blog](http://github.com/3293172751/resume)
+
+## 📑目录
 
 + [HTML常用元素](markdown/HTML常用元素.md)
 + [HTML基础](markdown/基础)
@@ -21,29 +34,29 @@
 
   2. [第2节 HTML一遍过](markdown/2.md)
 
-  3. [](markdown/3.md)
+  3. [第3节 CSS](markdown/3.md)
 
-  4. [](markdown/4.md)
+  4. [第4节 CSS下](markdown/4.md)
 
-  5. [](markdown/5.md)
+  5. [第5节 CSS样式实战和总结](markdown/5.md)
 
-  6. [](markdown/6.md)
+  6. [第6节 应用视觉设计](markdown/6.md)
 
-  7. [](markdown/7.md)
+  7. [第7节 应用无障碍](markdown/7.md)
 
-  8. [](markdown/8.md)
+  8. [第8节 响应式网页设计原则](markdown/8.md)
 
-  9. [](markdown/9.md)
+  9. [第9节 CSS 弹性盒子](markdown/9.md)
 
-  10. [](markdown/10.md)
+  10. [第10节 CSS网格](markdown/10.md)
 
-  11. [](markdown/11.md)
+  11. [第11节响应式网页设计项目](markdown/11.md)
 
-  12. [](markdown/12.md)
+  12. [第12节 表单进阶](markdown/12.md)
 
-  13. [](markdown/13.md)
+  13. [第13节 H5新增特性](markdown/13.md)
 
-  14. [](markdown/14.md)
+  14. [第14节 css3](markdown/14.md)
 
   15. [](markdown/15.md)
 

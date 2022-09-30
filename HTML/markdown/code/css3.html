@@ -1,0 +1,79 @@
+<!--
+ * @Description: css3
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-09-30 21:06:48
+ * @LastEditTime: 2022-09-30 21:17:38
+ * @FilePath: \HTML\markdown\code\css3.html
+ * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 添加box */
+        .box li { border: 1px solid #F00; }
+        .child+li { 
+            border: 1px solid #00F; 
+            color: #0FF;
+            /* 选择器+选择器 */
+        }
+        .child2~li {
+            border: 1px solid #00F;
+            color: #0F0;
+        }
+        .child3 div:last-child {
+            margin: 0;
+        }
+        /* 
+        div:last-child 选择器选择父元素的最后一个子元素
+        div:last-of-type 选择器选择父元素的最后一个同类型的子元素
+        div:first-child 选择器选择父元素的第一个子元素
+        div:first-of-type 选择器选择父元素的第一个同类型的子元素
+        div:nth-child(n) 选择器选择父元素的第n个子元素
+        div:nth-of-type(n) 选择器选择父元素的第n个同类型的子元素
+        div:nth-last-child(n) 选择器选择父元素的倒数第n个子元素
+        div:nth-last-of-type(n) 选择器选择父元素的倒数第n个同类型的子元素
+        div:only-child 选择器选择父元素的唯一子元素
+        div:only-of-type 选择器选择父元素的唯一同类型的子元素
+        div:empty 选择器选择没有子元素的元素
+        div:target 选择器选择当前活动的元素
+        div:enabled 选择器选择可用的元素
+        div:disabled 选择器选择不可用的元素
+        div:checked 选择器选择被选中的元素
+        div:not(selector) 选择器选择不匹配指定选择器的元素
+        */
+        */
+            /* 
+            +的意思是紧跟在child后面的li元素
+            ~的意思是child后面的所有li元素
+             */
+    </style>
+</head>
+<body>
+    <ui class="box" class="child2">
+    <li>111</li>
+        <ui>
+            <li>111</li>
+            <li>222</li>
+            <li>222</li>
+            <li>123</li>
+            <li>333</li>
+            <li>444</li>
+        </ui>
+        <ui class="child">
+            <li>111</li>
+            <li>222</li>
+            <li>222</li>
+            <li>123</li>
+            <li>333</li>
+            <li>444</li>
+        </ui>
+    </li>
+    </ui>  
+</body>
+</html>

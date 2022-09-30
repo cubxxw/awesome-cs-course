@@ -1,0 +1,59 @@
+<!--
+ * @Description: BOX盒子
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-09-22 21:20:39
+ * @LastEditTime: 2022-09-22 21:36:06
+ * @FilePath: \html\三栏布局box.html
+ * @blog: https://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            /* 设置高度满屏显示，这样的话孩子百分之百才能有意义 */
+            height: 100%;
+        }
+        .left,.right {
+            width: 200px;
+            height: 100%;
+        }
+        .left {
+            background-color: red;
+            /* 设置幅度 */
+            float: left;
+        }
+        .right {
+            background-color: aqua;
+            float: right;
+        }
+
+        .center {
+            /* 中间的布局 - - 保持幅度 */
+            height: 100%;
+            background-color: blue;
+            margin-left: 200px;
+            margin-right: 200px;
+            /* 中间的也需要幅度 */
+            width: calc(100% - 200 - 200);
+            float:left;
+        }
+        
+        </style>
+</head>
+
+<body>
+	<div class = "left"></div>
+	<div class = "center"></div>    
+    <div class = "right"></div>
+
+</body>
+</html>

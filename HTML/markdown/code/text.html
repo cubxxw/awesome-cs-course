@@ -1,0 +1,42 @@
+<!--
+ * @Description: 选择文字 的属性
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-09-30 22:12:04
+ * @LastEditTime: 2022-09-30 22:15:03
+ * @FilePath: \HTML\markdown\code\text.html
+ * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::selection { 
+            /* 选择文字 的属性 */
+            background: #F00; 
+            color: #FFF; 
+        }
+        div::-moz-selection { 
+            /* 选择文字 的属性 */
+            background: #F00; 
+            color: #FFF; 
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed deserunt reiciendis placeat voluptatibus possimus, cumque neque laborum delectus cum quam, perspiciatis accusantium magni aut sit error tenetur numquam natus ea!
+    </div>
+    <div>
+    <!-- 清除div的默认样式使用 -->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed deserunt reiciendis placeat voluptatibus possimus, cumque neque laborum delectus cum quam, perspiciatis accusantium magni aut sit error tenetur numquam natus ea!
+    </div>
+
+</body>
+</html>

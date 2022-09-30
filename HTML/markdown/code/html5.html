@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 样式清除 */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body {
+            height: 100%;
+        }
+
+        header,footer{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: orange;
+        }
+
+        section{
+            /* 注意空格 */
+            height: calc(100% - 100px);
+        }
+
+        nav,aside{
+            width: 100px;
+            height: 100%;
+            background-color: #ccc;
+            /* 注意浮动起来 */
+            float: left;
+        }
+        main {
+            /* 需要设置高度为100% */
+            height: 100%;
+            float: left;
+            width: calc(100% - 200px);
+            background-color: #fff;
+        }
+    
+        aside,main p{
+            font-size: 25px;
+            color: aqua;
+        }
+        aside p{
+            font-size: 8px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 这个是头部 -->
+    <header>header</header>
+    <section>
+        <!-- 主体部分 -->
+        <!-- 左边nav -->
+        <nav>
+            <!-- 可以用figure标签 -->
+            <figure>nav</figure>
+            <h4>nav</h4>
+            <ul>
+                <li>111</li>
+                <li>222</li>
+                <li>333</li>
+            </ul>
+        </nav>
+        <main>
+            <p class="">我自己也将自己大学所做的笔记全部上传到了github和🏠<a href='http://nsddd.top'>我的博客</a></p>
+            <p><a href='https://link.zhihu.com/?target=https%3A//github.com/3293172751/cs-awesome-Block_Chain'>github仓库地址github.com/3293172751/cs-awesome-Block_Chain </a>包含了下面系列：😎菜鸟成长手册🎈CS系列、web系列、区块链系列、Golang系列......</p>
+            <p>CS 系列选自<a href='https://github.com/3293172751/awesome-cs-course'>🎉awesome-cs-course</a>，内容涵盖 计算机操作系统、csapp系列、算法和数据结构、计算机网络、<code>linux</code>、<code>java</code>、<code>python</code>、<code>C/C++</code>、<code>vuepress</code>、<code>gitbook</code>、<code>nodejs</code>、<code>vuejs</code>、<code>halo</code>、<code>redis</code>、<code>hugo</code>、<code>nginx</code>、<code>nosql</code>、<code>mysql</code>、<code>JavaScript</code>、<code>git</code>、<code>markdown</code>、<code>web</code>前端等笔记，更多移步到🚀<a href='https://github.com/3293172751/CS_COURSE'>awesome系列CS仓库地址</a></p>
+            <hr />
+            <p><strong>后期考虑做成docs-book类型，下面就是docs-book类型的docker笔记：</strong></p>
+            <ul>
+            <li><a href='https://3293172751.github.io/awesome-docker/markdown/'>docker-book在线书籍地址上线了😘😘</a></li>
+            </ul>
+        </main>
+        <!-- 右边asize -->
+        <aside>
+            <figure>asize</figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum minima ab velit quidem et quod, accusamus debitis culpa sunt! Dolor aliquam dolorum libero veniam nisi facere, obcaecati mollitia ab voluptas!</p>
+            
+        </aside>
+    </section>
+    <footer>footer</footer>
+</body>
+</html>

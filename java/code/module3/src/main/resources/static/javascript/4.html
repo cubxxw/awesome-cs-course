@@ -1,0 +1,61 @@
+<!--
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-07-15 11:26:25
+ * @LastEditors: xiongxinwei 3293172751nss@gmail.com
+ * @LastEditTime: 2022-07-16 19:38:34
+ * @FilePath: \code\4.html
+ * @Description: 
+ * 
+ * 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpport" content="width=device-width,initial-sacle=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4.heml</title>
+    <script>
+    function fn(num1,num2) {
+	    return num1,num2; 
+       //return [num1+num2,num1-num2];
+    }
+    function fn2(num1,num2,a) {
+	    //return num1,num2; 
+       return [num1+num2,num1-num2];
+    }
+    var re = fn(123,123);
+    var re1 = fn2(123,12123);
+    alert(re);
+    alert(re1);
+
+    var x = 123129;
+    alert("x="+x);
+    x = (0 + x)<<100;
+    y = x ** 100;
+    alert("x="+x);   //x=1970064
+    alert("y="+y);   //y=Infinity
+    function fn3(){
+        var max = 0;
+        var min = (0 + arguments.length)>>1;
+        alert(min);
+        for(var i=0;i<arguments.length;i++){
+            if(max<arguments[i]){
+                max = arguments[i];
+            }
+        }
+        console.log(arguments); //arguments里面存储所有传进来的实参
+        console.log(arguments.length)   //1. 具有数组的长度
+        console.log(arguments[2]);   
+        return max;
+    }
+    a = fn3(123,1231,12,3,1,2,3,2);
+    b = fn3(123,123,1,3,1,3,1,23,234,12);
+    alert(a);
+    alert(b);
+    </script>
+</head>
+<body>
+</body>
+</html>

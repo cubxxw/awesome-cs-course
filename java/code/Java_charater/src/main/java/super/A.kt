@@ -1,0 +1,4 @@
+package `super`
+
+class A {
+}

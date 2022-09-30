@@ -1,0 +1,35 @@
+<!--
+ * @Description: Html音频标签
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-09-29 22:19:48
+ * @LastEditTime: 2022-09-29 22:24:27
+ * @FilePath: \code\html\misic.html
+ * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        之前的霸主flash,由于安全性、计算资源使用效率低下等问题，逐渐被HTML5取代。HTML5的出现，使得网页可以直接播放音频和视频，而不需要安装插件。HTML5的音频标签有两个，分别是audio和video，其中audio用于播放音频，video用于播放视频。
+    </p>
+    <h2>音频标签</h2>
+    <audio src = "../music/1.mp3" controls = "controls" autoplay = "autoplay" loop = "loop" preload = "auto" >
+        <!-- 用于浏览器不支持audio标签的情况 -->
+        <embed src = "../music/1.mp3" autostart = "true" hidden = "true" loop = "true">
+    </audio>
+    <!-- controls 控制栏
+        loop: 循环播放
+        autoplay: 自动播放
+        preload: 预加载
+        muted: 静音
+        src: 指定音频文件的路径
+    -->
+</body>
+</html>
