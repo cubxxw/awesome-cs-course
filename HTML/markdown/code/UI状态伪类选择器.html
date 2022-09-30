@@ -1,0 +1,90 @@
+<!--
+ * @Description: UI状态伪类选择器
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-09-30 21:58:57
+ * @LastEditTime: 2022-09-30 22:07:03
+ * @FilePath: \HTML\markdown\code\UI状态伪类选择器.html
+ * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:enabled { 
+            /* UI状态伪类选择器 */
+            background: #5FF;   
+        }
+        input:disabled{
+            /* 设置禁用状态 */
+            background: #F55;
+        }
+        input:checked{
+            /* 设置选中状态 */
+            background: #FF5;
+        }
+        input:indeterminate{
+            /* 设置不确定状态 */
+            background: #F5F;
+        }
+        input:default{
+            /* 设置默认状态 */
+            background: #5F5;
+        }
+        input:valid{
+            /* 设置有效状态 */
+            background: #55F;
+        }
+        input:invalid{
+            /* 设置无效状态 */
+            background: #F55;
+        }
+        input:in-range{
+            /* 设置在范围内状态 */
+            background: #5FF;
+        }
+/* 
++ `input:enabled` 选择器匹配所有启用的 `<input>` 元素。
++ `input:disabled` 选择器匹配所有禁用的 `<input>` 元素。
++ `input:checked` 选择器匹配所有被选中的 `<input>` 元素。
++ `input:indeterminate` 选择器匹配所有不确定的 `<input>` 元素。
++ `input:default` 选择器匹配所有默认的 `<input>` 元素。
++ `input:valid` 选择器匹配所有有效的 `<input>` 元素。
++ `input:invalid` 选择器匹配所有无效的 `<input>` 元素。
++ `input:in-range` 选择器匹配所有在范围内的 `<input>` 元素。
++ `input:out-of-range` 选择器匹配所有在范围外的 `<input>` 元素。
++ `input:required` 选择器匹配所有必填的 `<input>` 元素。
++ `input:optional` 选择器匹配所有非必填的 `<input>` 元素。
++ `input:read-only` 选择器匹配所有只读的 `<input>` 元素。
++ `input:read-write` 选择器匹配所有可读写的 `<input>` 元素。
++ `input:placeholder-shown` 选择器匹配所有显示了占位符的 `<input>` 元素。
++ `input:target` 选择器匹配所有当前锚点的 `<input>` 元素。
++ `input:root` 选择器匹配所有根元素的 `<input>` 元素。
++ `input:empty` 选择器匹配所有空的 `<input>` 元素。
++ `input:link` 选择器匹配所有未访问的 `<input>` 元素。
++ `input:visited` 选择器匹配所有已访问的 `<input>` 元素。
++ `input:active` 选择器匹配所有活动的 `<input>` 元素。
++ `input:hover` 选择器匹配所有鼠标悬停的 `<input>` 元素。
++ `input:focus` 选择器匹配所有获得焦点的 `<input>` 元素。
++ `input:lang(language)` 选择器匹配所有指定语言的 `<input>` 元素。
++ `input:dir(ltr)` 选择器匹配所有从左到右的 `<input>` 元素。
++ `input:dir(rtl)` 选择器匹配所有从右到左的 `<input>` 元素。
++ `input:enabled` 选择器匹配所有启用的 `<input>` 元素。
++ `input:disabled` 选择器匹配所有禁用的 `<input>` 元素。
+
+ */
+    </style>
+</head>
+<body>
+    <form action="">
+    用户名<input type="text"><br>
+    密码<input type="password"><br>
+    记住密码<input type="checkbox"><br>
+    <input type="submit" value="提交" disabled>
+    <!-- disabled表示禁用 -->
+</body>
+</html>

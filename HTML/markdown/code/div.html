@@ -1,0 +1,86 @@
+<!--
+ * @Description: 
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-09-30 21:39:09
+ * @LastEditTime: 2022-09-30 21:49:17
+ * @FilePath: \HTML\markdown\code\div.html
+ * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body ul li:nth-child(2n){
+            /* 偶数 */
+            background-color: yellow;
+        }
+        body ul li:nth-child(2n+1){
+            /* 奇数 */
+            background-color: green;
+        }
+        body ul li:nth-child(2n+1):hover{
+            /* 奇数 */
+            background-color: blue;
+        }
+        li:nth-child(2),li:nth-child(4){
+            /* 1、4位置红色 */
+            background-color: red;
+        }
+
+        </style>
+</head>
+<body>
+    <ul>
+    <li>111</li>
+    <li>222</li>
+    <li>333</li>
+    <li>1111</li>
+    <li>2222</li>
+    <li>3333</li>
+    </ul>
+    <!-- 
+    + `div:last-child` 选择器选择父元素的最后一个子元素
+    + `div:last-of-type` 选择器选择父元素的最后一个同类型的子元素
+    + `div:first-child` 选择器选择父元素的第一个子元素
+    + `div:first-of-type` 选择器选择父元素的第一个同类型的子元素
+    + `div:nth-child(n)` 选择器选择父元素的第n个子元素
+    + `div:nth-of-type(n)` 选择器选择父元素的第n个同类型的子元素
+    + `div:nth-last-child(n)` 选择器选择父元素的倒数第n个子元素
+    + `div:nth-last-of-type(n)` 选择器选择父元素的倒数第n个同类型的子元素
+    + `div:only-child` 选择器选择父元素的唯一子元素
+    + `div:only-of-type` 选择器选择父元素的唯一同类型的子元素
+    + `div:empty` 选择器选择没有子元素的元素
+    + `div:target` 选择器选择当前活动的元素
+    + `div:enabled` 选择器选择可用的元素
+    + `div:disabled` 选择器选择不可用的元素
+    + `div:checked` 选择器选择被选中的元素
+    + `div:not(selector)` 选择器选择不匹配指定选择器的元素
+    -->
+    <!-- 
+目标伪类选择器:
++ `:target` 选择器选择当前活动的元素
++ `:enabled` 选择器选择可用的元素
++ `:disabled` 选择器选择不可用的元素
++ `:checked` 选择器选择被选中的元素
++ `:not(selector)` 选择器选择不匹配指定选择器的元素
+
++ `div::selection` 选择器选择被用户选取的元素部分
++ `div::before` 选择器在元素之前插入内容
++ `div::after` 选择器在元素之后插入内容
++ `div::first-letter` 选择器选择元素的第一个字母
++ `div::first-line` 选择器选择元素的第一行
++ `div::marker` 选择器选择列表元素的标记
++ `div::placeholder` 选择器选择元素的占位符文本
++ `div::backdrop` 选择器选择元素的背景
++ `div::spelling-error` 选择器选择拼写错误的元素部分
++ `div::grammar-error` 选择器选择语法错误的元素部分
+
+     -->
+
+</body>
+</html>

@@ -2,7 +2,7 @@
  * @Description: HTML表单选项列表
  * @Author: xiongxinwei 3293172751nss@gmail.com
  * @Date: 2022-09-29 23:09:58
- * @LastEditTime: 2022-09-29 23:18:40
+ * @LastEditTime: 2022-09-30 12:50:28
  * @FilePath: \code\html\表单选项列表.html
  * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
  * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
@@ -31,5 +31,28 @@
         <option value="http://cub.nsddd.top">
         <option value="http://cub.nsddd.top/MP4.mp4">
     </datalist>
+    
+    <!-- 
+        autofocus属性：自动获取焦点
+        required属性：必填项,表示验证码不可以为空
+        multiple属性：多选，可以输入一个或者多个值，中间用逗号隔开
+        pattern属性：正则表达式，表示输入的值必须符合正则表达式的规则
+     -->
+     <form action=""></form>
+     
+        用户名:<input type="text" name="username" autofocus required multiple pattern="^[a-zA-Z0-9_]{6,16}$">
+        <!-- 
+            pattern="^[a-zA-Z0-9_]{6,16}$"表示用户名必须是6-16位的字母数字下划线
+         -->
+        密码:<input type="password" name="password" required pattern="^[a-zA-Z0-9_]{6,16}$">
+        <!-- 
+            pattern="^[a-zA-Z0-9_]{6,16}$"表示密码必须是6-16位的字母数字下划线
+         -->
+        验证码:<input type="text" name="code" required pattern="^[a-zA-Z0-9_]{4}$">
+        <!-- 
+            pattern="^[a-zA-Z0-9_]{4}$"表示验证码必须是4位的字母数字下划线
+         -->
+        <input type="submit" value="提交">
+    </form>
 </body>
 </html>
