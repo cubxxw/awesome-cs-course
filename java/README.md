@@ -58,11 +58,11 @@
 
   - [第7节 CS架构–开发Web程序](markdown/7.md)
 
-  - [第8节 Java面对对象特征](markdown/8.md)
+  - [第8节 Java面对对象特征–上册](markdown/8.md)
 
-  - [第9节 jsp](markdown/9.md)
+  - [第9节 java面对对象—中册](markdown/9.md)
 
-  - [第10节 SpintBoot介绍和使用](markdown/10.md)
+  - [第10节 Java面对对象–下册](markdown/10.md)
 
   - [第11节 java链表](markdown/11.md)
 
@@ -100,11 +100,11 @@
 
   - [第28节 Java的进制](markdown/28.md)
 
-  - [](markdown/29.md)
+  - [第29节 数组的扩容缩容](markdown/29.md)
 
-  - [](markdown/30.md)
+  - [第30节 Java-Jsp](markdown/30.md)
 
-  - [](markdown/31.md)
+  - [第31节 Java SpintBoot框架介绍和使用](markdown/31.md)
 
   - [](markdown/32.md)
 

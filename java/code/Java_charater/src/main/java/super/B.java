@@ -1,4 +1,0 @@
-package `super`
-
-class B {
-}
