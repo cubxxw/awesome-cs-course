@@ -58,6 +58,8 @@
 
 📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://interview.huihut.com">📚 Docsify 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存（[打印预览.png](https://gitee.com/huihut/interview/raw/master/images/打印预览.png)）
 
+👣 存在数学公式无法正常显示问题，强烈推荐[:triangular_ruler: MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 插件使用。
+
 🙏 仓库内容如有错误或改进欢迎 issue 或 pr，建议或讨论可在 [#12](https://github.com/huihut/interview/issues/12) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 issue 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
     
 </details>
@@ -73,6 +75,16 @@
 >  **更多请移步[菜鸟的成长手册](https://github.com/3293172751/cs-awesome-Block_Chain)，涉及😎菜鸟成长手册🎈CS系列、web系列、区块链系列、Golang系列......**
 
 + [x] [菜鸟的成长手册](https://github.com/3293172751/cs-awesome-Block_Chain)
+
+
+
+## 🔥CubDoc推出
+
+🈺 存在`GitHub`上浏览效果不佳，[Cub链学社](https://github.com/C-UB)推出`CubDoc`文档形式，使用`vuejs`渲染 。使用国内的服务器搭建（速度嘎快:bullettrain_front:) 。目前支持以下的项目🗃️：
+
++ [x] [:speedboat: Go语言基础-进阶](https://go.nsddd.top)
+
++ [x] [:speedboat: docker基础-进阶](https://docker.nsddd.top)
 
 
 

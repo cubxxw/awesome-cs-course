@@ -99,8 +99,8 @@ git reflog
 
 ## 总结
 
-  Git允许我们使用命令`git reset --hard commit_id`在版本的历史之间切换。
- 　HEAD可以用来替换commit_id，HEAD指向的版本是当前版本，上一个版本就是HEAD^ ，上上一个版本就是HEAD^^ ，往上100个版本写成HEAD~100。
- 　当然了，^和~这两个特殊符号，除了用在HEAD上外，还可以用在<branchName>上或Commit ID上。如master^，代表master的上一个版本；1f2f476~1代表Commit ID为1f2f476的上一个版本。
- 　可以用git log可以查看提交历史，或者用git reflog查看命令历史，以便确定要切换的版本的版本号。
+1. Git允许我们使用命令`git reset --hard commit_id`在版本的历史之间切换。
+2. `HEAD`可以用来替换`commit_id`，`HEAD`指向的版本是当前版本，上一个版本就是`HEAD^` ，上上一个版本就是`HEAD^^` ，往上100个版本写成`HEAD~100`。
+3. 当然了，`^`和`~`这两个特殊符号，除了用在`HEAD`上外，还可以用在`<branchName>`上或Commit ID上。如`master^`，代表`master`的上一个版本；`1f2f476~1`代表Commit ID为`1f2f476`的上一个版本。
+4. 可以用`git log`可以查看提交历史，或者用`git reflog`查看命令历史，以便确定要切换的版本的版本号。
 
