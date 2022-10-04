@@ -1,4 +1,4 @@
-# Java速成篇
+# ☕Java
 
 ---
 
@@ -58,7 +58,7 @@
 
   - [第7节 CS架构–开发Web程序](markdown/7.md)
 
-  - [第8节 Java面对对象特征–上册](markdown/8.md)
+  - [第8节 Java面对对象–上册](markdown/8.md)
 
   - [第9节 java面对对象—中册](markdown/9.md)
 
