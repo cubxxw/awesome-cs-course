@@ -17,54 +17,54 @@
 
 ## 目录
 
-  - [第1节 ipython和python基本语法](markdown/1.md)
+  - [🐍 第1节 ipython和python基本语法](markdown/1.md)
 
-  - [第2节 字符串](markdown/2.md)
+  - [🐍 第2节 字符串](markdown/2.md)
 
-  - [第3节 布尔值和运算符](markdown/3.md)
+  - [🐍 第3节 布尔值和运算符](markdown/3.md)
 
-  - [第4节 Python列表(list)](markdown/4.md)
+  - [🐍 第4节 Python列表(list)](markdown/4.md)
 
-  - [第5节 python元组(tuple)](markdown/5.md)
+  - [🐍 第5节 python元组(tuple)](markdown/5.md)
 
-  - [第6节 python的集合(set)](markdown/6.md)
+  - [🐍 第6节 python的集合(set)](markdown/6.md)
 
-  - [第7节 Python字典(dict)](markdown/7.md)
+  - [🐍 第7节 Python字典(dict)](markdown/7.md)
 
-  - [第8节 python分支循环](markdown/8.md)
+  - [🐍 第8节 python分支循环](markdown/8.md)
 
-  - [第9节 python函数](markdown/9.md)
+  - [🐍 第9节 python函数](markdown/9.md)
 
-  - [第10节 Python类和对象](markdown/10.md)
+  - [🐍 第10节 Python类和对象](markdown/10.md)
 
-  - [第11节 python继承](markdown/11.md)
+  - [🐍 第11节 python继承](markdown/11.md)
 
-  - [第12节 python迭代器和python的范围](markdown/12.md)
+  - [🐍 第12节 python迭代器和python的范围](markdown/12.md)
 
-  - [第13节 Python模块](markdown/13.md)
+  - [🐍 第13节 Python模块](markdown/13.md)
 
-  - [第14节 python时间日期](markdown/14.md)
+  - [🐍 第14节 python时间日期](markdown/14.md)
 
-  - [第15节 python数学](markdown/15.md)
+  - [🐍 第15节 python数学](markdown/15.md)
 
-  - [第16节 pip](markdown/16.md)
+  - [🐍 第16节 pip](markdown/16.md)
 
-  - [第17节 异常处理](markdown/17.md)
+  - [🐍 第17节 异常处理](markdown/17.md)
 
-  - [第18节 python文件处理](markdown/18.md)
+  - [🐍 第18节 python文件处理](markdown/18.md)
 
-  - [第19节 NumPy教程](markdown/19.md)
+  - [🐍 第19节 NumPy教程](markdown/19.md)
 
-  - [第20节 DjanGo构建web](markdown/20.md)
+  - [🐍 第20节 DjanGo构建web](markdown/20.md)
 
-  - [第21节 SciPy](markdown/21.md)
+  - [🐍 第21节 SciPy](markdown/21.md)
 
-  - [第22节 pandas](markdown/22.md)
+  - [🐍 第22节 pandas](markdown/22.md)
 
-  - [第23节 matplotlib](markdown/23.md)
+  - [🐍 第23节 matplotlib](markdown/23.md)
 
-  - [第24节 机器学习](markdown/24.md)
-
+  - [🐍 第24节 机器学习](markdown/24.md)
+<!--
   - [](markdown/25.md)
 
   - [](markdown/26.md)
@@ -117,7 +117,7 @@
 
   - [](markdown/50.md)
 
-
+-->
 
 
 

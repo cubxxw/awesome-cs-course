@@ -1,8 +1,8 @@
-# markdown：
+# markdown
 
 [TOC]
 
-
+## ⚡ markdown基础
 
 <!--downmarkdown也是我刚上手不久的一款笔记软件-->
 
@@ -258,7 +258,7 @@ void main()
 
 
 
-### markdown插入图片：
+### markdown插入图片
 
 markdown插入图片是一个很特别的功能，并不仅仅是你复制粘贴所得到的那么简明。
 
@@ -278,7 +278,7 @@ markdown插入图片是一个很特别的功能，并不仅仅是你复制粘贴
 
 ​		使用HTML对图片基本操作
 
-![](https://i.loli.net/2021/11/21/XjbE3uvHoTCFaUl.jpg)
+![](./images/XjbE3uvHoTCFaUl.jpg)
 
 ------
 

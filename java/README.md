@@ -48,11 +48,11 @@
 
   - [第2节 面向对象基础](markdown/2.md)
 
-  - [第3节 异常](markdown/3.md)
+  - [第3节 Java的异常](markdown/3.md)
 
   - [第4节 java和jshell基础](markdown/4.md)
 
-  - [第5节 Java工具](markdown/5.md)
+  - [第5节 Java工具和调试](markdown/5.md)
 
   - [第6节 数据类型、方法、包](markdown/6.md)
 

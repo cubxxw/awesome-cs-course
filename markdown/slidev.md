@@ -163,7 +163,7 @@ theme: vuestorefront
 ---
 ```
 
-![](https://sm.nsddd.top/image-20220728204844253.png?mail:3293172751@qq.com)
+![好看](https://sm.nsddd.top/image-20220728204844253.png?mail:3293172751@qq.com)
 
 
 
@@ -266,8 +266,6 @@ $ slidev export --format png
 ## 单页应用（SPA）
 
 请参阅 [静态部署](https://cn.sli.dev/guide/hosting.html) 章节。
-
-
 
 
 

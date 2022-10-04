@@ -1,28 +1,38 @@
 # markdown
+
+[toc]
+
+## 前言 — markdown是什么？
+
 markdown是一个程序员必备记笔记的工具，它支持windows,linux,max而且适用于很多的场合，清量、美观是它的优点
-# markdown：
 
-[TOC]
+## markdown的高级技巧
 
-+ #### [markdown基础技巧](markdown.md)
+> 作为一个**重度**的markdown用户，基础的技巧是没有办法满足我的，高级技巧带来更多精彩。
 
-+ #### [markdown高级技巧](高级技巧.md)
++ [ ] [markdown基础技巧](markdown.md)
 
-+ #### [markdown数学符号](math数学符号.md)
++ [ ] [markdown高级技巧](高级技巧.md)
 
-+ #### [markdown流程图](1.md)
++ [ ] [markdown数学符号](math数学符号.md)
 
-+ #### [markdown字体字号](2.md)
++ [ ] [markdown流程图](1.md)
 
-+ ### [markdown脚注](3.md)
++ [ ] [markdown字字号](2.md)
+
++ [ ] [markdown脚注](3.md)
 
 
+
+## 番外篇
 
 > 我们可以用markdown还能做些什么？
 
 1. [slidev](slidev.md)使用markdown做出精美的PPT
 2. [VuePress](https://github.com/3293172751/vuepress)做出精美的文档
 3. [Markmap](markmap.md)做出好看的流程图
+
+
 
 
 

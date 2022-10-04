@@ -1,3 +1,5 @@
+# nodejs
+
 [😶‍🌫️XML学习指南（需外网）](https://www.w3schools.com/xml/default.asp)
 
 >   学习资料很全，推荐！！！！
@@ -6,63 +8,64 @@
 
 ---
 
-**区块链技术（也称之为分布式账本技术）**，是一种互联网数据库技术，其特点是去中心化，公开透明，让每一个人均可参与的数据库记录
+<br>
 
->   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
->
->   <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长"> <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"> </a>
+<details><summary>💡 关于</summary>
 
----
 
-# XML
+⚠️这是一个菜鸟的成长记录，如果你也想成为工程师，想从事后端的相关工作，或者想了解区块链的相关知识，那么它可以帮助到你😎喜欢可以给个⭐
 
-## 为什么要学习 XML？
+💡 侧边目录支持方式：[📚 Docsify 文档](https://interview.huihut.com)、[Github + TOC 导航](https://github.com/jawil/GayHub)（[TOC预览.png](https://gitee.com/huihut/interview/raw/master/images/TOC预览.png)）
 
-> 1. XML 在许多不同的 IT 系统中发挥着重要作用。
->
-> 2. XML 通常用于在 Internet 上分发数据。
->
-> 3. 对 XML 有很好的理解是很重要的（对于所有类型的软件开发人员！）。
+📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://interview.huihut.com">📚 Docsify 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存（[打印预览.png](https://gitee.com/huihut/interview/raw/master/images/打印预览.png)）
+
+👣 存在数学公式无法正常显示问题，强烈推荐[:triangular_ruler: MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 插件使用。
+
+🙏 仓库内容如有错误或改进欢迎 issue 或 pr，建议或讨论可在 [#12](https://github.com/huihut/interview/issues/12) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 issue 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
+    
+</details>
+
+
 
 ## 目录
 
-#### 1. [](1.md)
+#### 1. [Node.js 教程](1.md)
 
-#### 2. [](2.md)
+#### 2. [Node.js 安装配置](2.md)
 
-#### 3. [](3.md)
+#### 3. [Node.js 创建第一个应用](3.md)
 
-#### 4. [](4.md)
+#### 4. [NPM 使用介绍](4.md)
 
-#### 5. [](5.md)
+#### 5. [简单入手](5.md)
 
-#### 6. [](6.md)
+#### 6. [Node.js REPL(交互式解释器)](6.md)
 
-#### 7. [](7.md)
+#### 7. [Node.js Web 模块](7.md)
 
-#### 8. [](8.md)
+#### 8. [ http模块，根据不同的url响应不同的html内容](8.md)
 
-#### 9. [](9.md)
+#### 9. [实现clock时钟的web服务器 ](9.md)
 
-#### 10. [](10.md)
+#### 10. [模块化](10.md)
 
-#### 11. [](11.md)
+#### 11. [module对象](11.md)
 
-#### 12. [](12.md)
+#### 12. [npm和包](12.md)
 
-#### 13. [](13.md)
+#### 13. [包的管理工具](13.md)
 
-#### 14. [](14.md)
+#### 14. [npm包的问题和镜像](14.md)
 
-#### 15. [](15.md)
+#### 15. [模块的加载机制](15.md)
 
-#### 16. [](16.md)
+#### 16. [express – 认识express并创建基本的额web服务器](16.md)
 
-#### 17. [](17.md)
+#### 17. [托管静态资源](17.md)
 
-#### 18. [](18.md)
+#### 18. [Express路由](18.md)
 
-#### 19. [](19.md)
+#### 19. [express中间件](19.md)
 
 #### 20. [](20.md)
 

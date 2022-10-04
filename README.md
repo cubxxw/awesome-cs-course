@@ -114,7 +114,7 @@
 
 + [ ] [🎉🔖Vue.js](vue/README.md)
 
-+ [ ] [🎉🔖node.js](node/README.md)
++ [x] [🎉🔖node.js](node/README.md)
 
 + [x] [🎉🔖操作系统OS](https://github.com/3293172751/os)
 
