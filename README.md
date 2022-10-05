@@ -127,7 +127,7 @@
 
 + [x] [🎉🔖Git](Git/README.md)
 
-+ [x] [🎉🔖vuepress](Git/README.md)
++ [x] [🎉🔖vuepress | v2](./vuepress2/vuepress2/docs/markdown/README.md)
 
 + [x] [🎉🔖Gitbook](gitbook/README.md)
 
