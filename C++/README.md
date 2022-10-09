@@ -97,9 +97,7 @@
 
 [svn新建trunk 和 分支](https://blog.csdn.net/chaozi2008/article/details/45073949)
 
-# 感谢支持
 
-![](https://github.com/Ewenwan/EwenWan/blob/master/zf.jpg)
 
 # Git
 
