@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 引用 jdbc.properties 配置文件 -->
+    <properties resource="jdbc.properties"></properties>
+
+    <!-- typeAliases 设置类型别名 -->
+    <typeAliases>
+        <typeAlias alias="User" type="com.noteligible.pojo.User"/>
+    </typeAliases>
+
+    <!-- environments 环境配置 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 使用jdbc事务管理 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 数据库连接池 -->
+            <!-- 数据库连接相关配置 ,这里动态获取jdbc.properties文件中的内容-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 加载 mapper 映射文件 -->
+    <mappers>
+        <mapper resource="com/noteligible/mapper/UserMapper.xml"/>
+    </mappers>
+</configuration>
