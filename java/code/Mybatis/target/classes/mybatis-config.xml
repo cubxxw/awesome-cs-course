@@ -4,18 +4,18 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!-- 引用 jdbc.properties 配置文件 -->
-    <properties resource="jdbc.properties"></properties>
+    <properties resource="jdbc.properties"/>
 
     <!-- typeAliases 设置类型别名 -->
     <typeAliases>
-        <typeAlias alias="User" type="com.noteligible.pojo.User"/>
-    </typeAliases>
+        <typeAlias alias="User" type="org.example.User"/>
+   </typeAliases>
 
     <!-- environments 环境配置 -->
     <environments default="development">
         <environment id="development">
             <!-- 使用jdbc事务管理 -->
-            <transactionManager type="JDBC"></transactionManager>
+            <transactionManager type="JDBC"/>
             <!-- 数据库连接池 -->
             <!-- 数据库连接相关配置 ,这里动态获取jdbc.properties文件中的内容-->
             <dataSource type="POOLED">
@@ -29,6 +29,6 @@
 
     <!-- 加载 mapper 映射文件 -->
     <mappers>
-        <mapper resource="com/noteligible/mapper/UserMapper.xml"/>
+        <mapper resource="UserMapper.xml"/>
     </mappers>
 </configuration>

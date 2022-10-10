@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespca: 命名空间  后面会详细讲
+    id: sql的唯一标识  不能重复
+    parameterType: 参数类型
+    resultType: 返回值类型， 对应的是包路径  org.example.User
+-->
+<mapper namespace="org.mybatis.example.BlogMapper">
+    <select id="selectall" resultType="org.example.User">
+        select * from tb_user;
+    </select>
+</mapper>
