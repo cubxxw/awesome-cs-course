@@ -20,7 +20,7 @@
             <!-- 数据库连接池 -->
             <!-- 数据库连接相关配置 ,这里动态获取jdbc.properties文件中的内容-->
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306"/>
                 <property name="username" value="root"/>
                 <property name="password" value="$123456"/>
