@@ -1,0 +1,81 @@
+<!--
+ * @Description: 清除浮动
+ * @Author: xiongxinwei 3293172751nss@gmail.com
+ * @Date: 2022-10-12 19:51:14
+ * @LastEditTime: 2022-10-12 20:05:18
+ * @FilePath: \code\7.html
+ * @Github_Address: https://github.com/3293172751/cs-awesome-Block_Chain
+ * Copyright (c) 2022 by xiongxinwei 3293172751nss@gmail.com, All Rights Reserved. @blog: http://nsddd.top
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-清浮动</title>
+    <style>
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            float: left;
+        }
+
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            float: left;
+        }
+
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            float: left;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            float: left;
+        }
+        .box4{
+            width: 100px;
+            height: 100px;
+            background-color: #555;
+            /* 清除浮动 */
+            clear: both;
+        }
+
+        .container{
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            /* 清除浮动 */
+            /* overflow: hidden; */
+             clear: both;  /* both是指清除左右浮动 */
+        }
+    </style>
+</head>
+<body>
+    <h2>样例一</h2>
+   <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box"></div>
+   </div>
+   <h2>样例二</h2>
+   <div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box"></div>
+   </div>
+</body>
+</html>

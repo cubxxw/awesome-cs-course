@@ -1,0 +1,67 @@
+/* 基本的css框架 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*box-sizing的意思是，如果你设置了一个元素的宽度，那么这个宽度就是这个元素的内容宽度，而不是包括padding和border的宽度*/
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+/* 图片 */
+img {
+    width: 20%;
+    height: 20%;
+}
+
+/*header，section,footer*/
+header,section,footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin是外边距，auto是自动，意思是让这个元素居中 */
+}
+
+/*header,footer*/
+header,footer {
+    height: 100px;
+    background-color: #f00;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content是水平方向的对齐方式，space-between是两端对齐，align-items是垂直方向的对齐方式，center是居中对齐 */
+}
+
+section {
+    height: 500px;
+    background-color: #0f0;
+}
+
+.left {
+    width: 200px;
+    height: 100%;
+    background-color: #00f;
+}
+
+.right {
+    flex: 1;
+    height: 100%;
+    background-color: #0ff;
+}
+
+footer {
+    height: 100px;
+    background-color: #f0f;
+}
+
+/* 以上是css的基本框架，下面是html的基本框架 */

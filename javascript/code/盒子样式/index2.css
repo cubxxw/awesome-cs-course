@@ -1,0 +1,5 @@
+/* 图片缩放 */
+img {
+    max-width: 20%;
+    height: auto;
+}
