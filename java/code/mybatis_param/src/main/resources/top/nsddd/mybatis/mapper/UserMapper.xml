@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.nsddd.mybatis.mapper.UserMapper"><!--要和mapper接口的全类名一致-->
+
+    <select id="getUserList" resultType="User">
+        select * from tb_user where username = '${username}'
+    </select>
+</mapper>
