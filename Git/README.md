@@ -119,8 +119,8 @@
 
 ## github教程
 
-+ [x] [基于 Github Action 的 CI/CD 流程](./markdown/cicd.md)
-+ [ ] 基于 Github Action 的 CI/CD 流程
++ [x] [基于 Github Action 的 CI/CD 流程](https://nsddd.top/archives/actions)
++ [x] [保持自己github的forks自动和上游仓库同步并推送到 gitee](http://nsddd.top/archives/git-fork)
 
 
 
