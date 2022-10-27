@@ -170,11 +170,52 @@
 
 + [x] [记录](https://nsddd.top/archives/sealos-one)
 
+> 统一格式：
+>
+> ```bash
+> 统一格式：git commit -m 'type(scope): 描述(#issue)'
+> ```
+
 我们在提交的时候带上邮箱信息：`-s`
 
 ```
 git commit -s -m "..."
 ```
+
+> `git commit`艺术：
+>
+> ```bash
+> <类型>[可选 范围]: <描述>
+> [可选 正文]
+> [可选 脚注]
+> ```
+>
+> `git commit`提交类型可以是如下：
+>
+> 1. `feat`：新功能（feature）
+> 2. `fix`：修补bug
+> 3. `docs`：文档（documentation）
+> 4. `style`： 格式（不影响代码运行的变动）
+> 5. `refactor`：重构（即不是新增功能，也不是修改bug的代码变动）
+> 6. `test`：增加测试
+> 7. `chore`：构建过程或辅助工具的变动
+> 8. `perf`：性能优化
+> 9. `revert`：回滚
+> 10. `build`：构建
+> 11. `ci`：持续集成
+> 12. `update`：更新
+> 13. `add`：添加
+> 14. `delete`：删除
+> 15. `init`：初始化
+> 16. `merge`：合并
+> 17. `move`：移动
+> 18. `rename`：重命名
+> 19. `sync`：同步
+> 20. `release`：发布
+> 21. `hotfix`：修复线上问题
+> 22. `optimize`：优化
+
+
 
 
 
