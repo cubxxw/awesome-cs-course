@@ -37,9 +37,7 @@
 + [grep文本过滤器](./linux-web/11.md)
 + [sed文本编辑工具](./linux-web/12md)
 + [awk格式化wen'ben](./linux-web/13.md)
-
-
-
++ [🫡第10节 scp和rsync](./linux-web/14.md)
 
 
 
