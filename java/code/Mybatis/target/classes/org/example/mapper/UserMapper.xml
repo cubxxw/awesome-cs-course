@@ -8,7 +8,7 @@
     parameterType: 参数类型
     resultType: 返回值类型， 对应的是包路径  org.example.User
 -->
-<mapper namespace="org.mybatis.example.BlogMapper">
+<mapper namespace="org.example.mapper.UserMapper"> <!--接口对应文件-->
     <select id="selectall" resultType="org.example.User">
         select * from tb_user;
     </select>

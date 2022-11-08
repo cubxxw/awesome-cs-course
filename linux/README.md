@@ -26,6 +26,8 @@
 
 - [x] [😎第8节 wget命令](./linux-web/8.md)
 - [x] [👍第9节 bash特性](./linux-web/9.md)
+- [x] [🫡第10节 scp和rsync](./linux-web/14.md)
+- [x] [🫰第11节 curl命令](./linux-web/15.md)
 
 
 
@@ -36,8 +38,7 @@
 + [正则表达式](./linux-web/10.md)
 + [grep文本过滤器](./linux-web/11.md)
 + [sed文本编辑工具](./linux-web/12md)
-+ [awk格式化wen'ben](./linux-web/13.md)
-+ [🫡第10节 scp和rsync](./linux-web/14.md)
++ [awk格式化文本](./linux-web/13.md)
 
 
 
