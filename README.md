@@ -105,47 +105,66 @@
 
 ## 🗒️CS系列
 
-+ [x] [🎉🔖Java全](java/README.md)
++ [x] [🎉 Java全](java/README.md)
 
-+ [x] [🎉🔖python](python3/README.md)
++ [x] [🎉 python](python3/README.md)
 
-+ [x] [🎉🔖HTML和CSS](HTML/README.md)
++ [x] [🎉 HTML和CSS](HTML/README.md)
 
-+ [x] [🎉🔖JavaScript](javascript/README.md)
++ [x] [🎉 JavaScript](javascript/README.md)
 
-+ [ ] [🎉🔖Vue.js](vue/README.md)
++ [ ] [🎉 Vue.js](vue/README.md)
 
-+ [x] [🎉🔖node.js](node/README.md)
++ [x] [🎉 node.js](node/README.md)
 
-+ [x] [🎉🔖操作系统OS](https://github.com/3293172751/os)
++ [x] [🎉 操作系统OS](https://github.com/3293172751/os)
 
-+ [x] [🎉🔖计算机网络](www/README.md)
++ [x] [🎉 计算机网络](www/README.md)
 
-+ [x] [🎉🔖Linux](linux/README.md)
++ [x] [🎉 Linux](linux/README.md)
 
-+ [x] [🎉🔖markdown](markdown/README.md)
++ [x] [🎉 markdown](markdown/README.md)
 
-+ [x] [🎉🔖Git](Git/README.md)
++ [x] [🎉 Git](Git/README.md)
 
-+ [x] [🎉🔖vuepress | v2](./vuepress2/vuepress2/docs/markdown/README.md)
++ [x] [🎉 vuepress | v2](./vuepress2/vuepress2/docs/markdown/README.md)
 
-+ [x] [🎉🔖Gitbook](gitbook/README.md)
++ [x] [🎉 Gitbook](gitbook/README.md)
 
-+ [x] [🎉🔖创新创业](创新创业/README.md)
++ [x] [🎉 创新创业](创新创业/README.md)
 
-+ [x] [🎉🔖nginx](Nginx/README.md)
++ [x] [🎉 nginx](Nginx/README.md)
 
-+ [x] [🎉🔖MySql](mysql/README.md)
++ [x] [🎉 MySql](mysql/README.md)
 
-+ [ ] [🎉🔖Redis](mysql/README.md)
++ [ ] [🎉 Redis](mysql/README.md)
 
-+ [ ] [🎉🔖Mongodb](mysql/README.md)
++ [ ] [🎉 Mongodb](mysql/README.md)
 
-+ [x] [🎉🔖xml](xml/README.md)
++ [x] [🎉 xml](xml/README.md)
 
-+ [ ] [🎉🔖json](json/README.md)
++ [ ] [🎉 json](json/README.md)
 
-+ [ ] [🎉🔖C++](C++/README.md)
++ [ ] [🎉 C++](C++/README.md)
+
++ [x] [⚡ hadoop分布式集群](https://github.com/cubxxw/big_data)
+
+
+
+## 🏄‍♂️ 未来规划
+
+> 未来的文章尽可能精简，而且大量使用 英文规范~
+
+1. [rust](https://rust.nsddd.top) 
+2. [分布式 MIT 6.824](https://pdos.csail.mit.edu/6.824/schedule.html)
+3. docker 手撸
+4. kubernetes 源码
+5. fabric 源码
+6. go 源码
+7. go - cgo - 汇编
+8. go2
+
+
 
 
 
