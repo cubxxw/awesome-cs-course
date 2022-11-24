@@ -28,6 +28,7 @@
 - [x] [👍第9节 bash特性](./linux-web/9.md)
 - [x] [🫡第10节 scp和rsync](./linux-web/14.md)
 - [x] [🫰第11节 curl命令](./linux-web/15.md)
+- [x] [从头开始快速搭建Ubuntu集群](./linux-web/16.md)
 
 
 
