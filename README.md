@@ -88,6 +88,7 @@
 + [x] [:speedboat: docker基础-进阶](https://docker.nsddd.top)
 
 
+</br>
 
 ## 🗃️介绍
 
@@ -101,6 +102,11 @@
 + [x] [CS自学指南](https://csdiy.wiki/)
 + [x] [freeCode](https://www.freecodecamp.org/)
 
+**📖 一些我在网上收藏的觉得有价值的文章 ：**
+
++ [x] [节选文章➡️](./excerpt)
+
+</br>
 
 
 ## 🗒️CS系列
