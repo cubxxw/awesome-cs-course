@@ -2,6 +2,8 @@
 
 *❓由一个很神奇的问题展开，git是什么，它仅仅是一个工具嘛？*
 
+看完这一篇，你可以说你精通 git 啦！！！
+
 > Git 是一个版本控制系统。
 >
 > Git 可帮助您跟踪代码更改。
@@ -217,8 +219,6 @@ git commit -s -m "..."
 
 
 
-
-
 我们或许可以基于远程`origin`分支创建一个新的分支`bug-xiongxinwei`
 
 ```
@@ -259,3 +259,86 @@ git rebase origin
 
 这些命令会把你的”`mywork`“分支里的每个提交(commit)取消掉，并且把它们临时 保存为补丁(patch)(这些补丁放到”`.git/rebase`“目录中)，然后把”`mywork`“分支更新 到最新的”`origin`“分支，最后把保存的这些补丁应用到”`mywork`“分支上。
 
+
+
+## 我的工作流
+
+在经历几年的 git 使用后，我形成了自己的 git 工作流，配合 GitHub CLI 的使用，[如果你想了解 Github CLI，这篇文章可以帮助到你](https://nsddd.top/archives/gh)
+
+最开始使用的是 **中心式协同流**，下面两个仓库陪伴着我使用最久，也是学习仓库，或许对你们有帮助可以 star：
+
++ [cubxxw/CS-NativeCloud-Blockchain-awesome](https://github.com/cubxxw/CS-NativeCloud-Blockchain-awesome) - 📚 菜鸟成长手册🚀 CS系列 、云原生系列、区块链系列、web3系列🔥、Golang系列💡...... (2 days ago)
++ [cubxxw/awesome-cs-course](https://github.com/cubxxw/awesome-cs-course) - 📚awesome：Linux、csapp、os、leetcode、web、html、css、JavaScript、git、java、python、C/C++、mysql、mongodb、golang、blockchain、markdown (6 days ago)
+
+这个过程一般是下面这个样子的：
+
+1. 从服务器上做git pull origin master把代码同步下来
+2. 改完后，git commit到本地仓库中
+3. 然后git push origin master到远程仓库中，这样其他同学就可以得到你的代码了
+
+如果在第 3 步发现 push 失败，因为别人已经提交了，那么你需要先把服务器上的代码给 pull 下来，为了避免有 merge 动作，你可以使用 git pull --rebase 。这样就可以把服务器上的提交直接合并到你的代码中：
+
++ 先把你本地提交的代码放到一边
++ 然后把服务器上的改动下载下来
++ 然后在本地把你之前的改动再重新一个一个地做 commit，直到全部成功
+
+如果有冲突，那么你要先解决冲突，然后做 git rebase --continue
+
+⚠️ 适用于小项目，后面我尝试使用 **功能分支协同流**：
+
+
+
+### 功能分支
+
+引入“功能分支”。这个协同工作流的开发过程如下：
+
+1. 首先使用 git checkout -b new-feature 创建 “new-feature”分支
+2. 然后共同开发这个功能的程序员就在这个分支上工作，进行 add、commit 等操作
+3. 然后通过 git push -u origin new-feature 把分支代码 push 到服务器上
+4. 其他程序员可以通过git pull --rebase来拿到最新的这个分支的代码
+5. 最后通过 Pull Request 的方式做完 Code Review 后合并到 Master 分支上
+
+![image-20230131112956776](http://sm.nsddd.top/sm202301311129919.png)
+
+
+
+但是在生产环境中，这样的开发也是没有办法满足需求的，所以我们出现了一个 GitFlow 协同工作流，但是由于 git flow 太复杂，很乱，所以后面又有了 GitHub Flow 。
+
+> 其中有个问题就是因为分支太多，所以会出现 git log 混乱的局面。具体来说，主要是 git-flow 使用git merge --no-ff来合并分支，在 git-flow 这样多个分支的环境下会让你的分支管理的 log 变得很难看。
+
+⚠️ 因此，最终我选择的工作流方式是 GitHub Flow ，因为不了解  GitLab，所以对于 GitLab 工作流不做评价。
+
+
+
+### GitHub Flow
+
+所谓 GitHub Flow，其实也叫 Forking flow，也就是 GitHub 上的那个开发方式。
+
+1. 每个开发人员都把 “官方库” 的代码 fork 到自己的代码仓库中。
+2. 然后，开发人员在自己的代码仓库中做开发，想干啥干啥。
+3. 因此，开发人员的代码库中，需要配两个远程仓库，一个是自己的库，一个是官方库（用户的库用于提交代码改动，官方库用于同步代码）。
+4. 然后在本地建 “功能分支”，在这个分支上做代码开发。
+5. 这个功能分支被 push 到开发人员自己的代码仓库中。
+6. 然后，向 “官方库” 发起 pull request，并做 Code Review。
+
+这就是 GitHub 的工作流程。
+
+如果你有 “官方库” 的权限，那么就可以直接在 “官方库” 中建功能分支开发，然后提交 pull request。通过 Code Review 后，合并进 Master 分支，而 Master 一旦有代码被合并就可以马上 release。
+
+这是一种非常 Geek 的玩法。这需要一个自动化的 CI/CD 工具做辅助。是的，CI/CD 应该是开发中的标配了。
+
+[关于 CI/CD action 可以看这篇文章](https://nsddd.top/archives/actions)，当然，所有笔记在上面的仓库中都有介绍，有心人自然能找到。
+
+
+
+### 找到适合你的
+
+我们知道软件开发的趋势一定是下面这个样子的：
+
++ 以微服务或是 SOA 为架构的方式。一个大型软件会被拆分成若干个服务，那么，我们的代码应该也会跟着服务拆解成若干个代码仓库。这样一来，我们的每个代码仓库都会变小，于是我们的协同工作流程就会变简单。
+
+  对于每个服务的代码仓库，我们的开发和迭代速度也会变得很快，开发团队也会跟服务一样被拆分成多个小团队。这样一来， GitFlow 这种协同工作流程就非常重了，而 GitHub 这种方式或是功能分支这种方式会更适合我们的开发。
+
++ 以 DevOps 为主的开发流程。DevOps 关注于 CI/CD，需要我们有自动化的集成测试和持续部署的工具。这样一来，我们的代码发布速度就会大大加快，每一次提交都能很快地被完整地集成测试，并很快地发布到生产线上。
+
+我在想，是否有一种工作流，可以面对我们现实工作中的各种情况。但是，我想这个世界太复杂了，应该不存在一种一招鲜吃遍天的放之四海皆准的银弹方案。所以，我们还要根据自己的实际情况来挑选适合我们的协同工作的方式。
