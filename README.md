@@ -197,6 +197,4 @@
 
 ## 版权声明 &copy;
 
-[![GitHub license](https://sm.nsddd.top//typora/cs-awesome-Block_Chain?mail:3293172751@qq.com)](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本)
-
 本书所有内容遵循[CC-BY-SA 3.0协议（署名-相同方式共享）&copy;](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0协议文本) 
