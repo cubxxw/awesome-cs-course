@@ -1,10 +1,10 @@
-需要联系我联系我🖱️](xxw@nsddd.top)
+需要联系我联系我🖱️](xxw@cubxxw.com)
 
 >   go语言的官方文档学习笔记很全，推荐去官网学习
 
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/CS_COURSE)
 
-❤️💕💕 **[MY博客](https://nsddd.top)**
+❤️💕💕 **[MY博客](https://cubxxw.com)**
 
 ---
 

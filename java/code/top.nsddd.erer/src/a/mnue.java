@@ -4,7 +4,7 @@
  * @Date: 2022-09-08 14:41:39
  * @LastEditTime: 2022-09-08 14:59:30
  * @FilePath: \code\top.nsddd.erer\src\a\mnue.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 import java.nio.channels.NetworkChannel;
 import java.util.Scanner;

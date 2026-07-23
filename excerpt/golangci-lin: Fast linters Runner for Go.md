@@ -1,4 +1,4 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [nsddd.top](https://nsddd.top/archives/golangci)
+> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [cubxxw.com](https://cubxxw.com/archives/golangci)
 
 > 💡 Most installations of golangci-lint are performed for CI.
 
@@ -51,7 +51,7 @@ Github Action
 
 Also, the action creates GitHub annotations for found issues: you don’t need to dig into build log to see found by `golangci-lint` issues:
 
-![](http://sm.nsddd.top/sm202302202307056.png)
+![](http://sm.cubxxw.com/sm202302202307056.png)
 
 ### Other CI
 

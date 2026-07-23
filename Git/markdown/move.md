@@ -22,7 +22,7 @@
 
 咱们还是通过例子来看一下！
 
-<img src="https://sm.nsddd.top//typora/image-20220912155912081.png?mail:3293172751@qq.com" alt="image-20220912155912081" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220912155912081.png?mail:3293172751@qq.com" alt="image-20220912155912081" style="zoom:33%;" />
 
 这里有一个仓库, 我们想将 `side` 分支上的工作复制到 `main` 分支，你立刻想到了之前学过的 `rebase` 了吧？但是咱们还是看看 `cherry-pick` 有什么本领吧。
 
@@ -32,7 +32,7 @@ git cherry-pick C2 C4
 
 这就是了！我们只需要提交记录 `C2` 和 `C4`，所以 Git 就将被它们抓过来放到当前分支下了。 就是这么简单!
 
-<img src="https://sm.nsddd.top//typora/image-20220912160314093.png?mail:3293172751@qq.com" alt="image-20220912160314093" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220912160314093.png?mail:3293172751@qq.com" alt="image-20220912160314093" style="zoom:33%;" />
 
 
 
@@ -70,7 +70,7 @@ git cherry-pick C2 C4
 git rebase -i HEAD~4
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220912161034419.png?mail:3293172751@qq.com" alt="image-20220912161034419" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220912161034419.png?mail:3293172751@qq.com" alt="image-20220912161034419" style="zoom:33%;" />
 
 
 

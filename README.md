@@ -6,13 +6,13 @@
 
 + 🔗[**中国大陆加速地址（Gitee平台）**](https://gitee.com/xxw3293172751/Block_Chain)
 
-+ 📵[**不限速在线个人云盘**](https://xxw.nsddd.top/s/wRSz)
++ 📵[**不限速在线个人云盘**](https://xxw.cubxxw.com/s/wRSz)
 
 <p align='center'>
 <a href="https://gitee.com/xxw3293172751/Block_Chain"><img src="https://img.shields.io/badge/gitee-%40xxw3293172751-green?logo=gitee" title="国内gitee镜像加速"></a>
 <a href="https://wakatime.com/@c445b3c6-a2bc-43a2-a24a-0828a17244b4" title="项目的进展时长" > <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4.svg"></a>
 <a href="https://github.com/3293172751/cs-awesome-Block_Chain/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/3293172751/cs-awesome-Block_Chain?style=plastic"></a>
-<a href="https://xxw.nsddd.top/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
+<a href="https://xxw.cubxxw.com/s/wRSz"><img alt="个人网盘不限速" src="https://img.shields.io/badge/cloud-xiongxinwei-red?logo=iCloud" title="个人网盘不限速下载浏览"></a>
 </p>
 
 <div align="center">
@@ -30,7 +30,7 @@
 <details><summary><b>💡 关于（先看❗）</b></summary>
 
 
-<p><a href='https://www.facebook.com/profile.php?id=100034435372354'>Facebook</a> | <a href='https://telsacoin.io/'>Website</a> | <a href='http://nsddd.top'>Blog</a> | <a href='https://t.me/smile3293172751'>Telegram</a> | <a href='https://twitter.com/xxw3293172751'>Twitter</a> | <a href='https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227'>Linkedin</a> | <a href='https://liberapay.com/xiongxinwei/donate'>Donate</a></p>
+<p><a href='https://www.facebook.com/profile.php?id=100034435372354'>Facebook</a> | <a href='https://telsacoin.io/'>Website</a> | <a href='http://cubxxw.com'>Blog</a> | <a href='https://t.me/smile3293172751'>Telegram</a> | <a href='https://twitter.com/xxw3293172751'>Twitter</a> | <a href='https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227'>Linkedin</a> | <a href='https://liberapay.com/xiongxinwei/donate'>Donate</a></p>
 <p align='center'>
 <a href="https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227" target="_blank"><img src="https://img.shields.io/badge/linkedin-xiongxinwei-yellowgreen?logo=linkedin&style=flat-square"></a>
 <a href="https://twitter.com/xxw3293172751" target="_blank"><img src="https://img.shields.io/badge/twitter-%40xxw3293172751-informational?logo=twitter&style=flat-square"></a>
@@ -41,7 +41,7 @@
 <p align='center'>
 <a href="https://weibo.com/u/6248930985" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E5%8D%9A-%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E5%BE%97%E5%BE%97-critical?style=social&logo=Sina%20Weibo"></a>
 <a href="https://github.com/3293172751" target="_blank"><img src="https://img.shields.io/badge/Github-xiongxinwei-inactive?style=social&logo=github"></a>
-<a href="http://nsddd.top" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
+<a href="http://cubxxw.com" target="_blank"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2-%40xiongxinwei-blue?style=social&logo=Octopus%20Deploy"></a>
 </p>
 </hr>
 
@@ -52,13 +52,13 @@
 
  ⛓️ <b>区块链技术（也称之为分布式账本技术）</b>，是一种互联网数据库技术，其特点是<font color ="gree">去中心化，公开透明，信息不可篡改性，隐私匿名性🤑</font><a href="https://github.com/C-UB">CUB链学社</a>致力打造<b>区块链自学教育平台。</b>
 
-💡 侧边目录支持方式：[📚 DocCub 文档](https://go.nsddd.top)、🗃️[Github + TOC 导航](http://sm.nsddd.top/sm20221004130721.png?xxw@nsddd.top)， 😍 甚至你可以在这个界面按下`.` ➡️ [进入vscode编译环境](https://nsddd.top/archives/githubdev) 
+💡 侧边目录支持方式：[📚 DocCub 文档](https://go.cubxxw.com)、🗃️[Github + TOC 导航](http://sm.cubxxw.com/sm20221004130721.png?xxw@cubxxw.com)， 😍 甚至你可以在这个界面按下`.` ➡️ [进入vscode编译环境](https://cubxxw.com/archives/githubdev) 
 
 👣 存在数学公式无法正常显示问题，强烈推荐[:triangular_ruler: MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) 插件使用。
 
-📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://go.nsddd.top">📚 DocCub 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存  —— [🖨️以Go语言第一节打印效果预览.pdf](./images/copy.pdf)）
+📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://go.cubxxw.com">📚 DocCub 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存  —— [🖨️以Go语言第一节打印效果预览.pdf](./images/copy.pdf)）
 
-🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues) 或 pr，[🧷参与贡献](https://nsddd.top/archives/contributors)，建议或讨论可在 [#10](https://github.com/3293172751/cs-awesome-Block_Chain/issues/10) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
+🙏 仓库内容如有错误或改进欢迎 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues) 或 pr，[🧷参与贡献](https://cubxxw.com/archives/contributors)，建议或讨论可在 [#10](https://github.com/3293172751/cs-awesome-Block_Chain/issues/10) 提出。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 [issue](https://github.com/3293172751/cs-awesome-Block_Chain/issues/new/choose) 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
 
 </details>
 
@@ -83,9 +83,9 @@
 
 🈺 存在`GitHub`上浏览效果不佳，[Cub链学社](https://github.com/C-UB)推出`CubDoc`文档形式，使用`vuejs`渲染 。使用国内的服务器搭建（速度嘎快:bullettrain_front:) 。目前支持以下的项目🗃️：
 
-+ [x] [:speedboat: Go语言基础-进阶](https://go.nsddd.top)
++ [x] [:speedboat: Go语言基础-进阶](https://go.cubxxw.com)
 
-+ [x] [:speedboat: docker基础-进阶](https://docker.nsddd.top)
++ [x] [:speedboat: docker基础-进阶](https://docker.cubxxw.com)
 
 
 </br>
@@ -94,7 +94,7 @@
 
 🔖 仓库后期会慢慢做成文档形式，由于GitHub上面网络原因无法访问，可以选择🏷️DocCub 文档访问，或者是选择对应[国内的镜像Gitee](https://gitee.com/xxw3293172751/CS_COURSE)。这个仓库是和隔壁[➡️菜鸟的成长手册](https://github.com/3293172751/cs-awesome-Block_Chain)一起维护的。我的学习也是跟着github走的，前期以视频为主，后面基本上都是网站文档为主了。
 
-:cherry_blossom:一些很优质的项目，或者我自己觉得特别喜欢的文章，都发表在自己的[博客](http://nsddd.top)
+:cherry_blossom:一些很优质的项目，或者我自己觉得特别喜欢的文章，都发表在自己的[博客](http://cubxxw.com)
 
 📔有一些我很喜欢（经常用），或许也很热门的学习网站
 
@@ -161,7 +161,7 @@
 
 > 未来的文章尽可能精简，而且大量使用 英文规范~
 
-1. [rust](https://rust.nsddd.top) 
+1. [rust](https://rust.cubxxw.com) 
 2. [分布式 MIT 6.824](https://pdos.csail.mit.edu/6.824/schedule.html)
 3. docker 手撸
 4. kubernetes 源码
@@ -176,7 +176,7 @@
 
 ## ✨参与贡献💕
 
- **[🫵参与贡献❤️❤️💕💕](https://nsddd.top/archives/contributors)** 
+ **[🫵参与贡献❤️❤️💕💕](https://cubxxw.com/archives/contributors)** 
 
 **要求：**
 

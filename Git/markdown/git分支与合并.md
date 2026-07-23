@@ -2,11 +2,11 @@
 
 ---
 
-[😶‍🌫️需要联系我联系我🖱️](xxw@nsddd.top)
+[😶‍🌫️需要联系我联系我🖱️](xxw@cubxxw.com)
 
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/CS_COURSE)
 
-❤️💕💕 **[我的博客](https://nsddd.top)**
+❤️💕💕 **[我的博客](https://cubxxw.com)**
 
 ---
 
@@ -16,7 +16,7 @@
 
 ### 方法一：merge方式
 
-![image-20220907145123296](https://sm.nsddd.top//typora/image-20220907145123296.png?mail:3293172751@qq.com)
+![image-20220907145123296](https://sm.cubxxw.com//typora/image-20220907145123296.png?mail:3293172751@qq.com)
 
 
 
@@ -32,7 +32,7 @@ Rebase 的优势就是可以创造更线性的提交历史，这听上去有些�
 
    咱们这次用 `git rebase` 实现此目标
 
-   <img src="https://sm.nsddd.top//typora/image-20220907145359017.png?mail:3293172751@qq.com" alt="image-20220907145359017" style="zoom:33%;" />
+   <img src="https://sm.cubxxw.com//typora/image-20220907145359017.png?mail:3293172751@qq.com" alt="image-20220907145359017" style="zoom:33%;" />
 
    ```
    git rebase main
@@ -42,7 +42,7 @@ Rebase 的优势就是可以创造更线性的提交历史，这听上去有些�
 
 2. 现在 bugFix 分支上的工作在 main 的最顶端，同时我们也得到了一个更线性的提交序列。
 
-   <img src="https://sm.nsddd.top//typora/image-20220907145459343.png?mail:3293172751@qq.com" alt="image-20220907145459343" style="zoom:33%;" />
+   <img src="https://sm.cubxxw.com//typora/image-20220907145459343.png?mail:3293172751@qq.com" alt="image-20220907145459343" style="zoom:33%;" />
 
    ```
    git chekout bugFix #或者git switch bugFix

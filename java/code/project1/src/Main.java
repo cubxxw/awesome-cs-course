@@ -4,7 +4,7 @@
  * @Date: 2022-09-08 19:19:12
  * @LastEditTime: 2022-09-11 14:58:59
  * @FilePath: \code\project1\src\Main.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 // Import the HashMap class
 import java.util.HashMap;

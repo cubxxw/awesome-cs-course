@@ -4,7 +4,7 @@
  * @Date: 2022-09-11 15:01:15
  * @LastEditTime: 2022-09-11 15:01:50
  * @FilePath: \code\project1\src\iterator.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 import java.util.ArrayList;
 import java.util.Iterator;

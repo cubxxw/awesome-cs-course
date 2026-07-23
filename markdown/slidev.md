@@ -80,7 +80,7 @@ root@ubuntu:/slides# cat hello.md
 ## hello
 # 区块链学习指南+笔记（最全）
 
-##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
+##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://cubxxw.com) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
 ---
 
@@ -90,7 +90,7 @@ root@ubuntu:/slides# cat hello.md
 ## hello
 # 区块链学习指南+笔记（最全）
 
-##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://nsddd.top) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
+##### [Facebook](https://www.facebook.com/profile.php?id=100034435372354) | [Website](https://telsacoin.io/) | [Blog](http://cubxxw.com) | [Telegram](https://t.me/smile3293172751) | [Twitter](https://twitter.com/xxw3293172751) | [Linkedin](https://www.linkedin.cn/injobs/in/xiongxinwei-xiong-7606a0227) | [Donate](https://liberapay.com/xiongxinwei/donate)
 
 ---
 
@@ -99,7 +99,7 @@ root@ubuntu:/slides# cat hello.md
 
 **可以看到有三页**
 
-![image-20220728203513233](https://sm.nsddd.top/image-20220728203513233.png?mail:3293172751@qq.com)
+![image-20220728203513233](https://sm.cubxxw.com/image-20220728203513233.png?mail:3293172751@qq.com)
 
 + 说明`---`可以分页、、
 + 最后一页以`end`结尾
@@ -127,7 +127,7 @@ $$
 $$
 ```
 
-<img src="https://sm.nsddd.top/image-20220728204120469.png?mail:3293172751@qq.com" alt="image-20220728204120469" style="zoom:50%;" />
+<img src="https://sm.cubxxw.com/image-20220728204120469.png?mail:3293172751@qq.com" alt="image-20220728204120469" style="zoom:50%;" />
 
 ## 主题
 
@@ -163,7 +163,7 @@ theme: vuestorefront
 ---
 ```
 
-![好看](https://sm.nsddd.top/image-20220728204844253.png?mail:3293172751@qq.com)
+![好看](https://sm.cubxxw.com/image-20220728204844253.png?mail:3293172751@qq.com)
 
 
 
@@ -173,15 +173,15 @@ theme: vuestorefront
 >
 > **一种是正常模式下直接点击，一种使用下面命令进入。**
 
-![image-20220728220945934](https://sm.nsddd.top/image-20220728220945934.png?mail:3293172751@qq.com)
+![image-20220728220945934](https://sm.cubxxw.com/image-20220728220945934.png?mail:3293172751@qq.com)
 
-![image-20220728221302598](https://sm.nsddd.top/image-20220728221302598.png?mail:3293172751@qq.com)
+![image-20220728221302598](https://sm.cubxxw.com/image-20220728221302598.png?mail:3293172751@qq.com)
 
 **在这种模式下可以同步笔记痕迹，而且也可以同步鼠标。**
 
 > 这种模式下需要写注释，此时可以vs直接注释，注意注释一般写后面
 
-![image-20220728221820044](https://sm.nsddd.top/image-20220728221820044.png?mail:3293172751@qq.com)
+![image-20220728221820044](https://sm.cubxxw.com/image-20220728221820044.png?mail:3293172751@qq.com)
 
 
 
@@ -193,7 +193,7 @@ theme: vuestorefront
 slidev README.md --remote
 ```
 
-![image-20220728222412617](https://sm.nsddd.top/image-20220728222412617.png?mail:3293172751@qq.com)
+![image-20220728222412617](https://sm.cubxxw.com/image-20220728222412617.png?mail:3293172751@qq.com)
 
 > 但是我好像发现有点卡
 
@@ -207,7 +207,7 @@ Slidev 带有一个集成的 [CodeMirror](https://codemirror.net/) 编辑器，�
 
 点击🖱️按钮来打开它。
 
-![image-20220729114104015](https://sm.nsddd.top/image-20220729114104015.png?mail:3293172751@qq.com)
+![image-20220729114104015](https://sm.cubxxw.com/image-20220729114104015.png?mail:3293172751@qq.com)
 
 
 
@@ -229,7 +229,7 @@ npx playwright install
 $ slidev export
 ```
 
-![image-20220729120552790](https://sm.nsddd.top/image-20220729120552790.png?mail:3293172751@qq.com)
+![image-20220729120552790](https://sm.cubxxw.com/image-20220729120552790.png?mail:3293172751@qq.com)
 
 
 

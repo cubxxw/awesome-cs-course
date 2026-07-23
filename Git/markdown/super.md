@@ -4,7 +4,7 @@
 
 ---
 
-+ [auther😎](http://nsddd.top)
++ [auther😎](http://cubxxw.com)
 
 在接触 Git 更高级功能之前，我们有必要先学习在你项目的提交树上前后移动的几种方法。
 
@@ -35,7 +35,7 @@ git commit;
 git checkout C2
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910175135756.png?mail:3293172751@qq.com" alt="image-20220910175135756" style="zoom: 25%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910175135756.png?mail:3293172751@qq.com" alt="image-20220910175135756" style="zoom: 25%;" />
 
 看到了吗？ HEAD 指向了 `main`，随着提交向前移动。
 
@@ -57,7 +57,7 @@ HEAD 指向 main， main 指向 C1
 git checkout C1
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910175310252.png?mail:3293172751@qq.com" alt="image-20220910175310252" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910175310252.png?mail:3293172751@qq.com" alt="image-20220910175310252" style="zoom:33%;" />
 
 现在变成了
 
@@ -102,7 +102,7 @@ HEAD -> C1
 git checkout main^
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910183748634.png?mail:3293172751@qq.com" alt="image-20220910183748634" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910183748634.png?mail:3293172751@qq.com" alt="image-20220910183748634" style="zoom:33%;" />
 
 
 
@@ -115,7 +115,7 @@ git checkout HEAD^
 git checkout HEAD^
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910184002789.png?mail:3293172751@qq.com" alt="image-20220910184002789" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910184002789.png?mail:3293172751@qq.com" alt="image-20220910184002789" style="zoom:33%;" />
 
 
 
@@ -133,7 +133,7 @@ git checkout HEAD^
 git checkout HEAD~4
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910190700794.png?mail:3293172751@qq.com" alt="image-20220910190700794" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910190700794.png?mail:3293172751@qq.com" alt="image-20220910190700794" style="zoom:33%;" />
 
 ### 强制修改分支位置
 
@@ -151,7 +151,7 @@ git branch -f main HEAD~3
 git branch -f main HEAD~3
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910190934335.png?mail:3293172751@qq.com" alt="image-20220910190934335" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910190934335.png?mail:3293172751@qq.com" alt="image-20220910190934335" style="zoom:33%;" />
 
 这就对了! 相对引用为我们提供了一种简洁的引用提交记录 `C1` 的方式， 而 `-f` 则容许我们将分支强制移动到那个位置。制指向 HEAD 的第 3 级父提交。
 
@@ -175,7 +175,7 @@ git branch -f main HEAD~3
 git reset HEAD~1
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910192126639.png?mail:3293172751@qq.com" alt="image-20220910192126639" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910192126639.png?mail:3293172751@qq.com" alt="image-20220910192126639" style="zoom:33%;" />
 
 漂亮! Git 把 main 分支移回到 `C1`；现在我们的本地代码库根本就不知道有 `C2` 这个提交了。
 
@@ -191,13 +191,13 @@ git reset HEAD~1
 git revert HEAD
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220910192333941.png?mail:3293172751@qq.com" alt="image-20220910192333941" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220910192333941.png?mail:3293172751@qq.com" alt="image-20220910192333941" style="zoom:33%;" />
 
 奇怪！在我们要撤销的提交记录后面居然多了一个新提交！这是因为新提交记录 `C2'` 引入了**更改** —— 这些更改刚好是用来撤销 `C2` 这个提交的。也就是说 `C2'` 的状态与 `C1` 是相同的。
 
 revert 之后就可以把你的更改推送到远程仓库与别人分享啦。
 
-> ![image-20220910192635828](https://sm.nsddd.top//typora/image-20220910192635828.png?mail:3293172751@qq.com)
+> ![image-20220910192635828](https://sm.cubxxw.com//typora/image-20220910192635828.png?mail:3293172751@qq.com)
 >
 > ```
 > $ git reset HEAD^

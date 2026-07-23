@@ -1,8 +1,8 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [nsddd.top](https://nsddd.top/archives/kubernetes-docker)
+> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [cubxxw.com](https://cubxxw.com/archives/kubernetes-docker)
 
-*   [author](http://nsddd.top/)
+*   [author](http://cubxxw.com/)
 
-> ❤️💕💕新时代拥抱云原生，云原生具有环境统一、按需付费、即开即用、稳定性强特点。Myblog:[http://nsddd.top](http://nsddd.top/)
+> ❤️💕💕新时代拥抱云原生，云原生具有环境统一、按需付费、即开即用、稳定性强特点。Myblog:[http://cubxxw.com](http://cubxxw.com/)
 
 * * *
 
@@ -77,7 +77,7 @@ Borg **提供三个好处**：
 2.  高可靠性和高可用性的操作，同时支持应用程序相关特性
 3.  有效的在数以万计的机器上运行工作负载
 
-![](http://sm.nsddd.top/sm202303031236389.png)
+![](http://sm.cubxxw.com/sm202303031236389.png)
 
 概念
 --
@@ -252,7 +252,7 @@ Borg 实现了一种机制：允许用户申请资源，但是在任务启动后
 
 换言之，用户可以声明很多的资源，但是当用户提交的作业达不到一定的利用率时，Borg 会把用户声明的资源中的一部分回收走，交给其他作业使用。这样整个集群的资源利用率就提高了。
 
-![](http://sm.nsddd.top/sm202303031304375.png)
+![](http://sm.cubxxw.com/sm202303031304375.png)
 
 ### 隔离性
 
@@ -347,13 +347,13 @@ Kunbernetes 遵循了声明式系统的原则。Kunbernetes 是构建与声明�
 Kubernetes 架构
 -------------
 
-*   [Kubernetes 的架构请看这篇文章](https://docker.nsddd.top/Cloud-Native-k8s/)
+*   [Kubernetes 的架构请看这篇文章](https://docker.cubxxw.com/Cloud-Native-k8s/)
 
 **我们回过头看 Kubernetes 和 Borg 类似的架构：**
 
-![](http://sm.nsddd.top/sm202303031415779.jpg)
+![](http://sm.cubxxw.com/sm202303031415779.jpg)
 
-![](http://sm.nsddd.top/sm202303031414370.jpg)
+![](http://sm.cubxxw.com/sm202303031414370.jpg)
 
 Kubernetes 的主节点
 ---------------
@@ -399,7 +399,7 @@ Kubernetes 工作节点
 ETCD
 ----
 
-ETCD 的学习笔记，之前做的比较全面了，直接参考 [这一篇笔记~](https://docker.nsddd.top/Cloud-Native-k8s/24.html)
+ETCD 的学习笔记，之前做的比较全面了，直接参考 [这一篇笔记~](https://docker.cubxxw.com/Cloud-Native-k8s/24.html)
 
 API Server
 ----------
@@ -432,7 +432,7 @@ Validating 阶段之前是 Mutating 阶段。当一个请求对象经历了 Muta
 
 **结构图**
 
-![](http://sm.nsddd.top/sm202303031454538.jpg)
+![](http://sm.cubxxw.com/sm202303031454538.jpg)
 
 其他模块通过 APIServer 查询或修改数据，只有 APIServer 才能操作 etcd
 
@@ -477,11 +477,11 @@ Controller 配置失败通常会触发自动重试，整个集群会在控制器
 
 ### 工作流程
 
-![](http://sm.nsddd.top/sm202303031504490.jpg)
+![](http://sm.cubxxw.com/sm202303031504490.jpg)
 
 ### Informer 内部机制
 
-![](http://sm.nsddd.top/sm202303031504516.jpg)
+![](http://sm.cubxxw.com/sm202303031504516.jpg)
 
 Kubernetes 中使用 http 进行通信，**如何不依赖中间件的情况下保证消息的实时性，可靠性和顺序性等呢**？答案就是利用了 Informer 机制。Informer 的机制，降低了了 Kubernetes 各个组件跟 Etcd 与 Kubernetes API Server 的通信压力。
 
@@ -546,7 +546,7 @@ cache
 
 **架构设计：**
 
-![](http://sm.nsddd.top/sm202303031528585.png)
+![](http://sm.cubxxw.com/sm202303031528585.png)
 
 ⚠️ 这张图分为两部分，黄色图标是开发者需要自行开发的部分，而其它的部分是 client-go 已经提供的，直接使用即可。
 
@@ -691,7 +691,7 @@ ReplicaSet 对象同样经过认证、鉴权、准入的步骤后，被存储至
 
 创建 Pod 这一操作同样也作为一个请求被发送到了 APIServer。该 Pod 在创建时没有经过调度。
 
-![](http://sm.nsddd.top/sm202303031609453.png)
+![](http://sm.cubxxw.com/sm202303031609453.png)
 
 > **可以看到 deployment 并不是直接控制 pod ，而是 通过 创建 ReplicaSer 间接的控制 / 创建 Pod ，但是 deployment 只是负责水平迁移。所以是一个 双层控制器 实现故障转移和 HA（通过滚动升级实现）~**
 
@@ -724,7 +724,7 @@ Scheduler 的特殊职责：监控当前集群中所有未调度的 Pod，并且
     将计算节点与 Pod 绑定，完成调度。
     
 
-![](http://sm.nsddd.top/sm202303031617515.jpg)
+![](http://sm.cubxxw.com/sm202303031617515.jpg)
 
 ### Kubelet
 
@@ -743,7 +743,7 @@ Kubernetes 的初始化系统 (init system)
 
 > 调度阶段完成后，目标节点上的 kubelet 会发现该 Pod 和当前节点存在绑定关系，kubelet 会调用 CRI、CNI 和 CSI 来启动这个容器。
 
-![](http://sm.nsddd.top/sm202303031627228.jpg)
+![](http://sm.cubxxw.com/sm202303031627228.jpg)
 
 ### Kube-proxy
 
@@ -760,7 +760,7 @@ OS 网络协议栈不同的 Hooks 点和插件:
 *   iptabes
 *   ipvs
 
-![](http://sm.nsddd.top/sm202303031636618.jpg)
+![](http://sm.cubxxw.com/sm202303031636618.jpg)
 
 Add-ons
 -------
@@ -805,7 +805,7 @@ I0303 09:04:45.393763  137729 round_trippers.go:454] GET https://apiserver.clust
 
 我们看一下配置文件有什么：
 
-![](http://sm.nsddd.top/sm202303031706631.png)
+![](http://sm.cubxxw.com/sm202303031706631.png)
 
 我们可以看一下所有的命令都会读取 kubectl 配置文件
 
@@ -890,9 +890,9 @@ K8s 设计理念
 *   **Kubernetes 外部**：日志、监控、配置管理、CI、CD、Workflow、FaaS、OTS 应用、ChatOps 等；
 *   **Kubernetes 内部**：CRI、CNI、CVI、镜像仓库、Cloud Provider、集群自身的配置和管理等。
 
-![](http://sm.nsddd.top/sm202303031740791.png)
+![](http://sm.cubxxw.com/sm202303031740791.png)
 
-![](http://sm.nsddd.top/sm202303031802991.png)
+![](http://sm.cubxxw.com/sm202303031802991.png)
 
 > 如果你一定要分类的话，Kubernetes 和 docker 是和 paas 相关的。
 
@@ -903,7 +903,7 @@ K8s 设计理念
 *   数据平面： pod、PVC、Service、Ingress
 *   控制平面：核心组件、插件、用户空间控制器、Assertion
 
-![](http://sm.nsddd.top/sm202303031749132.jpg)
+![](http://sm.cubxxw.com/sm202303031749132.jpg)
 
 > Kubernetes 本身也是有分层架构，这保证了他的可扩展性。
 
@@ -952,7 +952,7 @@ API 设计理念
 
 **我们知道 Kubernetes 中组合也是很重要的，Kubernetes 是如何使用组合的：**
 
-![](http://sm.nsddd.top/sm202303031810278.png)
+![](http://sm.cubxxw.com/sm202303031810278.png)
 
 通过一个`deployment`创建一次业务部署这样的对象，`deployment control`会去建`replicaset`，`replicaset`会去建`pod`，`pod`会被调度器产生绑定关系，这是业务部署描述的部分，还有涉及的对象就是业务要发布的时候，我要去定义一个`service`，`service`创建之后`kube-proxy`会为它配置各种负载均衡的配置以及`dns`会为它配置域名服务，要将服务发布出去我要去定义一个`service`对象，**`service`又可以通过`ingress`一个流量入口来发布到整个集群数据面 API 网关里面。**
 
@@ -998,7 +998,7 @@ API 设计理念
 > 
 > 第二保证控制平面也是高可用的，如果我们把 Kubernetes 的控制平面组件也容器化了，那么是不是可以让 Kubernetes 自己管自己了。
 > 
-> ![](http://sm.nsddd.top/sm202303031844222.png)，但是没有`kebelet`，因为 `kubelet` 需要启动 pod 是 Kubernetes 的初始化（init) 系统，所以不是以容器的形式。
+> ![](http://sm.cubxxw.com/sm202303031844222.png)，但是没有`kebelet`，因为 `kubelet` 需要启动 pod 是 Kubernetes 的初始化（init) 系统，所以不是以容器的形式。
 
 **Kubelet 拉取机制：**
 
@@ -1006,7 +1006,7 @@ API 设计理念
 
 查看 Kubelet 配置：
 
-![](http://sm.nsddd.top/sm202303031846848.png)
+![](http://sm.cubxxw.com/sm202303031846848.png)
 
 ```
 cat /var/lib/kubelet/config.yaml
@@ -1129,7 +1129,7 @@ Spec 和 Status 才是对象的核心。
 
 #### 常用对象及其分组
 
-![](http://sm.nsddd.top/sm202303032013212.jpg)
+![](http://sm.cubxxw.com/sm202303032013212.jpg)
 
 ### 核心对象概览
 
@@ -1246,7 +1246,7 @@ Service 是应用服务的抽象，通过 labels 为应用提供负载均衡和�
 
 每个 Service 都会自动分配一个 cluster IP（仅在集群内部可访问的虚拟地址） 和 DNS 名，其他容器可以通过该地址或 DNS 来访问服务，而不需要了解后端容器的运行。
 
-![](http://sm.nsddd.top/sm202303032030221.png)
+![](http://sm.cubxxw.com/sm202303032030221.png)
 
 #### Replica Set
 
@@ -1319,6 +1319,6 @@ Service 是应用服务的抽象，通过 labels 为应用提供负载均衡和�
 END 链接
 ------
 
-*   [**🫵参与贡献💞❤️‍🔥💖**](https://nsddd.top/archives/contributors))
+*   [**🫵参与贡献💞❤️‍🔥💖**](https://cubxxw.com/archives/contributors))
     
 *   ✴️版权声明 © ：本书所有内容遵循 [CC-BY-SA 3.0 协议（署名 - 相同方式共享）©](http://zh.wikipedia.org/wiki/Wikipedia:CC-by-sa-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC)

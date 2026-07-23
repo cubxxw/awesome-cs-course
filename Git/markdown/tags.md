@@ -24,7 +24,7 @@
 git tag v1 C1
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220912163632070.png?mail:3293172751@qq.com" alt="image-20220912163632070" style="zoom:33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220912163632070.png?mail:3293172751@qq.com" alt="image-20220912163632070" style="zoom:33%;" />
 
 很容易吧！我们将这个标签命名为 `v1`，并且明确地让它指向提交记录 `C1`，**如果你不指定提交记录，Git 会用 `HEAD` 所指向的位置。（就是当前c2)**
 
@@ -68,7 +68,7 @@ git describe <ref>
 git tag v2 c3
 ```
 
-<img src="https://sm.nsddd.top//typora/image-20220912164344640.png?mail:3293172751@qq.com" alt="image-20220912164344640" style="zoom: 33%;" />
+<img src="https://sm.cubxxw.com//typora/image-20220912164344640.png?mail:3293172751@qq.com" alt="image-20220912164344640" style="zoom: 33%;" />
 
 **此时看到上面的图，我们进行下面的操作**
 

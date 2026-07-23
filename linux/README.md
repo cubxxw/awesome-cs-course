@@ -34,7 +34,7 @@
 
 ## ⚔️三剑客
 
-> 同[docker](https://docker.nsddd.top)三驾马车
+> 同[docker](https://docker.cubxxw.com)三驾马车
 
 + [正则表达式](./linux-web/10.md)
 + [grep文本过滤器](./linux-web/11.md)
@@ -72,8 +72,8 @@
 > 一些好用的Linux命令也是非常有用的，甚至后面衍生了很多不一样的工具，或许你认为用到Linux再去查，大可不必，沉迷于Linux的命令行的世界，或许真的不一样。
 >
 > 1. **关于Linux和Windows中一些很有用的技巧，我们可以看[这篇文章](https://github.com/3293172751/cs-awesome-Block_Chain/blob/master/cs/markdown/2.md)**
-> 2. **我们可以在这里面学习到不一样的[命令行艺术](https://nsddd.top/archives/shell-cmd)**
-> 3. **当您使用 shell 进行工作时，可以使用[一些方法改善您的工作流](https://nsddd.top/archives/9)**
+> 2. **我们可以在这里面学习到不一样的[命令行艺术](https://cubxxw.com/archives/shell-cmd)**
+> 3. **当您使用 shell 进行工作时，可以使用[一些方法改善您的工作流](https://cubxxw.com/archives/9)**
 >
 > **接下来就是系统的Linux学习**
 

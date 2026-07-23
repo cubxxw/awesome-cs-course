@@ -11,6 +11,6 @@ public class ToString {
 class A2 {
     @Override
     public String toString() {
-        return getClass().getName() + "@nsddd.top" + Integer.toHexString(hashCode());
+        return getClass().getName() + "@cubxxw.com" + Integer.toHexString(hashCode());
     }
 }

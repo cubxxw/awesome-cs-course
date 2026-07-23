@@ -4,7 +4,7 @@
  * @Date: 2022-09-08 14:35:45
  * @LastEditTime: 2022-09-08 14:36:22
  * @FilePath: \code\top.nsddd.erer\src\a\a.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 interface FirstInterface {
   public void myMethod(); // interface method

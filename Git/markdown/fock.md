@@ -26,23 +26,23 @@
 
 📜 对上面的解释：
 
-![image-20221015194311152](http://sm.nsddd.top/smimage-20221015194311152.png?xxw@nsddd.top)
+![image-20221015194311152](http://sm.cubxxw.com/smimage-20221015194311152.png?xxw@cubxxw.com)
 
 ⚠️ 安装成功：
 
-![image-20221015194613047](http://sm.nsddd.top/smimage-20221015194613047.png?xxw@nsddd.top)
+![image-20221015194613047](http://sm.cubxxw.com/smimage-20221015194613047.png?xxw@cubxxw.com)
 
 
 
 #### 打开pull app
 
-![image-20221015194905209](http://sm.nsddd.top/smimage-20221015194905209.png?xxw@nsddd.top)
+![image-20221015194905209](http://sm.cubxxw.com/smimage-20221015194905209.png?xxw@cubxxw.com)
 
 
 
 #### 选择自己需要的仓库或者所有的仓库
 
-![image-20221015195024104](http://sm.nsddd.top/smimage-20221015195024104.png?xxw@nsddd.top)
+![image-20221015195024104](http://sm.cubxxw.com/smimage-20221015195024104.png?xxw@cubxxw.com)
 
 **📮 最后：**
 
@@ -105,7 +105,7 @@
 
 📮 Actions是一个让我分沉迷其中的功能，大概体验过就知道它有多快乐~
 
-+ [教程在这里](http://nsddd.top/actions)
++ [教程在这里](http://cubxxw.com/actions)
 
 | 列表                                                         | github 商店                                          |      |
 | ------------------------------------------------------------ | ---------------------------------------------------- | ---- |
@@ -116,7 +116,7 @@
 
 💡简单的一个案例如下：
 
-![image-20221015200420934](http://sm.nsddd.top/smimage-20221015200420934.png?xxw@nsddd.top)
+![image-20221015200420934](http://sm.cubxxw.com/smimage-20221015200420934.png?xxw@cubxxw.com)
 
 自用配置：
 
@@ -171,7 +171,7 @@ jobs:
 
 📢：同步是干净的，完全同步
 
-![image-20221015203227894](http://sm.nsddd.top/smimage-20221015203227894.png?xxw@nsddd.top)
+![image-20221015203227894](http://sm.cubxxw.com/smimage-20221015203227894.png?xxw@cubxxw.com)
 
 
 
@@ -179,7 +179,7 @@ jobs:
 
 > **该方法会导致 commit 记录比 fork 的源多，如果你要保持该仓库的干净整洁，这种 merge pull requests 的情况就不合适了。**
 
-![image-20221015203831326](http://sm.nsddd.top/smimage-20221015203831326.png?xxw@nsddd.top)
+![image-20221015203831326](http://sm.cubxxw.com/smimage-20221015203831326.png?xxw@cubxxw.com)
 
 
 
@@ -266,13 +266,13 @@ https://github.com/marketplace?type=actions&query=gitee+
 
 然后发现，stars 数最高的一个项目，参考下，可以支持多 repo 仓库，那么可以单独拆开，也可以设置一个统一的推送仓库来配置，非常不错
 
-![image-20221015212612986](http://sm.nsddd.top/smimage-20221015212612986.png?xxw@nsddd.top)
+![image-20221015212612986](http://sm.cubxxw.com/smimage-20221015212612986.png?xxw@cubxxw.com)
 
 
 
 **代码核心流程：**
 
-![image-20221015215703305](http://sm.nsddd.top/smimage-20221015215703305.png?xxw@nsddd.top)
+![image-20221015215703305](http://sm.cubxxw.com/smimage-20221015215703305.png?xxw@cubxxw.com)
 
 
 
@@ -317,7 +317,7 @@ jobs:
 
 https://github.com/marketplace/actions/hub-mirror-action
 
-![202201241316027](http://sm.nsddd.top/sm202201241316027.png?xxw@nsddd.top)
+![202201241316027](http://sm.cubxxw.com/sm202201241316027.png?xxw@cubxxw.com)
 
 #### 参考二
 
@@ -330,13 +330,13 @@ https://github.com/yi-Xu-0100/hub-mirror
 + github toekn 配置地址：https://github.com/settings/tokens
 + gitee token 配置地址：https://gitee.com/profile/personal_access_tokens
 
-![img](http://sm.nsddd.top/sm202201241317019.png?xxw@nsddd.top)
+![img](http://sm.cubxxw.com/sm202201241317019.png?xxw@cubxxw.com)
 
 ### 想简单使用，可以直接使用以下方式
 
 fork 该仓库到你本地，然后修改 相关参数就好了，截图如下
 
-![202201241334323](http://sm.nsddd.top/sm202201241334323.png?xxw@nsddd.top)
+![202201241334323](http://sm.cubxxw.com/sm202201241334323.png?xxw@cubxxw.com)
 
 
 

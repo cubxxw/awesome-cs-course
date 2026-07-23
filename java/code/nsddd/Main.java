@@ -4,7 +4,7 @@
  * @Date: 2022-09-11 17:00:59
  * @LastEditTime: 2022-09-11 17:07:33
  * @FilePath: \code\nsddd\Main.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 import java.io.File;  // Import the File class
 import java.io.IOException;  // Import the IOException class to handle errors

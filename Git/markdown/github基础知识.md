@@ -6,11 +6,11 @@
 
 ---
 
-[😶‍🌫️需要联系我🖱️](xxw@nsddd.top)
+[😶‍🌫️需要联系我🖱️](xxw@cubxxw.com)
 
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/CS_COURSE)
 
-❤️💕💕 **[MY博客](https://nsddd.top)**
+❤️💕💕 **[MY博客](https://cubxxw.com)**
 
 ## Git 常用命令
 

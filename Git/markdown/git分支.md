@@ -6,19 +6,19 @@
 
 ---
 
-[😶‍🌫️需要联系我🖱️](xxw@nsddd.top)
+[😶‍🌫️需要联系我🖱️](xxw@cubxxw.com)
 
 >   go语言的官方文档学习笔记很全，推荐去官网学习
 
 [😶‍🌫️我的学习笔记(Github)](https://github.com/3293172751/CS_COURSE)
 
-❤️💕💕 **[MY博客](https://nsddd.top)**
+❤️💕💕 **[MY博客](https://cubxxw.com)**
 
 ---
 
 如何在 GitHub 的项目中创建一个分支呢？ 其实很简单啦，直接点击 Branch，然后在弹出的文本框中添加自己的 Branch Name 然后点击蓝色的Create branch就可以了，这样一来，你这个项目就有2个分支了（master 和 reademe-edits）。
 
-![img](https://sm.nsddd.top//typora/cisZIAWzOBbXQhl.png?mail:3293172751@qq.com)
+![img](https://sm.cubxxw.com//typora/cisZIAWzOBbXQhl.png?mail:3293172751@qq.com)
 
 
 

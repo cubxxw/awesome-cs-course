@@ -4,7 +4,7 @@
  * @Date: 2022-08-06 21:48:58
  * @LastEditTime: 2022-09-19 21:07:45
  * @FilePath: \undefinedd:\文档\最近的\vuepress2\docs\.vuepress\config.ts
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 import { defineUserConfig } from 'vuepress'
 const { defaultTheme } = require('vuepress')
@@ -24,8 +24,8 @@ export default defineUserConfig({
     sidebarDepth: 3,  //侧边菜单深度
     
     //logo -- 夜间和白剑
-    logoDark: 'https://sm.nsddd.top//typora/1.jpg?mail:3293172751@qq.com',
-    logo: 'https://sm.nsddd.top//typora/4.png?mail:3293172751@qq.com',
+    logoDark: 'https://sm.cubxxw.com//typora/1.jpg?mail:3293172751@qq.com',
+    logo: 'https://sm.cubxxw.com//typora/4.png?mail:3293172751@qq.com',
     
     // 到github修改页面 如果你按照 `organization组织/repository存储库` 的格式设置它
     // 我们会将它作为一个 GitHub 仓库
@@ -62,7 +62,7 @@ export default defineUserConfig({
               },
               {
                 text: '我的博客',
-                link: 'http://nsddd.top',
+                link: 'http://cubxxw.com',
                 // 该元素将一直处于激活状态
                 activeMatch: '/',
               },
@@ -95,7 +95,7 @@ export default defineUserConfig({
             // SidebarItem
             {
               text: '如何参与贡献？',
-              link: 'https://nsddd.top/archives/contributors',
+              link: 'https://cubxxw.com/archives/contributors',
             //   children: [],
             },
             '/markdown/1.md',

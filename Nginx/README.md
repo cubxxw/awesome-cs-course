@@ -10,7 +10,7 @@
 
 <a href="https://wakatime.com/@3293172751/projects/hngzsvjxqc?start=2022-03-30&end=2022-04-05" title="我的区块链代码时长"> <img src="https://wakatime.com/badge/user/c445b3c6-a2bc-43a2-a24a-0828a17244b4/project/79cf7f10-4f61-42b7-92a8-dfc71cb99f4c.svg"> </a>
 
->   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://nsddd.top](http://nsddd.top)
+>   ❤️💕💕关于区块链技术，可以关注我，共同学习更多的区块链技术。博客[http://cubxxw.com](http://cubxxw.com)
 >
 >   <figure><embed src="https://wakatime.com/share/@3293172751/c9b811cb-db9d-45d1-b894-d433da05bcf1.svg"></embed></figure>
 

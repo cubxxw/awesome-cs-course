@@ -4,7 +4,7 @@
  * @Date: 2022-09-11 14:44:09
  * @LastEditTime: 2022-09-11 14:47:33
  * @FilePath: \code\project1\src\HashSet.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 
 public class HashSet {

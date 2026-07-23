@@ -4,7 +4,7 @@
  * @Date: 2022-09-11 16:43:50
  * @LastEditTime: 2022-09-11 16:44:07
  * @FilePath: \code\project1\src\labda.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 public class labda {
     public static void main(String args[]){

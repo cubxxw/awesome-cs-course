@@ -121,8 +121,8 @@
 
 ## github教程
 
-+ [x] [基于 Github Action 的 CI/CD 流程](https://nsddd.top/archives/actions)
-+ [x] [保持自己github的forks自动和上游仓库同步并推送到 gitee](http://nsddd.top/archives/git-fork)
++ [x] [基于 Github Action 的 CI/CD 流程](https://cubxxw.com/archives/actions)
++ [x] [保持自己github的forks自动和上游仓库同步并推送到 gitee](http://cubxxw.com/archives/git-fork)
 
 
 
@@ -170,7 +170,7 @@
 
 > 记录下参与开源社区的一些记录
 
-+ [x] [记录](https://nsddd.top/archives/sealos-one)
++ [x] [记录](https://cubxxw.com/archives/sealos-one)
 
 > 统一格式：
 >
@@ -263,7 +263,7 @@ git rebase origin
 
 ## 我的工作流
 
-在经历几年的 git 使用后，我形成了自己的 git 工作流，配合 GitHub CLI 的使用，[如果你想了解 Github CLI，这篇文章可以帮助到你](https://nsddd.top/archives/gh)
+在经历几年的 git 使用后，我形成了自己的 git 工作流，配合 GitHub CLI 的使用，[如果你想了解 Github CLI，这篇文章可以帮助到你](https://cubxxw.com/archives/gh)
 
 最开始使用的是 **中心式协同流**，下面两个仓库陪伴着我使用最久，也是学习仓库，或许对你们有帮助可以 star：
 
@@ -298,7 +298,7 @@ git rebase origin
 4. 其他程序员可以通过git pull --rebase来拿到最新的这个分支的代码
 5. 最后通过 Pull Request 的方式做完 Code Review 后合并到 Master 分支上
 
-![image-20230131112956776](http://sm.nsddd.top/sm202301311129919.png)
+![image-20230131112956776](http://sm.cubxxw.com/sm202301311129919.png)
 
 
 
@@ -327,7 +327,7 @@ git rebase origin
 
 这是一种非常 Geek 的玩法。这需要一个自动化的 CI/CD 工具做辅助。是的，CI/CD 应该是开发中的标配了。
 
-[关于 CI/CD action 可以看这篇文章](https://nsddd.top/archives/actions)，当然，所有笔记在上面的仓库中都有介绍，有心人自然能找到。
+[关于 CI/CD action 可以看这篇文章](https://cubxxw.com/archives/actions)，当然，所有笔记在上面的仓库中都有介绍，有心人自然能找到。
 
 
 

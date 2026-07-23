@@ -4,7 +4,7 @@
  * @Date: 2022-09-11 15:45:47
  * @LastEditTime: 2022-09-11 15:57:55
  * @FilePath: \code\project1\src\Ther.java
- * @blog: https://nsddd.top
+ * @blog: https://cubxxw.com
  */
 public class Ther extends Thread {
     public static void main(String[] args) {
