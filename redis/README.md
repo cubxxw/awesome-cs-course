@@ -24,11 +24,11 @@
 
 ## 目录
 
-#### 1. [Redis基本介绍](markdown/1.md)
+#### 1. [Redis基本介绍](redis/1.md)
 
-#### 2. [Redis进阶](markdown/2.md)
+#### 2. [Redis进阶](redis/2.md)
 
-#### 3. [Redis目录结构](markdown/3.md)
+#### 3. [Redis目录结构](redis/3.md)
 
 #### 4. [](markdown/4.md)
 

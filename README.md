@@ -143,7 +143,7 @@
 
 + [x] [🎉 MySql](mysql/README.md)
 
-+ [ ] [🎉 Redis](mysql/README.md)
++ [ ] [🎉 Redis](redis/README.md)
 
 + [ ] [🎉 Mongodb](mysql/README.md)
 

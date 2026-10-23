@@ -38,7 +38,7 @@
 
 + [正则表达式](./linux-web/10.md)
 + [grep文本过滤器](./linux-web/11.md)
-+ [sed文本编辑工具](./linux-web/12md)
++ [sed文本编辑工具](./linux-web/12.md)
 + [awk格式化文本](./linux-web/13.md)
 
 
@@ -126,7 +126,7 @@
 + [x] [😎🧋ubuntu系统一些解决方案](markdown/29.md)
 + [x] [😎🧋远程链接](markdown/30.md)
 + [x] [😎🧋Linux常用命令手册 ](markdown/31.md)
-+ [x] [😎🧋AWK]([markdown/32.md)
++ [x] [😎🧋AWK](markdown/32.md)
 + [x] [😎🧋SED](markdown/33.md)
 + [x] [😎🧋shell编程](markdown/36.md)
 + [x] [😎🧋shell预定义变量](markdown/37.md)
@@ -136,7 +136,7 @@
 + [x] [😎🧋linux的备份和恢复](markdown/41.md)
 + [x] [😎🧋浅浅了解Linux内核](markdown/42.md)
 + [x] [😎🧋set ff = linux](markdown/43.md)
-+ [x] [😎🧋Vim的正则表达式](markdown/44.md)
++ [x] [😎🧋Vim的正则表达式](markdown/markdown/44.md)
 + [x] [😎🧋make](markdown/34.md)
 + [x] [😎🧋linux C](markdown/35.md)
 + [x] [😎🧋定制Linux系统](./定制Linux系统.pdf)
